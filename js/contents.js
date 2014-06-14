@@ -223,8 +223,30 @@ var posts = [
 		'date': 1401001200000,
 		'author': 'Trevor',
 		'contents':
-			'<p>Also patching all those holes</p>',
+			'<p>The house came with a ton of extra cables and wires stapled to the stucco and the eaves.  Many of the cables were left over from old satellite TV dishes, phone service, etc.  Time to clean up!</p>' + 
+                        '<p>I was very careful about which wires I removed.  I wouldn\'t want to cut a wire that was in use, so I followed each one to figure out what it was for and where it went.  I\'d pick a wire and follow it up to the roof, across the wall, around the corner, back down the wall, into the junction box...only to find it didn\'t connect to anything!  It turned out nearly all the wires were cut at one or both ends, so it really was just dead copper hanging from the walls.</p>' +
+                        '<p>Once I had removed all the abandonded wires, I patched up all the holes in the stucco where wires simply dove through the wall to the inside of the house. It\'s great to have the holes sealed up and the back corner of the house cleaned up.</p>',
 		'images': [
+                    {
+			'index': [5, 0]
+			'caption': 
+			'url': 'img/'
+                    },
+                    {
+			'index': [5, 1]
+			'caption': 
+			'url': 'img/'
+                    },
+                    {
+			'index': [5, 2]
+			'caption': 
+			'url': 'img/'
+                    },
+                    {
+			'index': [5, 3]
+			'caption': 
+			'url': 'img/'
+                    }
 		]
 	},
 	{
