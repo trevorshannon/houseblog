@@ -10,6 +10,7 @@ var blogApp = angular.module('blogApp', ['ngSanitize']);
 
 blogApp.controller('BlogController', function($scope) {
   $scope.posts = formatPosts(posts);  
+  $scope.showingMenu = false;
   
   /**
    * Gets the Mon, Day string from a timestamp
@@ -70,6 +71,7 @@ blogApp.controller('BlogController', function($scope) {
   
   function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
+      posts[i].index = i;
       for (var j = 0; j < posts[i].images.length; j++) {
       	posts[i].images[j].index = [i,j];
       }

@@ -11,36 +11,37 @@
 </head>
 <body ng-controller="BlogController" ng-keydown="scrollOverlay($event)">
 	<div id="header"><div id="headerContents">
-		<h1>House of Granite</h1>
+		<h1><a href="index.html">House of Granite</a></h1>
 		<div class="menu">
-			<div class="nav"><a href="about.html">About</a></div>
+			<div class="nav">About</div>
 		</div>
 		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
 			<div class="nav" >Posts</div>
-			<a class="menuItem" href="#{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
+			<a class="menuItem" href="index.html#{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
 				{{post.title}}
 			</a>
 		</div>
 	</div></div>
 	<div class="main">
-		<div class="overlay" ng-show="showOverlay" ng-click="showOverlay=false">
-			<div class="overlayContentsHolder">
-				<img ng-src="{{overlayImage}}" class="overlayImage">
-				<div class="overlayCaption" class="caption">{{overlayCaption}}</div>
-			</div>
-			<div class="overlayBackground"></div>
-		</div>
-		<div class="post" ng-repeat="post in posts | orderBy:'date':true">
-			<a name="{{post.index}}" class="anchor"></a>
-			<div class="date">{{ getDateString(post.date) }}</div>
-			<h2>{{post.title}}</h2>
-			<div ng-bind-html="post.contents"></div>
-			<div class="thumbnailHolder" ng-repeat="image in post.images">
-				<img class="thumbnail" ng-src="{{image.url}}" ng-click="overlay(image)">
-				<div class="caption">{{image.caption}}</div>
-			</div>
-			<br clear="all">
-			<div class="author"> - {{post.author}}</div>
+		<div class="post">
+			<h2>About</h2>
+			<p>We bought a house so that we would have more space to live and do our own projects,
+			have pets, make changes, and generally have more control over our living situation.</p>
+			<p>We decided to buy a house which needed a lot of cosmetic fixing, so that we could
+			try new things and learn how to do home improvement. This blog shows the projects
+			we've been working on, and maybe some tips and tricks if you want to try this stuff
+			yourself.</p>
+			<br/>
+			<h3>Technical Details</h3>
+			<p>The site was designed and written in <a href="https://angularjs.org/">AngularJS</a>,
+			a nifty framework which binds javascript and html variables together. The code,
+			if you want to do the same thing, is available on 
+			<a href="https://github.com/trevorshannon/houseblog">github</a>. Please give us
+			credit if you use it!</p>
+			<p>This blog is currently running off of a 
+			<a href="http://www.raspberrypi.org/">raspberry pi</a> sitting on the granite
+			floor of our living room.</p>
+			<div class="author"> - Katie and Trevor</div>
 		</div>
 	</div>
 	<div id="footer">Written in AngularJS by <a href="http://dektar.com">Katie</a>, designed by Katie and Annika, posts by Katie and <a href="http://www.trevorshp.com">Trevor</a>. 2014.</div>

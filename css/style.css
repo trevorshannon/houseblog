@@ -5,6 +5,9 @@ body {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
 a:link {
   color: #77BBC1;
 }
@@ -12,19 +15,72 @@ a:visited {
   color: #77BBC1;
 }
 
-.header {
+#header {
   background-color: #77BBC1;
   width: 100%;
   position: fixed;
   top: 0px;
   right: 0px;
   height: 50px;
-  text-align: center;
   padding-top: 6px;
+}
+#headerContents {
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
   font-size: 32px;
   color: #FFF;
   font-weight: 100;
+  padding: 0px;
+  margin: 0px;
+  float: left;
 }
+h1 a {
+  text-decoration: none;
+  color: #FFF;
+}
+h1 a:visited {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.menu {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  max-width: 250px;
+  cursor: pointer;
+  padding-top: 16px;
+  margin-left: 30px;
+}
+.menuItem {
+  background-color: #FFF;
+  color: #333;
+  padding: 15px;
+  display: block;
+}
+.menuItem:hover {
+  background-color: #DDD;
+}
+a.menuItem {
+  color: #333;
+  text-decoration: none;
+}
+.nav {
+  color: #FFF;
+  background-color: #77BBC1;
+  font-size: 16px;
+}
+.nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
 
 .post {
   width: 640px;
@@ -34,6 +90,9 @@ a:visited {
   margin-top: 50px;
   padding: 30px;
   border: 1px solid #E9E9E9;
+}
+.anchor {
+  
 }
 .date {
   text-align: left;
@@ -53,7 +112,7 @@ a:visited {
   width: 300px;
   text-align: center;
 }
-.thumbnailHolder:nth-child(2n) {
+.thumbnailHolder:nth-child(2n-1) {
   float: left;
 }
 .caption {
@@ -66,7 +125,7 @@ a:visited {
   cursor: pointer;
 }
 
-.footer {
+#footer {
   width: 100%;
   text-align: center;
   font-weight: 100;
