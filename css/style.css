@@ -1,0 +1,95 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #EAEDF0;
+  color: #333;
+  padding: 30px;
+}
+
+.header {
+  background-color: #77BBC1;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 50px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 32px;
+  color: #FFF;
+  font-weight: 100;
+}
+
+.post {
+  width: 640px;
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid #E9E9E9;
+}
+.date {
+  text-align: left;
+  color: #666;
+  font-weight: 100;
+  text-transform:uppercase;
+}
+.author {
+  color: #77BBC1;
+  text-align: right;
+}
+
+
+.thumbnailHolder {
+  float: right;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+.thumbnailHolder:nth-child(2n) {
+  float: left;
+}
+.caption {
+  color: #666;
+  text-align: left;
+}
+.thumbnail {
+  max-width: 300px;
+  max-height: 220px;
+  cursor: pointer;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  z-index: 80;
+}
+.overlayBackground {
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  background-color: #FFF;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.overlayImage {
+  max-width: 800px;
+  max-height: 600px;
+  margin-top: 50px;
+}
+.overlayContentsHolder {
+  display: inline-block;
+  max-width: 800px;
+}
+.overlayCaption {
+  color: #000;
+  text-align: left;
+  opacity: 1;
+  padding: 5px;
+}

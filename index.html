@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="blogApp">
+<head>
+	<title>The Wormy Worm</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular-sanitize.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/contents.js"></script>
+</head>
+<body ng-controller="BlogController" ng-keydown="scrollOverlay($event)">
+	<div class="header">House of Granite</div>
+	<div class="main">
+		<div class="overlay" ng-show="showOverlay" ng-click="showOverlay=false">
+			<div class="overlayContentsHolder">
+				<img ng-src="{{overlayImage}}" class="overlayImage">
+				<div class="overlayCaption" class="caption">{{overlayCaption}}</div>
+			</div>
+			<div class="overlayBackground"></div>
+		</div>
+		<div class="post" ng-repeat="post in posts | orderBy:'date':true" >
+			<div class="date">{{ getDateString(post.date) }}</div>
+			<h2>{{post.title}}</h2>
+			<div ng-bind-html="post.contents"></div>
+			<div class="thumbnailHolder" ng-repeat="image in post.images">
+				<img class="thumbnail" ng-src="{{image.url}}" ng-click="overlay(image)">
+				<div class="caption">{{image.caption}}</div>
+			</div>
+			<br clear="all">
+			<div class="author"> - {{post.author}}</div>
+		</div>
+	</div>
+</body>
+</html>
