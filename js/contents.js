@@ -195,30 +195,29 @@ var posts = [
                         '<p>Once I had removed all the abandonded wires, I patched up all the holes in the stucco where wires simply dove through the wall to the inside of the house. It\'s great to have the holes sealed up and the back corner of the house cleaned up.</p>',
 		'images': [
                     {
-			'caption': 'Panels, junction boxes, and wires, oh my!'
+			'caption': 'Panels, junction boxes, and wires, oh my!',
 			'url': 'img/IMG_20140525_182906.jpg'
                     },
                     {
-			'caption': 'Looking better after removing extra wires.'
+			'caption': 'Looking better after removing extra wires.',
 			'url': 'img/IMG_20140609_192955.jpg'
                     },
                     {
-			'caption': 'Leftover wires from a satellite dish.'
+			'caption': 'Leftover wires from a satellite dish.',
 			'url': 'img/IMG_20140525_184118.jpg'
                     },
                     {
-			'caption': 'WARNING!'
+			'caption': 'WARNING!',
 			'url': 'img/IMG_20140525_184510.jpg'
                     },
                     {
-			'caption': 'Oh, wait, it\'s empty.'
+			'caption': 'Oh, wait, it\'s empty.',
 			'url': 'img/IMG_20140525_184519.jpg'
                     },
                     {
-			'caption': 'A rat could make a nest with all this.' 
+			'caption': 'A rat could make a nest with all this.', 
 			'url': 'img/IMG_20140614_093520.jpg'
-                    },
-                    
+                    }                    
                     
 		]
 	},
