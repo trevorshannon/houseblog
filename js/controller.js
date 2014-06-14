@@ -9,8 +9,7 @@
 var blogApp = angular.module('blogApp', ['ngSanitize']);
 
 blogApp.controller('BlogController', function($scope) {
-  $scope.posts = posts;
-  
+  $scope.posts = formatPosts(posts);  
   
   /**
    * Gets the Mon, Day string from a timestamp
@@ -22,7 +21,12 @@ blogApp.controller('BlogController', function($scope) {
     var d = new Date(date);
     return d.toLocaleDateString("en-US", options);
   };
-    
+
+  /**
+   * Creates an image overlay with the given image.
+   *
+   * @param {Object} Image an image object
+   */
   $scope.overlay = function(image) {
   	$scope.showOverlay = true;
   	$scope.overlayImage = image.url;
@@ -30,6 +34,12 @@ blogApp.controller('BlogController', function($scope) {
   	$scope.overlayIndex = image.index;
   };
   
+  /**
+   * Called whenever the user presses a key during the image overlay.
+   * Scrolls to the next or previous image if possible, escape exits overlay.
+   * 
+   * @param {Object} event The keydown event object.
+   */
   $scope.scrollOverlay = function(event) {
     if ($scope.showOverlay) {
       var key = event.which;
@@ -56,5 +66,13 @@ blogApp.controller('BlogController', function($scope) {
         $scope.showOverlay = false;
   	  }
   	}
-  }
+  };
+  
+  var formatPosts = function(posts) {
+    for (var i = 0; i < posts.length; i++) {
+      for (var j = 0; j < posts[i].images.length; j++) {
+      	posts[i].images[j].index = [i,j];
+      }
+    }
+  };
 });
