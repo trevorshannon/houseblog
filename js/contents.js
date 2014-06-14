@@ -14,7 +14,7 @@ var posts = [
 				'url': 'img/1923.jpg',
 			},
 			{
-				'caption': 'I made a bazillion cookies as a thank-you to our friends ' +
+				'caption': 'I made a bazillion cookies as a thank-you to our friends.' +
 				'for their help.',
 				'url': 'img/IMG_20140517_200829.jpg'
 			},
@@ -70,19 +70,19 @@ var posts = [
 				'url': 'img/1919.jpg'
 			},
 			{
-				'caption': 'Granite floor and textured walls',
+				'caption': 'Granite floor and textured walls.',
 				'url': 'img/IMG_20140425_132334.jpg'
 			},
 			{
-				'caption': 'Granite counters and backsplash in the kitchen',
+				'caption': 'Granite counters and backsplash in the kitchen.',
 				'url': 'img/PANO_20140425_131726.jpg'
 			},
 			{
-				'caption': 'Granite bathroom floor and textured walls',
+				'caption': 'Granite bathroom floor and textured walls.',
 				'url': 'img/IMG_20140425_132228.jpg'
 			},
 			{
-				'caption': 'Granite window sills',
+				'caption': 'Granite window sills.',
 				'url': 'img/IMG_20140425_132208.jpg'
 			},
 			{
@@ -212,7 +212,7 @@ var posts = [
 				'url': 'img/IMG_20140526_182130.jpg'
 			},
 			{
-				'caption': 'First layer of mud completed!.',
+				'caption': 'First layer of mud completed!',
 				'url': 'img/IMG_20140526_212425.jpg'
 			},
 			{
