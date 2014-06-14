@@ -68,11 +68,12 @@ blogApp.controller('BlogController', function($scope) {
   	}
   };
   
-  var formatPosts = function(posts) {
+  function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
       for (var j = 0; j < posts[i].images.length; j++) {
       	posts[i].images[j].index = [i,j];
       }
     }
+    return posts;
   };
 });
