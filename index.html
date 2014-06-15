@@ -6,10 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular-sanitize.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular-touch.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/controller.js"></script>
 	<script type="text/javascript" src="js/contents.js"></script>
 </head>
-<body ng-controller="BlogController" ng-keydown="scrollOverlay($event)">
+<body ng-controller="BlogController" ng-keydown="scrollOverlayKey($event)">
 	<div id="header"><div id="headerContents">
 		<h1>House of Granite</h1>
 		<div class="menu">
@@ -25,7 +26,7 @@
 	<div class="main">
 		<div class="overlay" ng-show="showOverlay" ng-click="showOverlay=false">
 			<div class="overlayContentsHolder">
-				<img ng-src="{{overlayImage}}" class="overlayImage">
+				<img ng-src="{{overlayImage}}" class="overlayImage" ng-swipe-left="scrollOverlay('left')" ng-swipe-right="scrollOverlay('right')">
 				<div class="overlayCaption" class="caption">{{overlayCaption}}</div>
 			</div>
 			<div class="overlayBackground"></div>

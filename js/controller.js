@@ -6,7 +6,7 @@
  * scp * pi@10.1.10.12:/var/www/house
  */
 
-var blogApp = angular.module('blogApp', ['ngSanitize']);
+var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']);
 
 blogApp.controller('BlogController', function($scope) {
   $scope.posts = formatPosts(posts);  
@@ -41,31 +41,38 @@ blogApp.controller('BlogController', function($scope) {
    * 
    * @param {Object} event The keydown event object.
    */
-  $scope.scrollOverlay = function(event) {
+  $scope.scrollOverlayKey = function(event) {
     if ($scope.showOverlay) {
       var key = event.which;
   	  if (event.which == 37) {
         // Backwards key
-        // TODO: some method of indexing!
-        if ($scope.overlayIndex[1] > 0) {
+        $scope.scrollOverlay('right');
+      } else if (event.which == 39) {
+        // Forwards key
+        $scope.scrollOverlay('left');
+      } else if (event.which == 27) {
+        // Escape key pressed
+        $scope.showOverlay = false;
+  	  }
+  	}
+  };
+  
+  $scope.scrollOverlay = function(direction) {
+  	if (direction == 'right') {
+  		if ($scope.overlayIndex[1] > 0) {
           var image = $scope.posts[$scope.overlayIndex[0]].images[$scope.overlayIndex[1]-1]
           $scope.overlayImage = image.url;
           $scope.overlayCaption = image.caption;
           $scope.overlayIndex = image.index;
         }
-      } else if (event.which == 39) {
-        // Forwards key
-        var images = $scope.posts[$scope.overlayIndex[0]].images;
+  	} else {
+  		var images = $scope.posts[$scope.overlayIndex[0]].images;
    	    if ($scope.overlayIndex[1] < images.length - 1) {
           var image = images[$scope.overlayIndex[1]+1]
           $scope.overlayImage = image.url;
           $scope.overlayCaption = image.caption;
           $scope.overlayIndex = image.index;
         }
-      } else if (event.which == 27) {
-        // Escape key pressed
-        $scope.showOverlay = false;
-  	  }
   	}
   };
   
