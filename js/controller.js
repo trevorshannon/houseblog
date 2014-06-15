@@ -1,9 +1,8 @@
 /**
  * The AngularJS controller for the blog
  *
- * SETUP ON THE PI:
+ * Image resizing
  * sips -Z 1000 img/*.jpg -s formatOptions 100
- * scp * pi@10.1.10.12:/var/www/house
  */
 
 var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']);
@@ -37,7 +36,7 @@ blogApp.controller('BlogController', function($scope) {
   
   /**
    * Called whenever the user presses a key during the image overlay.
-   * Scrolls to the next or previous image if possible, escape exits overlay.
+   * Tries to scroll at arrow presses; escape exits overlay.
    * 
    * @param {Object} event The keydown event object.
    */
@@ -57,6 +56,11 @@ blogApp.controller('BlogController', function($scope) {
   	}
   };
   
+  /**
+   * Scrolls to the next or previous image if possible.
+   * 
+   * @param {String} direction The direction of the swipe
+   */
   $scope.scrollOverlay = function(direction) {
   	if (direction == 'right') {
   		if ($scope.overlayIndex[1] > 0) {
@@ -76,6 +80,12 @@ blogApp.controller('BlogController', function($scope) {
   	}
   };
   
+  /**
+   * Formats the posts by adding indices & doing work that no human should
+   * have to do.
+   *
+   * @param {Object} posts the Posts to add indices to.
+   */
   function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
       posts[i].index = i;
