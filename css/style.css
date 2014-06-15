@@ -44,7 +44,11 @@ h1 a {
   text-decoration: none;
   color: #FFF;
 }
-h1 a:link a:visited {
+h1 a:link {
+  text-decoration: none;
+  color: #FFF;
+}
+h1 a:visited {
   text-decoration: none;
   color: #FFF;
 }
@@ -62,7 +66,17 @@ h1 a:link a:visited {
   background-color: #FFF;
   color: #333;
   padding: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   display: block;
+  border-left: 1px solid #E9E9E9;
+  border-right: 1px solid #E9E9E9;
+}
+.menuItem:first-child {
+  border-top: 1px solid #E9E9E9;
+}
+.menuItem:last-child {
+  border-bottom: 1px solid #E9E9E9;
 }
 .menuItem:hover {
   background-color: #DDD;
@@ -91,9 +105,6 @@ a.menuItem {
   padding: 30px;
   border: 1px solid #E9E9E9;
 }
-.anchor {
-  
-}
 .date {
   text-align: left;
   color: #666;
@@ -105,14 +116,13 @@ a.menuItem {
   text-align: right;
 }
 
-
 .thumbnailHolder {
   float: right;
   padding: 10px;
   width: 300px;
   text-align: center;
 }
-.thumbnailHolder:nth-child(2n-1) {
+.thumbnailHolder:nth-child(2n) {
   float: left;
 }
 .caption {
@@ -123,6 +133,15 @@ a.menuItem {
   max-width: 300px;
   max-height: 220px;
   cursor: pointer;
+}
+
+.featuredImage {
+  max-width: 450px;
+  max-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  float: right;
 }
 
 #footer {

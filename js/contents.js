@@ -274,15 +274,81 @@ var posts = [
 				'url': 'img/IMG_20140522_211633153.jpg'
 			},
 		]
-	} /*,
+	},
 	{
 		'title': 'The Sewing Room Ceiling',
-		'date': 1402642800000,
+		'date': 1402210800000,
+		'author': 'Katie',
 		'contents':
-			'<p>This is a big post!</p>',
+			'<p>The ceiling in our house is covered with drywall, with curved corners and textured paint. But we know, from looking at photos of our neighbors\'s identical houses on redfin, that underneath the drywall are pretty wooden beams.</p>' +
+			'<p>We thought we would like the look of wooden beams better than rounded-corner drywall, and certainly the texture better than a textured ceiling, so we decided to try our luck with removing the drywall to see what was actually underneath.</p>' +
+			'<p>After a hard day at work, I came back and took a hammer and crowbar to explore what the ceiling was made of and how we would get the stuff off.  Turns out it was indeed the wood we had hoped for, painted white.  The drywall was attached with both nails and screws, with a ton of nails holding the curved metal strip in place to make those rounded corners.</p>' +
+			'<p>It took about a week, but we managed to get all the drywall off the ceiling without causing too much damage to the wood. (Turns out the slats are redwood!)  We then filled in the holes from the nails and screws with wood filler, sanded the rough spots, and painted the whole thing with primer.</p>' +
+			'<p>I really like the way the ceiling looks now, and I\'m looking forward to doing this in the rest of the house.  It was a long, hard, sweaty project, so we will need to plan carefully so that we still have space to live while tearing down the main rooms, and the kitchen will be tricky.  I think it will be worth the effort in the end!</p>',
 		'images': [
+			{
+				'caption': 'First glimpse of the underlying ceiling!',
+				'url': 'img/IMG_20140527_194830296.jpg'
+			},
+			{
+				'caption': 'Making progress.',
+				'url': 'img/IMG_20140529_210146.jpg'
+			},
+			{
+				'caption': 'More progress.',
+				'url': 'img/IMG_20140529_214040555.jpg'
+			},
+			{
+				'caption': 'Trevor gets a chunk of ceiling while I take a break from the dust.',
+				'url': 'img/IMG_20140530_212237-MOTION.gif'
+			},
+			{
+				'caption': 'The ceiling debris.',
+				'url': 'img/IMG_20140601_151242.jpg'
+			},
+			{
+				'caption': 'All the drywall removed.',
+				'url': 'img/IMG_20140601_151250.jpg'
+			},
+			{
+				'caption': 'Holes filled with wood filler.',
+				'url': 'img/IMG_20140606_205917.jpg'
+			},
+			{
+				'caption': 'Half-painted!',
+				'url': 'img/IMG_20140607_174124.jpg'
+			},
+			{
+				'caption': 'Painting all the nooks.',
+				'url': 'img/IMG_20140607_182516614_HDR.jpg'
+			},
+			{
+				'caption': 'Sure looks great with paint!',
+				'url': 'img/IMG_20140607_182504143.jpg'
+			},
+			{
+				'caption': 'Painting is more fun than sanding.',
+				'url': 'img/IMG_20140607_184416854.jpg'
+			}
 		]
 	},
+	{
+		'title': 'Bicycle Storage',
+		'date': 1402383600000,
+		'author': 'Katie',
+		'contents':
+			'<p>We ride our bikes everywhere so we needed them to be easily accessible, but in the one-car garage, with lots of things still unpacked, there wasn\'nt enough space for them on the ground. So we did a quick fix: we put $3 Novara bicycle hooks in two adjacent garage studs.  We found the studs using a fridge magnet to search for drywall nails (no stud-finder yet), then drilled out a smaller hole and screwed in the hook. Maybe a simple project, but it sure has made a big difference to the tidiness of the garage!</p>',
+		'images': [
+			{
+				'caption': 'Up and out of the way!',
+				'url': 'img/IMG_20140610_194138881.jpg'
+			},
+			{
+				'caption': 'We will need to do something about the tire marks they leave on the wall.',
+				'url': 'img/IMG_20140610_194133341.jpg'
+			}
+		]
+	}/*,
 	{
 		'title': 'Garage Granite Removal',
 		'date': 1402642800000,

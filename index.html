@@ -17,7 +17,7 @@
 		</div>
 		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
 			<div class="nav" >Posts</div>
-			<a class="menuItem" href="#{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
+			<a class="menuItem" href="#post{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
 				{{post.title}}
 			</a>
 		</div>
@@ -30,8 +30,7 @@
 			</div>
 			<div class="overlayBackground"></div>
 		</div>
-		<div class="post" ng-repeat="post in posts | orderBy:'date':true">
-			<a name="{{post.index}}" class="anchor"></a>
+		<div class="post" ng-repeat="post in posts | orderBy:'date':true" id="post{{post.index}}">
 			<div class="date">{{ getDateString(post.date) }}</div>
 			<h2>{{post.title}}</h2>
 			<div ng-bind-html="post.contents"></div>
