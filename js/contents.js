@@ -116,7 +116,8 @@ var posts = [
 		'date': 1402556400000,
 		'author': 'Katie',
 		'contents':
-			'<p>We made a wooden bin for worm composting: turning our leftovers into perfect soil for our future garden.</p>',
+			'<p>We made a wooden bin for worm composting: turning our leftovers into perfect soil for our future garden. The bin was designed by Trevor, using only solid wood (we weren\'t sure how the worms would reach to glue in plywood). We made it together in our new garage "shop," making great use of the table saw and electric drill.</p>' +
+			'<p>We then ripped up newspaper into strips, and saved some fruit, to be ready for them when they moved in! Trevor picked up some worms at the local hardware store, we put them in the box outside, and now we just deposit our leftover food (no meat) every day. Hopefully they will make it!</p>',
 		'images': [
 			{
 				'caption': 'The workspace in our garage.',
@@ -129,6 +130,10 @@ var posts = [
 			{
 				'caption': 'The final result.',
 				'url': 'img/IMG_20140608_183724.jpg'
+			},
+			{
+				'caption': 'The worms have moved in!',
+				'url': 'img/IMG_20140612_182913.jpg'
 			}
 		]
 	},
