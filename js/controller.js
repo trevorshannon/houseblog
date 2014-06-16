@@ -7,19 +7,24 @@
 
 var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']);
 
+/**
+ * Gets the Mon, Day string from a timestamp
+ * @param {Integer} Timestamp representing a date
+ * @return {String} String representing the date
+ */
+function getDateString(date) {
+  var options = {year: "numeric", month: "long", day: "numeric"};
+  var d = new Date(date);
+  return d.toLocaleDateString("en-US", options);
+};
+
 blogApp.controller('BlogController', function($scope) {
   $scope.posts = formatPosts(posts);  
   $scope.showingMenu = false;
   
-  /**
-   * Gets the Mon, Day string from a timestamp
-   * @param {Integer} Timestamp representing a date
-   * @return {String} String representing the date
-   */
+
   $scope.getDateString = function(date) {
-    var options = {year: "numeric", month: "long", day: "numeric"};
-    var d = new Date(date);
-    return d.toLocaleDateString("en-US", options);
+    return getDateString(date);
   };
 
   /**
@@ -100,9 +105,16 @@ blogApp.controller('BlogController', function($scope) {
 blogApp.controller('PostController', function($scope) {
     $scope.selectors = [];
     $scope.addText = "Add image";
+    $scope.authors = ["Katie", "Trevor"];
+    $scope.authorValue = $scope.authors[0];
+
+    function blankImage() {
+	this.filename = "";
+        this.caption = "";
+    }
 
     $scope.addFile = function() {
-	$scope.selectors.push($scope.selectors.length);
+	$scope.selectors.push(new blankImage());;
         if ($scope.selectors.length > 0) {
             $scope.addText = "Add another image";
         }
@@ -113,5 +125,13 @@ blogApp.controller('PostController', function($scope) {
         if ($scope.selectors.length == 0) {
             $scope.addText = "Add image";
 	}
+    }
+
+    $scope.getCurrentDateString = function() {
+	return getDateString(Date.now());
+    };
+
+    $scope.previewContent = function(content) {
+        return content.replace(/\n/g, "<br>")
     }
 });

@@ -15,24 +15,34 @@
     <div class="main">
       <div class="post">
         <form action="post.php" method="post" enctype="multipart/form-data">
-          <input type="text" name="title" id="title" placeholder="Title" autofocus><br>
+          <input type="text" name="title" id="title" placeholder="Title" ng-model="titleValue"><br>
           <label for="author">by </label>
-          <select name="author" id="author">
-            <option value="Katie">Katie</option>
-            <option value="Trevor">Trevor</option>
+          <select name="author" id="author" ng-model="authorValue" ng-options="author for author in authors">
           </select>
           <div class="post-content">
-            <textarea name="content" id="content"></textarea>
+            <textarea name="content" id="content" ng-model="contentValue"></textarea>
           </div>
           <div class="file-selector" ng-repeat="selector in selectors">
-            <input type="file" name="ufile[]" id="file{{selector}}">
-            <input type="text" name="caption[]" id="caption{{selector}}">
+            <input type="file" name="ufile[]">
+            <input type="text" name="caption[]" ng-model="selector.caption">
             <input type="button" value="x" ng-click="removeFile()"><br>
           </div>
           <input type="button" ng-click="addFile()" value="{{addText}}"><br>
           <input type="submit" name="submit" value="Post">
         </form>
       </div>
+    
+      <div class="post">
+        <div class="date">{{getCurrentDateString()}}</div>
+	  <h2>{{titleValue}}</h2>
+	    <div ng-bind-html="previewContent(contentValue)"></div>
+	    <div class="thumbnailHolder" ng-repeat="selector in selectors">
+	      <div class="thumbnailSample"></div>
+	      <div class="caption">{{selector.caption}}</div>
+	    </div>
+	    <br clear="all">
+	    <div class="author"> - {{authorValue}}</div>
+	</div>
     </div>
   </body>
 </html>
