@@ -78,7 +78,7 @@ var posts = [
 				'url': 'img/PANO_20140425_131726.jpg'
 			},
 			{
-				'caption': 'Granite bathroom floor and textured walls.',
+				'caption': 'Granite bathroom floor and granite walls.',
 				'url': 'img/IMG_20140425_132228.jpg'
 			},
 			{
