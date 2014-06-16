@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILE=$1
+echo resizing $FILE...
+mogrify -resize 1000x1000 $FILE
+RET=$?
+if [ $RET -eq 0 ]; then
+echo done!
+else
+echo error
+fi

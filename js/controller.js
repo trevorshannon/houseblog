@@ -96,3 +96,22 @@ blogApp.controller('BlogController', function($scope) {
     return posts;
   };
 });
+
+blogApp.controller('PostController', function($scope) {
+    $scope.selectors = [];
+    $scope.addText = "Add image";
+
+    $scope.addFile = function() {
+	$scope.selectors.push($scope.selectors.length);
+        if ($scope.selectors.length > 0) {
+            $scope.addText = "Add another image";
+        }
+    }
+
+    $scope.removeFile = function() {
+        $scope.selectors.pop();
+        if ($scope.selectors.length == 0) {
+            $scope.addText = "Add image";
+	}
+    }
+});
