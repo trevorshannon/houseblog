@@ -17,7 +17,9 @@
         <form action="post.php" method="post" enctype="multipart/form-data">
           <input type="text" name="title" id="title" placeholder="Title" ng-model="titleValue"><br>
           <label for="author">by </label>
-          <select name="author" id="author" ng-model="authorValue" ng-options="author for author in authors">
+          <select name="author" id="author" ng-model="authorValue">
+            <option value="Katie">Katie</option>
+            <option value="Trevor">Trevor</option>
           </select>
           <div class="post-content">
             <textarea name="content" id="content" ng-model="contentValue"></textarea>

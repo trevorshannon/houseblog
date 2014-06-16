@@ -105,8 +105,7 @@ blogApp.controller('BlogController', function($scope) {
 blogApp.controller('PostController', function($scope) {
     $scope.selectors = [];
     $scope.addText = "Add image";
-    $scope.authors = ["Katie", "Trevor"];
-    $scope.authorValue = $scope.authors[0];
+    $scope.authorValue = "Katie";
 
     function blankImage() {
 	this.filename = "";
