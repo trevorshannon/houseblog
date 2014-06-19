@@ -353,13 +353,5 @@ var posts = [
 				'url': 'img/IMG_20140610_194133341.jpg'
 			}
 		]
-	}/*,
-	{
-		'title': 'Garage Granite Removal',
-		'date': 1402642800000,
-		'contents':
-			'<p>Bye, granite!</p>',
-		'images': [
-		]
-	}*/
+	}
 ];
