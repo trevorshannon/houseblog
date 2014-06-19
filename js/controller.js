@@ -5,7 +5,15 @@
  * sips -Z 1000 img/*.jpg -s formatOptions 100
  */
 
-var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']);
+
+//TODO(katie): This $sceDelegateProvider doesn't seem to work...
+var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']).config(function($sceDelegateProvider) {
+     $sceDelegateProvider.resourceUrlWhitelist([
+       // Allow same origin resource loads.
+       'self',
+       // Allow loading from our assets domain.  Notice the difference between * and **.
+       'http://www.youtube.com/**']);
+     });
 
 /**
  * Gets the Mon, Day string from a timestamp
@@ -18,7 +26,7 @@ function getDateString(date) {
   return d.toLocaleDateString("en-US", options);
 };
 
-blogApp.controller('BlogController', function($scope) {
+blogApp.controller('BlogController', function($scope, $sce) {
   $scope.posts = formatPosts(posts);  
   $scope.showingMenu = false;
   
@@ -94,6 +102,8 @@ blogApp.controller('BlogController', function($scope) {
   function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
       posts[i].index = i;
+      //TODO(katie): Figure out whitelisting then remove this line.
+      posts[i].contents = $sce.trustAsHtml(posts[i].contents)
       for (var j = 0; j < posts[i].images.length; j++) {
       	posts[i].images[j].index = [i,j];
       }

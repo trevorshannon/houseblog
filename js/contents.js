@@ -353,5 +353,64 @@ var posts = [
 				'url': 'img/IMG_20140610_194133341.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Goodbye Granite Garage',
+		'date': 1402931403000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>The garage floor was covered with granite tiles.  They were mis-matched and appeared to be leftovers from the other granite installations throughout the house.  More importantly, they provided almost no traction when sawdust fell on them.  Since the garage will primarily be a shop, I needed a higher-traction surface to work on. </p>' +
+			'<p></p>' +
+			'<p>I decided to go back to bare concrete, so the tiles had to go.  It was remarkably easy to get the tile up&mdash;they just popped right off with a 2\" mason\'s chisel and sledgehammer.  \"This is easy!\" I thought naively.  It turns out the concrete floor was pretty dirty under the tile with old residues and adhesives, which was difficult to remove.  I tried all sorts of cleaners before settling on paint thinner and two days of scrubbing to remove the goop.  </p>' +
+			'<p></p>' +
+			'<p>The project ended up being bigger than I expected, but the floor looks like a garage floor now!</p>',
+		'images' : [
+			{
+				'caption': 'The garage as we bought it.',
+				'url': 'img/IMG_20140514_173403.jpg'
+			},
+			{
+				'caption': 'Removing the first tile.',
+				'url': 'img/IMG_20140612_214255.jpg'
+			},
+			{
+				'caption': 'Quite a bit out now.',
+				'url': 'img/IMG_20140612_221829.jpg'
+			},
+			{
+				'caption': 'My friend Matt helped a lot.',
+				'url': 'img/IMG_20140613_222851.jpg'
+			},
+			{
+				'caption': 'All the tile out.  Time to clean!',
+				'url': 'img/IMG_20140613_220103.jpg'
+			},
+/*		        {
+                                'caption': 'Phew!',
+                                'url': 'img/IMG_20140614_141612-MOTION.gif'
+                        },
+*/			{
+				'caption': 'Our garage was temporarily a shallow lake.',
+				'url': 'img/IMG_20140614_143601.jpg'
+			},
+			{
+				'caption': 'All done.',
+				'url': 'img/IMG_20140615_192142.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Fixing Little Things',
+		'date': 1403150416000,
+		'author': 'Katie',
+		'contents' :
+			'<p>When we moved in, we were so excited to have a house with a washer and dryer in the garage, no coins needed.  But after running my first load I wasn\'t sure we had made a wise decision: the water didn\'t fill up all the way (and it took forever to fill as much as it did), and the clothes got stretched out from being too dry and getting pulled by the middle-spinny-thing.</p>' +
+			'<p>Trevor saw how disappointed I was, and was excited to open up the washer and investigate what was going on. He found a magical piece of paper that told him the buttons to press to put the washer into \'service mode\', which meant that it did all kinds of things when you spun the dial, like blinking a serial code or spinning or filling with water.  We saw that the hot water filled much faster than the cold, and Trevor quickly diagnosed and fixed the issue: a clogged filter in the cold water input. Now the machine doesn\'t stretch the clothes! Below is Trevor, excited to have fixed the machine.</p>' +
+			'<iframe width="640" height="390" src="http://www.youtube.com/embed/ZNqi-xJXlWo" frameborder="0" allowfullscreen></iframe>' +
+			'<br/>' +
+			'<p>Another issue we found after moving in is that the bathroom fan wasn\'t working.  Actually, when we moved in and for the first few days it did work, but at one point I flipped the switch and it just ... didn\'t spin up. This meant our showers made the bathroom more steamy, which probably isn\'t so good for the paint in the long term (not that we want to keep that textured paint around anyway). Yesterday I climbed up on a ladder to fix the fan, assuming it was just too linty to spin. </p>' +
+			'<p>Removing the cover was tough as they had multiple thick and globby layers of paint holding the cover onto the ceiling.  (Don\'t you usually paint first and put the fan cover back on later?)  I went after it with a razor, and eventually got the cover to unscrew.  We shop-vac\'ed the lint and the fan started turning again!  A great success.</p>',
+		'images' : [
+		]
 	}
 ];
