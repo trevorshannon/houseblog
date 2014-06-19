@@ -4,8 +4,20 @@ $images = array();
 
 function exit_cleanly() {
   echo "<h2>Could not create new post.  Please fix the bug and refresh to try again</h2>";
+  print_debug_info();
   echo "</body></html>";
   exit();
+}
+
+function print_debug_info() {
+  echo "<div style=\"position:fixed; margin:5px; bottom:0px\">Debug info:<br>";
+  echo "FILES = ";
+  print_r($_FILES);
+  echo "<br>";
+  echo "POST = ";
+  print_r($_POST);
+  echo "<br><a href=\"javascript:void(0)\" onClick=\"cancelRedirect()\">Cancel redirect</a>";
+  echo "</div>";
 }
 
 function upload_and_resize_images() {
@@ -127,15 +139,7 @@ if ($_POST["content"] || $_POST["title"]) {
   echo "<div>Redirecting to your post in 4 seconds or<br><a href=\"../index.html\">Continue now >></a></div>";
 }
 
-echo "<div style=\"position:fixed; margin:5px; bottom:0px\">Debug info:<br>";
-echo "FILES = ";
-print_r($_FILES);
-echo "<br>";
-echo "POST = ";
-print_r($_POST);
-echo "<br><a href=\"javascript:void(0)\" onClick=\"cancelRedirect()\">Cancel redirect</a>";
-echo "</div>";
-
+print_debug_info();
 echo "</body></html>";
 
 ?>
