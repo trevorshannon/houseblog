@@ -412,5 +412,87 @@ var posts = [
 			'<p>Removing the cover was tough as they had multiple thick and globby layers of paint holding the cover onto the ceiling.  (Don\'t you usually paint first and put the fan cover back on later?)  I went after it with a razor, and eventually got the cover to unscrew.  We shop-vac\'ed the lint and the fan started turning again!  A great success.</p>',
 		'images' : [
 		]
+	},
+	{
+		'title': 'Side Shed Demolition',
+		'date': 1403464769000,
+		'author': 'Katie',
+		'contents' :
+			'<p>We removed the side shed yesterday. This carpeted side shed was the only part of the property where the inspectors found termites. It was old, dirty, and redundant with the stand-alone (and granite floored) shed in the back yard.</p>' +
+			'<p>During the deconstruction, we decided that the old owners had built this shed originally as a shop or tool shed, because the insides seemed to have yellow pegboard on them. Later, they turned it into a bedroom: the pegboard had been repurposed as a floor, just placed over wooden beams but not attached to them. The shed was carpeted, insulated, finished, and even wallpapered at one time.  It showed signs of having an old hard door with latch, and although there was no electricity we could imagine that someone had slept here. This guess is made more certain by the fact that we know that someone had staying in the garage and in the 8x10 detached back shed.</p>' +
+			'<p>My uncle Elliott came over to help with any (de)construction we were doing this weekend. We decided to work on the shed, as the scope of the project seemed appropriate for 3 people in one day. He brought a sledge hammer, gloves, and a lot of extra man-power which made this project possible!</p>' +
+			'<p>We started by removing the screen door, and pulling off the drywall and insulation from the interior. This exposed the wood beams and showed how bad the termite and water damage really was!</p>' + 
+			'<p>Removing the drywall went really quickly, but the process slowed down when we got to the stucco. Stucco is basically like cement pushed over chicken wire, so it is both heavy and un-crackable without using wire cutters. It took a few hours to get all the stucco off; in the middle we went for a delicious lunch at the locally-owned Mexican grocery/cafe down the street.</p>' + 
+			'<iframe width="640" height="390" src="http://www.youtube.com/embed/trAm0HLKcyA" frameborder="0" allowfullscreen></iframe>' +
+			'<p>After the heavy stucco was off, we propped up the roof with long 2x4s and removed the other supporting beams.  Then Trevor and Elliott carefully lowered the roof partway onto two ladders. We re-propped the roof, and they brought it almost-gracefully the rest of the way down (see video below).</p>' +
+			'<iframe width="640" height="390" src="http://www.youtube.com/embed/Fg3iP2sdDmA" frameborder="0" allowfullscreen></iframe>' +
+			'<p>The rest was just deconstruction of the roof, and a whole lot of clean-up. We moved all the materials to the driveway and will have them hauled away tomorrow.  We finished with a glass of fresh-squeezed lemonade from our tree outside and some chips and guacamole from the local grocery. Success!</p>' +
+			'<p>Up next: a fence to cover that gap!</p>',
+		'images' : [
+			{
+				'caption': 'Only the screen door has been removed.',
+				'url': 'img/IMG_20140621_105832.jpg'
+			},
+			{
+				'caption': 'The interior, with drywall and carpet.',
+				'url': 'img/IMG_20140621_105838.jpg'
+			},
+			{
+				'caption': 'Finding the drywall screws with magnets.',
+				'url': 'img/IMG_20140621_110830099_HDR.jpg'
+			},
+			{
+				'caption': 'Removing the door frame.',
+				'url': 'img/IMG_20140621_114625291_HDR.jpg'
+			},
+			{
+				'caption': 'About to break through the stucco!',
+				'url': 'img/IMG_20140621_112703.jpg'
+			},
+			{
+				'caption': 'Elliott looking out the new window.',
+				'url': 'img/IMG_20140621_115658368.jpg'
+			},
+			{
+				'caption': 'The front stucco is off!',
+				'url': 'img/IMG_20140621_121415123_HDR.jpg'
+			},
+			{
+				'caption': 'So much rot that the frame is loose.',
+				'url': 'img/IMG_20140621_133146-MOTION.gif'
+			},
+			{
+				'caption': 'Termite damage and rot',
+				'url': 'img/IMG_20140621_120944.jpg'
+			},
+			{
+				'caption': 'Termites have been here.',
+				'url': 'img/IMG_20140621_150019172.jpg'
+			},
+			{
+				'caption': 'Removing the side stucco',
+				'url': 'img/IMG_20140621_141805201.jpg'
+			},
+			{
+				'caption': 'While the guys removed stucco, I did a lot of chicken-wire cutting to get it into manageable pieces.',
+				'url': 'img/IMG_20140621_140254.jpg'
+			},
+			{
+				'caption': 'Preparing to lower the roof.',
+				'url': 'img/IMG_20140621_152705662.jpg'
+			},
+			{
+				'caption': 'The roof is off.',
+				'url': 'img/IMG_20140621_154058.jpg'
+			},
+			{
+				'caption': 'Cleaning up.',
+				'url': 'img/IMG_20140621_160408.jpg'
+			},
+			{
+				'caption': 'The house looks great without the shed!',
+				'url': 'img/IMG_20140621_163340460_HDR.jpg'
+			}
+		]
 	}
 ];
