@@ -1,6 +1,6 @@
 <html ng-app="blogApp">
   <head>
-    <title>Image Uploader</title>
+    <title>Create New Post</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js" type="text/javascript"></script>
@@ -15,21 +15,22 @@
     <div class="main">
       <div class="post">
         <form action="post.php" method="post" enctype="multipart/form-data">
-          <input type="text" name="title" id="title" placeholder="Title" ng-model="titleValue"><br>
+          <input type="text" name="title" id="title" placeholder="Title" ng-change="savePost()" ng-model="titleValue"><br>
           <label for="author">by </label>
-          <select name="author" id="author" ng-model="authorValue">
+          <select name="author" id="author" ng-model="authorValue" ng-change="savePost()">
             <option value="Katie">Katie</option>
             <option value="Trevor">Trevor</option>
           </select>
           <div class="post-content">
-            <textarea name="content" id="content" ng-model="contentValue"></textarea>
+            <textarea name="content" id="content" ng-model="contentValue" ng-change="savePost()"></textarea>
           </div>
           <div class="file-selector" ng-repeat="selector in selectors">
             <input type="file" name="ufile[]">
-            <input type="text" name="caption[]" ng-model="selector.caption">
+            <input type="text" name="caption[]" ng-model="selector.caption" ng-change="savePost()">
             <input type="button" value="x" ng-click="removeFile()"><br>
           </div>
           <input type="button" ng-click="addFile()" value="{{addText}}"><br>
+          <input type="button" ng-click="loadLastPost()" value="Load autosave"><br>
           <input type="submit" name="submit" value="Post">
         </form>
       </div>
