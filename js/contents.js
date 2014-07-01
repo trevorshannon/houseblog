@@ -578,5 +578,68 @@ var posts = [
 				'url': 'img/IMG_20140628_161827136.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Test Post',
+		'date': 1404186571000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Ordering images</p>',
+		'images' : [
+			{
+				'caption': 'molly',
+				'url': 'img/IMG_4374.jpg'
+			},
+			{
+				'caption': 'katie',
+				'url': 'img/IMG_4375.jpg'
+			},
+			{
+				'caption': 'alissa',
+				'url': 'img/IMG_4372.jpg'
+			}
+		]
+	},
+	{
+		'title': '',
+		'date': 1404187113000,
+		'author': 'Katie',
+		'contents' :
+			'<p></p>',
+		'images' : [
+			{
+				'caption': '',
+				'url': 'img/IMG_4376.jpg'
+			},
+			{
+				'caption': '',
+				'url': 'img/IMG_4378.jpg'
+			},
+			{
+				'caption': '',
+				'url': 'img/IMG_4387.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Uploading stuff',
+		'date': 1404190386000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Hello there.</p>',
+		'images' : [
+			{
+				'caption': 'wow',
+				'url': 'img/IMG_4387.jpg'
+			},
+			{
+				'caption': 'we got married',
+				'url': 'img/IMG_4416.jpg'
+			},
+			{
+				'caption': 'wedding',
+				'url': 'img/IMG_4396.jpg'
+			}
+		]
 	}
 ];

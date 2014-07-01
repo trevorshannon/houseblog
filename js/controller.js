@@ -116,12 +116,20 @@ blogApp.controller('PostController', function($scope) {
     $scope.selectors = [];
     $scope.addText = "Add image";
     $scope.authorValue = "Katie";
+    $scope.showLoadingOverlay = false;
 
     var UPLOAD_LIMIT = 20;
 
     function blankImage() {
 	this.filename = "";
         this.caption = "";
+    }
+
+    function clean(s) {
+        if (s === undefined){
+            return '';
+	}
+        return s;
     }
 
     $scope.addFile = function() {
@@ -148,6 +156,20 @@ blogApp.controller('PostController', function($scope) {
         $scope.savePost();
     }
 
+    $scope.moveFileUp = function(i) {
+        if (i > 0) {
+	    var thisItem = $scope.selectors.splice(i, 1)[0];
+            $scope.selectors.splice(i-1, 0, thisItem);
+	}
+    }
+
+    $scope.moveFileDown = function(i) {
+        if (i < $scope.selectors.length - 1) {
+	    var thisItem = $scope.selectors.splice(i, 1)[0];
+            $scope.selectors.splice(i+1, 0, thisItem);
+        }
+    }
+
     $scope.getCurrentDateString = function() {
 	return getDateString(Date.now());
     };
@@ -164,9 +186,13 @@ blogApp.controller('PostController', function($scope) {
     }
 
     $scope.loadLastPost = function() {
-        $scope.titleValue = localStorage.title;
-        $scope.contentValue = localStorage.content;
-        $scope.authorValue = localStorage.author;
+        $scope.titleValue = clean(localStorage.title);
+	$scope.contentValue = clean(localStorage.content);
+	$scope.authorValue = clean(localStorage.author);
         $scope.selectors = JSON.parse(localStorage.selectors);
+    }
+
+    $scope.showLoading = function() {
+        $scope.showLoadingOverlay = true;
     }
 });

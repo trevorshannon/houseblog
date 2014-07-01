@@ -27,11 +27,13 @@
           <div class="file-selector" ng-repeat="selector in selectors">
             <input type="file" name="ufile[]">
             <input type="text" name="caption[]" ng-model="selector.caption" ng-change="savePost()">
-            <input type="button" value="x" ng-click="removeFile()"><br>
+           <div class="file-up" ng-click="moveFileUp($index)"></div>
+	   <div class="file-down" ng-click="moveFileDown($index)"></div>
+           <div class="file-ex-wrapper" ng-click="removeFile()"><div class="file-ex"></div></div>
           </div>
           <input type="button" ng-click="addFile()" value="{{addText}}"><br>
           <input type="button" ng-click="loadLastPost()" value="Load autosave"><br>
-          <input type="submit" name="submit" value="Post">
+          <input type="submit" name="submit" value="Post" ng-click="showLoading()">
         </form>
       </div>
     
@@ -46,6 +48,14 @@
 	    <br clear="all">
 	    <div class="author"> - {{authorValue}}</div>
 	</div>
+    </div>
+    <div class="overlay" ng-show="showLoadingOverlay">
+      <div class="overlayBackground">
+        <div class="loadingBackground">
+          <div class="loadingWheel"></div>
+          <div class="loadingText">Uploading...</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

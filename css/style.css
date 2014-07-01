@@ -126,7 +126,7 @@ a.menuItem {
   float: left;
 }
 .caption {
-  color: #666;
+  color: #666
   text-align: left;
 }
 .thumbnail {
@@ -193,6 +193,61 @@ a.menuItem {
   padding: 5px;
 }
 
+.loadingBackground {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  abackground-color: #CCC;
+}
+
+.loadingWheel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  margin-left: -38px;
+  margin-top: -38px;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #EAEDF0;
+  border-radius: 38px;
+
+  -webkit-animation-name:spin;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration:1.2s;
+  -webkit-animation-timing-function:cubic-bezier(.52, .18, .48, .86);
+}
+
+.loadingWheel:after {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: -8px;
+  width: 30px;
+  height: 30px;
+  border-top-left-radius: 38px;
+  border: 8px solid #77BBC1;
+  border-bottom: none;
+  border-right: none;
+}
+
+@-webkit-keyframes spin {
+  from {-webkit-transform: rotate(45deg);}
+  to {-webkit-transform: rotate(404deg);}
+}
+
+.loadingText {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 7px;
+  font-size: 20px;  
+}
+
 textarea {
   width: 100%;
   height: 250px;
@@ -209,11 +264,19 @@ input {
   margin: 7px 0px;
 }
 
+ainput[type="text"] {
+  height: 16px;
+  border: 2px;
+  margin: 7px;
+  padding: 1px;
+}  
+ 
 input[type="button"] {
   background: none;
   border: 0px;
   background-color: #EAEDF0;
   padding: 7px 25px;
+  cursor: pointer;
 }
 
 input[type="submit"] {
@@ -223,9 +286,72 @@ input[type="submit"] {
   background-color: #77BBC1;
   color: #FFF;
   padding: 7px 25px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
   background-color: #7EC6CC;
 }
+
+.file-selector {
+  position:relative;
+  top: 0px;
+  left: 0px;
+}
+
+.file-up {
+  position: absolute;
+  top: 10px;
+  left: 462px;
+  width: 0px;
+  height: 0px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 14px solid #77BBC1;
+  cursor: pointer;
+}
+
+.file-down {
+  position: absolute;
+  top: 10px;
+  left: 477px;
+  width: 0px;
+  height: 0px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 14px solid #77BBC1;
+  cursor: pointer;
+}
+
+.file-ex-wrapper { 
+  position:absolute;
+  top: 7px;
+  left: 434px;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}  
+
+.file-ex {
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  height: 3px;
+  width: 18px;
+  background-color: #77BBC1;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
   
+.file-ex:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  height: 3px;
+  width: 18px;
+  background-color: #77BBC1;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
