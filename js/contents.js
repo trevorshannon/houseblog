@@ -495,5 +495,88 @@ var posts = [
 			}
 		]
 	}
-
+,
+	{
+		'title': 'Needs More Jiggawatts',
+		'date': 1403920057000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Our house came with a teensy electrical panel that probably suited the house quite well when it was built in the 1950\'s.  However, modern times demand more power!  The panel only supported five circuits, and three of them were used&mdash;one for lighting and two more for everything else.  The fourth and fifth slots were actually taken too, but by a 240V circuit that was no longer used in the house (old stove?  water heater?  who knows.) With no room to add more circuit breakers, we had no hope of adding circuits to our electrical system if we didn\'t get a new panel first.</p>' +
+			'<p>We figured we only wanted to do this once, so we went for a 200 amp panel.  There are like a billion (ok, maybe 25) available breaker slots, which we will probably never fill up.  However, the 200A panel allows us to maybe one day get solar panels or an electric car or both.</p>' +
+			'<p>This is one thing I didn\'t want to do myself, and so after getting a couple of bids I hired a highly-recommended electrician to do the panel replacement.  They spent a day on the job and it came out really well!  We now have a much larger panel on the back of our house and the ability to add circuits as we please.  Now if we can just figure out how to get the new wires inside the walls...</p>',
+		'images' : [
+			{
+				'caption': 'The original panel.',
+				'url': 'img/IMG_20140609_192955.jpg'
+			},
+			{
+				'caption': 'Only a few circuits.',
+				'url': 'img/IMG_20140609_193020.jpg'
+			},
+			{
+				'caption': 'The service lines are not high enough.',
+				'url': 'img/IMG_20140609_193008.jpg'
+			},
+			{
+				'caption': 'Brand new 200 amp panel.',
+				'url': 'img/IMG_20140627_175532.jpg'
+			},
+			{
+				'caption': 'Lots of room for expansion!.',
+				'url': 'img/IMG_20140627_175605.jpg'
+			},
+			{
+				'caption': 'A new mast holding the wires high.',
+				'url': 'img/IMG_20140627_175539.jpg'
+			},
+			{
+				'caption': 'Our house\'s current circuits.',
+				'url': 'img/IMG_20140627_175734.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Upcycled Hummingbird Feeder',
+		'date': 1404001250000,
+		'author': 'Katie',
+		'contents' :
+			'<p>I\'ve seen quite a few hummingbirds around our neighborhood, and think they would come to our house too if we had something to offer them.  In college I made a <a href=\"http://kaytdek.trevorshp.com/graphics/humming/humming.htm\">feeder</a> from plastic bottles and a red Solo cup for petals, and I had quite a few Anna\'s hummingbirds come visit every day.</p>' +
+			'<p>This time, I decided to make a hummingbird feeder from a glass bottle, so I could put it in the dishwasher.  Sugar water makes a great place for nasty things to grow, so it is important to clean the feeder frequently and thoroughly.  For this one, the base and petals are from an empty Tide detergent as the plastic seems hard and sturdy and the colors were bright.  However, the base will not be able to go in the dishwasher, so I tried to have as few nooks and crannies as possible to make it easier to clean later.</p>' +
+			'<p>Materials & Tools:<br>1 glass bottle with screw-on lid (I used an Orangina bottle)<br>1 plastic Tide detergent with lid<br>Thin wire<br>Hot glue<br>Drill<br>Needle Nosed Pliers<br>Scissors</p>' +
+			'<p>I began by drilling 4 very small holes in the Tide lid to attach to the bottle.  I also drilled 4 very small holes in the bottle lid, and one large hole to let the sugar-water flow out.</p>' +
+			'<p>I cut lots of small petals from the tide container, then hot-glued them together to make 6-petaled flowers with holes in the middle for the bird to drink.  I made 4 flowers, then glued them all to my tide lid.</p>' +
+			'<p>I then threaded 4 thin wires through the 4 small holes in the Tide lid, and attached each thin wire to a hole of the bottle lid.  In retrospect, I should have done this before attaching the flowers to the Tide lid.</p>' +
+			'<p>Finally, I made a loop of thin wire and attached three long pieces of wire to that to hold up the bottle.  I made some sugar-water (1:4 sugar:water, boiled) and put it in my Orangina bottle, then screwed the base on upside down.  I brought it outside, inverted it, and hung it on a nail along a rafter outside the kitchen.</p>' +
+			'<p>I hope the hummingbirds notice!</p>',
+		'images' : [
+			{
+				'caption': 'The tide bottle as raw material.',
+				'url': 'img/IMG_20140628_161714876.jpg'
+			},
+			{
+				'caption': 'Plastic flowers from hot-glued petals.',
+				'url': 'img/IMG_20140628_140913509.jpg'
+			},
+			{
+				'caption': 'Attached to Tide lid.',
+				'url': 'img/IMG_20140628_141402807.jpg'
+			},
+			{
+				'caption': 'Metal wire to hold the base to the bottle.',
+				'url': 'img/IMG_20140628_142942235_HDR.jpg'
+			},
+			{
+				'caption': 'Big hole for drainage, small holes for support.',
+				'url': 'img/IMG_20140628_142930339.jpg'
+			},
+			{
+				'caption': 'Bottle lid attached to base.',
+				'url': 'img/IMG_20140628_143616172_HDR.jpg'
+			},
+			{
+				'caption': 'Ready for hummingbirds!',
+				'url': 'img/IMG_20140628_161827136.jpg'
+			}
+		]
+	}
 ];
