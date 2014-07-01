@@ -1,2 +1,0 @@
-chown pi:www-data ../../js/contents.js
-chmod 664 ../../js/contents.js
