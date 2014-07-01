@@ -1,2 +1,2 @@
-chown pi:www-data /var/www/house/js/contents.js
-chmod 664 /var/www/house/js/contents.js
+chown pi:www-data ../../js/contents.js
+chmod 664 ../../js/contents.js
