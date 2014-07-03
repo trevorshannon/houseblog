@@ -112,19 +112,35 @@ blogApp.controller('BlogController', function($scope, $sce) {
   };
 });
 
+/**
+ * Angular JS controller for online posting tool
+ * 
+ */
+
 blogApp.controller('PostController', function($scope) {
     $scope.selectors = [];
     $scope.addText = "Add image";
+    // TODO(trevor): put array of authors in js
     $scope.authorValue = "Katie";
     $scope.showLoadingOverlay = false;
-
+    
+    // maximum possible images to upload.  matches setting in php.ini
     var UPLOAD_LIMIT = 20;
 
+    /**
+     * Generates a new image object
+     */
     function blankImage() {
 	this.filename = "";
         this.caption = "";
     }
 
+    /**
+     * Returns an empty string for undefined inputs
+     *
+     * @param {String} s The string to clean up
+     * TODO (trevor): make it work
+     */
     function clean(s) {
         if (s === undefined){
             return '';
@@ -132,6 +148,11 @@ blogApp.controller('PostController', function($scope) {
         return s;
     }
 
+    /**
+     * Adds a blank file to the internal
+     * array of files.  The actual file data gets populated when the user
+     * selcts a file (usually a post image) with the HTML form input. 
+     */
     $scope.addFile = function() {
         if ($scope.selectors.length >= UPLOAD_LIMIT) {
             return;
@@ -145,6 +166,10 @@ blogApp.controller('PostController', function($scope) {
         $scope.savePost();
     }
 
+    /**
+     * Removes the last file from the internal array of files.
+     * 
+     */
     $scope.removeFile = function() {
         if ($scope.selectors.length == UPLOAD_LIMIT) {
             $scope.addText = "Add another image";
@@ -156,6 +181,12 @@ blogApp.controller('PostController', function($scope) {
         $scope.savePost();
     }
 
+    /**
+     * Moves the given file up (to a lower index) in the internal 
+     * array of files.
+     *
+     * @param {int} i The file to move up
+     */
     $scope.moveFileUp = function(i) {
         if (i > 0) {
 	    var thisItem = $scope.selectors.splice(i, 1)[0];
@@ -163,6 +194,12 @@ blogApp.controller('PostController', function($scope) {
 	}
     }
 
+    /**
+     * Moves the given file down (to a higher index) in the internal 
+     * array of files.
+     *
+     * @param {int} i The file to move down
+     */
     $scope.moveFileDown = function(i) {
         if (i < $scope.selectors.length - 1) {
 	    var thisItem = $scope.selectors.splice(i, 1)[0];
@@ -170,14 +207,25 @@ blogApp.controller('PostController', function($scope) {
         }
     }
 
+    /**
+     * Returns the current date as a human-readable string
+     */
     $scope.getCurrentDateString = function() {
 	return getDateString(Date.now());
     };
 
+    /**
+     * Returns an string with formatted for HTML display
+     *
+     * @param {String} content The string to format
+     */
     $scope.previewContent = function(content) {
         return content.replace(/\n/g, "<br>")
     }
 
+    /**
+     * Saves current post being written to HTML5 local storage
+     */
     $scope.savePost = function() {
         localStorage.title = $scope.titleValue;
         localStorage.content = $scope.contentValue;
@@ -185,6 +233,9 @@ blogApp.controller('PostController', function($scope) {
         localStorage.selectors = JSON.stringify($scope.selectors);
     }
 
+    /**
+     * Loads post data from HTML5 local storage
+     */
     $scope.loadLastPost = function() {
         $scope.titleValue = clean(localStorage.title);
 	$scope.contentValue = clean(localStorage.content);
@@ -192,7 +243,4 @@ blogApp.controller('PostController', function($scope) {
         $scope.selectors = JSON.parse(localStorage.selectors);
     }
 
-    $scope.showLoading = function() {
-        $scope.showLoadingOverlay = true;
-    }
 });
