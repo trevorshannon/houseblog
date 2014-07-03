@@ -579,7 +579,6 @@ var posts = [
 			}
 		]
 	},
-<<<<<<< HEAD
 	{
 		'title': 'The Ceiling Rains Down',
 		'date': 1404193781000,
