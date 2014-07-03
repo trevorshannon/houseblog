@@ -578,5 +578,35 @@ var posts = [
 				'url': 'img/IMG_20140628_161827136.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Uploading stuff',
+		'date': 1404362659000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Hello there.</p>',
+		'images' : [
+		]
+	},
+	{
+		'title': 'Uploading stuff',
+		'date': 1404362688000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Hello there.</p>',
+		'images' : [
+			{
+				'caption': 'wedding',
+				'url': 'img/kitchen_white_cabinets.jpg'
+			},
+			{
+				'caption': 'we got married',
+				'url': 'img/kitchen_white_cabinets_wood_floor_wall_color.jpg'
+			},
+			{
+				'caption': 'wow',
+				'url': 'img/kitchen_white_cabinets_wood_floor_wall_color_red.jpg'
+			}
+		]
 	}
 ];
