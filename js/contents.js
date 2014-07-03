@@ -578,5 +578,53 @@ var posts = [
 				'url': 'img/IMG_20140628_161827136.jpg'
 			}
 		]
+	},
+	{
+		'title': 'The Ceiling Rains Down',
+		'date': 1404193781000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>For lack of anything better to work on this weekend, I tackled the ceiling in our third bedroom.  It\'s the smallest of the rooms, and since I got lots of practice removing ceiling drywall in the sewing room, the removal was quick and painless.  Well, ok it was hot and sweaty and exhausting, but it was <i>relatively</i> quick and painless.</p>' +
+			'<p>Unlike last time, I had an attack plan: go for the nails.  Each sheet of drywall is nailed (or screwed...I still don\'t understand why both were used) to the underlying tongue and groove wood.  By simply removing the nails and screws, the ceiling should just fall off, right?  Sort of.  The ceiling drywall did come down in much larger pieces than last time we attempted this, but it wasn\'t quite that simple. Sometimes the drywall was stuck to the paint, or I didn\'t find that one rogue screw, or the corner was just too tight to remove the nail.</p>' +
+			'<p>I found the fasteners with a strong magnet beforehand and marked them with a grease pencil.  That made my work a lot easier down the road, because I could quickly make my way across the ceiling without needing to switch tools at every nail.  Then it was a lot of pulling and making dust until the ceiling was on the floor.  Luckily, I was ready for the mess and installed plastic sheeting with a fan blowing out the window to manage dust.  The plastic sheet also made clean up easy.  It turns out that stuff goes more smoothly when you plan ahead!</p>' +
+			'<p></p>',
+		'images' : [
+			{
+				'caption': 'Bring it on.',
+				'url': 'img/IMG_20140628_155333.jpg'
+			},
+			{
+				'caption': 'Keeping the dust under control.',
+				'url': 'img/IMG_20140628_144941.jpg'
+			},
+			{
+				'caption': 'Fasteners marked...',
+				'url': 'img/IMG_20140628_132618.jpg'
+			},
+			{
+				'caption': 'And removed.',
+				'url': 'img/IMG_20140628_144954.jpg'
+			},
+			{
+				'caption': 'Oh, hello wood!',
+				'url': 'img/IMG_20140628_170917.jpg'
+			},
+			{
+				'caption': 'I was pretty proud of this piece.',
+				'url': 'img/IMG_20140628_171035.jpg'
+			},
+			{
+				'caption': 'Lots of metal corners to remove.',
+				'url': 'img/IMG_20140628_210739-MOTION.gif'
+			},
+			{
+				'caption': 'That\'s our indoor wheelbarrow.',
+				'url': 'img/IMG_20140629_192801.jpg'
+			},
+			{
+				'caption': 'Next up: paint!',
+				'url': 'img/IMG_20140629_192806.jpg'
+			}
+		]
 	}
 ];
