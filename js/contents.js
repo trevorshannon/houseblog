@@ -626,5 +626,26 @@ var posts = [
 				'url': 'img/IMG_20140629_192806.jpg'
 			}
 		]
+	},
+	{
+		'title': 'More Ceiling Caulking',
+		'date': 1406905096000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Not much action for the last two weeks, but I got back in the swing of things by caulking the gaps in our newly-exposed tongue and groove ceiling.  The caulk lightens the gaps nicely and now two rooms have ceilings ready for paint!  The sewing room has more work to do, but the third bedroom is ready for the walls to be smoothed.  A project for another day.</p>',
+		'images' : [
+			{
+				'caption': 'Partially caulked.',
+				'url': 'img/IMG_20140729_191854.jpg'
+			},
+			{
+				'caption': 'Almost done.',
+				'url': 'img/IMG_20140729_191842.jpg'
+			},
+			{
+				'caption': 'All done!',
+				'url': 'img/IMG_20140729_193552.jpg'
+			}
+		]
 	}
 ];
