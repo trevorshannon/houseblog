@@ -17,8 +17,9 @@
 			<div class="nav">About</div>
 		</div>
 		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
-			<div class="nav">Posts</div>
-			<a class="menuItem" href="index.html#post{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
+			<div class="nav">Recent Posts</div>
+			<a class="menuItem" href="" ng-click="loadPosts(post.index, post.index + 1)" 
+			   ng-repeat="post in posts | orderBy:'date':true | limitTo: 9" ng-show="showingMenu">
 				{{post.title}}
 			</a>
 		</div>

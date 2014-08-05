@@ -26,11 +26,60 @@ function getDateString(date) {
   return d.toLocaleDateString("en-US", options);
 };
 
-blogApp.controller('BlogController', function($scope, $sce) {
+blogApp.controller('BlogController', function($scope, $sce, $location) {
   $scope.posts = formatPosts(posts);  
   $scope.showingMenu = false;
   
-
+  // number of posts per page
+  $scope.numPosts = 3;
+  loadPostIndices();
+  
+  /**
+   * Loads the indices of the current post from the URL.
+   */
+  function loadPostIndices() {
+  	var params = $location.search();
+  	if (params.start && params.end) {
+  	  $scope.startPost = params.start;
+  	  $scope.endPost = params.end;
+  	} else {
+      $scope.endPost = posts.length;
+      $scope.startPost = $scope.endPost - $scope.numPosts;
+    }
+  }
+  
+  /**
+   * Navigates to earlier posts.
+   */
+  $scope.showEarlierPosts = function() {
+    $scope.endPost = Math.max($scope.numPosts, $scope.startPost);
+    $scope.startPost = Math.max(0, $scope.startPost - $scope.numPosts);
+    $scope.loadPosts($scope.startPost, $scope.endPost);
+  };
+  
+  /**
+   * Navigates to more recent posts.
+   */
+  $scope.showLaterPosts = function() {
+    $scope.startPost = Math.min(posts.length - $scope.numPosts, $scope.startPost + $scope.numPosts);
+    $scope.endPost = Math.min(posts.length, $scope.startPost + $scope.numPosts);
+    $scope.loadPosts($scope.startPost, $scope.endPost);
+  };
+  
+  /**
+   * Updates the URL to load a set of posts
+   * @param {int} start The start index
+   * @param {int} end The end index
+   */
+  $scope.loadPosts = function(start, end) {
+  	var url = $location.absUrl();
+  	var urlParts = url.split('#')[0].split('/')
+  	var base = urlParts.slice(0, urlParts.length - 1).join('/');
+	$location.search() == {};
+    $location.search({'start': start, 'end': end});
+  	window.location.assign(base + '/index.html#' + $location.url());
+  }
+  
   $scope.getDateString = function(date) {
     return getDateString(date);
   };
@@ -102,7 +151,7 @@ blogApp.controller('BlogController', function($scope, $sce) {
   function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
       posts[i].index = i;
-      //TODO(katie): Figure out whitelisting then remove this line.
+      //TODO(katie): Figure out whitelisting for videos then remove this line.
       posts[i].contents = $sce.trustAsHtml(posts[i].contents)
       for (var j = 0; j < posts[i].images.length; j++) {
       	posts[i].images[j].index = [i,j];
@@ -110,13 +159,14 @@ blogApp.controller('BlogController', function($scope, $sce) {
     }
     return posts;
   };
+  
 });
+
 
 /**
  * Angular JS controller for online posting tool
  * 
  */
-
 blogApp.controller('PostController', function($scope) {
     $scope.selectors = [];
     $scope.addText = "Add image";

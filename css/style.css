@@ -94,7 +94,19 @@ a.menuItem {
   color: #FFF;
   text-decoration: none;
 }
-
+.prevNextWrapper {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 30px;
+}
+.next {
+  float: left;
+}
+.previous {
+  float: right;
+}
 
 .post {
   width: 640px;

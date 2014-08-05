@@ -11,14 +11,15 @@
 	<script type="text/javascript" src="js/contents.js"></script>
 </head>
 <body ng-controller="BlogController" ng-keydown="scrollOverlayKey($event)">
-	<div id="header"><div id="headerContents">
+	<div id="header"><a name="top"><div id="headerContents">
 		<h1>House of Granite</h1>
 		<div class="menu">
 			<div class="nav"><a href="about.html">About</a></div>
 		</div>
 		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
-			<div class="nav" >Posts</div>
-			<a class="menuItem" href="#post{{post.index}}" ng-repeat="post in posts | orderBy:'date':true" ng-show="showingMenu">
+			<div class="nav" >Recent Posts</div>
+			<a class="menuItem" href="" ng-click="loadPosts(post.index, post.index + 1)" 
+			   ng-repeat="post in posts | orderBy:'date':true | limitTo: 9" ng-show="showingMenu">
 				{{post.title}}
 			</a>
 		</div>
@@ -31,7 +32,8 @@
 			</div>
 			<div class="overlayBackground"></div>
 		</div>
-		<div class="post" ng-repeat="post in posts | orderBy:'date':true" id="post{{post.index}}">
+		<!--<div class="post" ng-repeat="post in posts | orderBy:'date':true | limitTo:numPosts" id="post{{post.index}}">-->
+		<div class="post" ng-repeat="post in posts.slice(startPost, endPost) | orderBy:'date':true" id="post{{post.index}}">
 			<div class="date">{{ getDateString(post.date) }}</div>
 			<h2>{{post.title}}</h2>
 			<div ng-bind-html="post.contents"></div>
@@ -41,6 +43,10 @@
 			</div>
 			<br clear="all">
 			<div class="author"> - {{post.author}}</div>
+		</div>
+		<div class="prevNextWrapper">
+			<span class="next" ng-show="endPost < posts.length"><a href="" ng-click="showLaterPosts()">Later Posts</a></span>
+			<span class="previous" ng-show="startPost > 0"><a href="" ng-click="showEarlierPosts()">Earlier Posts</a></span>
 		</div>
 	</div>
 	<div id="footer">Written in AngularJS by <a href="http://dektar.com">Katie</a>, designed by Katie and Annika, posts by Katie and <a href="http://www.trevorshp.com">Trevor</a>. 2014.</div>
