@@ -71,13 +71,16 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
    * @param {int} start The start index
    * @param {int} end The end index
    */
-  $scope.loadPosts = function(start, end) {
+  $scope.loadPosts = function(start, end, fromIndex) {
   	var url = $location.absUrl();
   	var urlParts = url.split('#')[0].split('/')
   	var base = urlParts.slice(0, urlParts.length - 1).join('/');
 	$location.search() == {};
     $location.search({'start': start, 'end': end});
-  	window.location.assign(base + '/index.html#' + $location.url());
+  	window.location.href = base + '/index.html#' + $location.url();
+  	if (fromIndex) {
+  	  window.location.reload(true);
+  	}
   }
   
   $scope.getDateString = function(date) {
