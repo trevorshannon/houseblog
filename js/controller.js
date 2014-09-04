@@ -78,7 +78,7 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
 	$location.search() == {};
     $location.search({'start': start, 'end': end});
   	window.location.href = base + '/index.html#' + $location.url();
-  	if (fromIndex) {
+  	if (fromIndex || url.search('index.html') == -1) {
   	  window.location.reload(true);
   	}
   }
