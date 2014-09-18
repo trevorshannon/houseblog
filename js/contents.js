@@ -647,5 +647,211 @@ var posts = [
 				'url': 'img/IMG_20140729_193552.jpg'
 			}
 		]
+	},
+	{
+		'title': 'The Beginnings of a Workshop',
+		'date': 1408681002000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>One of the many reasons we bought a house was to get space for a workshop. I love building stuff, and a garage is the perfect place for such things.  I decided to build a workbench, both as a fun project and as a way to get the exact workbench I wanted.  After some research, I found out that the workbench I want turned out to be the workbench lots of other people want too, and so I just followed <a href=\"http://www.familyhandyman.com/workshop/workbench/simple-workbench-plans\">plans</a> from The Family Handyman.</p>' +
+			'<p>I was able to put together a functional bench in a day, but the drawers took a bit longer&mdash;so many small pieces to cut and glue together!  One deviation from the plans was in the drawer pulls.  I didn\'t want to buy hardware for the drawers, so I made good use of my router table to cut some wooden handles.  Overall, it was a really fun woodworking project and a nice way to \"break in\" the garage shop.</p>' +
+			'<p>Can\'t wait to build more stuff in my new shop!</p>',
+		'images' : [
+			{
+				'caption': 'All loaded up with lumber.',
+				'url': 'img/IMG_20140803_125613.jpg'
+			},
+			{
+				'caption': 'Cuttin\' some wood.',
+				'url': 'img/IMG_20140803_192229-MOTION.gif'
+			},
+			{
+				'caption': 'Attaching the edging.',
+				'url': 'img/IMG_20140803_192111.jpg'
+			},
+			{
+				'caption': 'Great success after a hard day\'s work!',
+				'url': 'img/IMG_20140803_193930.jpg'
+			},
+			{
+				'caption': 'Side view.',
+				'url': 'img/IMG_20140803_193936.jpg'
+			},
+			{
+				'caption': 'Time for the drawers.',
+				'url': 'img/IMG_20140804_081517.jpg'
+			},
+			{
+				'caption': 'Drawers made from plywood.',
+				'url': 'img/IMG_20140806_202424.jpg'
+			},
+			{
+				'caption': 'Wooden handles.',
+				'url': 'img/IMG_20140821_210851.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Building a Redwood Gate',
+		'date': 1409808058000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>We wanted to remove the white plastic (yea, plastic) fence in our front yard.  However, since we already removed the <a href=\"index.html#?start=12&end=13\">side shed</a> we\'d have no backyard privacy.  So, before the fence came down, a new gate had to go up where the shed once was.</p>' +
+			'<p>My parents were in town for the long weekend, and this turned out to be the perfect project for us to tackle.  My dad and I thought a lot about the gate\'s design and eventually came up with a pretty good plan and a nice long shopping list for the home improvement store.  The plan was to attach a post to the house wall and a second post to the existing fence for the other side of the gate.  I really wanted to make the entire gate out of wood, as I don\'t like the look of the welded steel gate frames.  So, at the risk of having a saggy gate in a few years, we bought a bunch of redwood and got to work.</p>' +
+			'<p>You know that measure twice, cut once thing?  Pretty good idea.  We cut a beautiful fence post out of a 4x4 redwood post&mdash;slanted top for water run-off, counterbored holes for the lag bolts, it was really nice.  Only we couldn\'t attach it to the wall.  It turns out our house\'s foundation is thick.  Really thick.  And it\'s hard to screw a lag bolt into concrete when you\'re expecting a wooden stud.  We ended up putting the bottom lag bolt hole a little too close to the ground, which prevented us from attaching the post to the house as intended.  So, Katie went out to buy another redwood post and we set to work adapting the oops-post for the other side of the gate.</p>' +
+			'<p>Once Katie returned with the lumber, we\'d spent a good 3 hours on the project and had...a post bolted to a fence.  Nice work, team!  Things moved faster after that, especially because we had so much practice making the house-side fence post.  Once both posts were up, we measured the opening and planned out the gate doors.  The span was about 6 feet, so we planned for two doors of equal size.  For added strength (and the illusion of professionalism), I opted for <a href=\"http://en.wikipedia.org/wiki/Lap_joint\">half lap joints</a> at the corners of the gate door frames.  It was my first time making such a joint, so I got a brand new dado blade just for that.  It was fairly painless (although time consuming) and I\'m really happy with the result.</p>' +
+			'<p>The next day, after the glue dried, we cut the diagonal crossbeams and screwed them in place.  Before adding the fence pickets, we figured out where the hinges would go by temporarily hanging the gates.  Then pulled the gates down and attached the pickets.  After re-installing the gates, we just had to add a latch and cane bolt.  We got our neighbor to help out with the cane bolt hole&mdash;it was cool to see a hammer drill at work!</p>' +
+			'<p>It\'s great to have a well-built gate in place, and I think it makes the house look nicer.</p>',
+		'images' : [
+			{
+				'caption': 'This\'ll be easy!  We have power tools.',
+				'url': 'img/download_20140903_220632.jpeg'
+			},
+			{
+				'caption': 'Yea Trev, I don\'t think that\'s going to fit.',
+				'url': 'img/IMG_20140831_171501.jpg'
+			},
+			{
+				'caption': 'Both posts finally installed.',
+				'url': 'img/IMG_20140831_172437.jpg'
+			},
+			{
+				'caption': 'Katie measuring out pieces for the frames.',
+				'url': 'img/IMG_20140831_181040.jpg'
+			},
+			{
+				'caption': 'Lap joints on the frames.',
+				'url': 'img/IMG_20140831_214238.jpg'
+			},
+			{
+				'caption': 'Glue is dry, and the frames fit!',
+				'url': 'img/IMG_20140901_091909.jpg'
+			},
+			{
+				'caption': 'Crossbeam',
+				'url': 'img/IMG_20140901_094412.jpg'
+			},
+			{
+				'caption': 'First gate installed.',
+				'url': 'img/IMG_20140901_114832.jpg'
+			},
+			{
+				'caption': 'Second gate installed.',
+				'url': 'img/IMG_20140901_160729.jpg'
+			},
+			{
+				'caption': 'Every gate needs a latch.',
+				'url': 'img/IMG_20140901_165112.jpg'
+			},
+			{
+				'caption': 'Back side of the gates.',
+				'url': 'img/IMG_20140901_165132.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Yard Improvements',
+		'date': 1409890963000,
+		'author': 'Katie',
+		'contents' :
+			'<p>After Trevor and Jack finished their beautiful redwood gate to the back yard we started working on taking down the white plastic fence in the front yard.  The fence is constructed with wooden posts wrapped in plastic sheathing, so we pulled off the plastic outsides and pulled up the posts from the cement, cut them shorter, and shoved the ends back in so as not to leave a big hole in the ground.  Or cut them off at the ground.<br>Lorraine started by cutting the posts at the level of the ground, but this turned out to be extra hard work as they were wet and dense.<br>Next, Trevor drilled a really huge hole through a post and shoved rebar through, which everyone pulled on to actually pull the post from the ground.  This seemed to work better!  The Shannons were able to remove all the fence along the front of the yard and along the car parking spot, making our house look better and the yard look bigger.</p>' +
+			'<p>While the guys were building their gate, Lorraine and I made some yard art from the redwood scraps.  She made a pretty petaled flower, and we found an old tablesaw blade to use in the center, and hung it on the fence.  I made some chunky redwood bunnies.</p>' +
+			'<p>In addition, Lorraine did a lot of work to make our garden look better -- pruning, trimming, watering, and generally caring for the plants back there.  While she was doing that, I helped the kittens experiment with crumpled paper and naps.</p>' +
+			'<p><iframe width=\"640\" height=\"390\" src=\"//www.youtube.com/embed/KTG9h_dlFr0\" frameborder=\"0\" allowfullscreen></iframe></p>',
+		'images' : [
+			{
+				'caption': 'Lorraine\'s first post!',
+				'url': 'img/IMG_20140901_084306.jpg'
+			},
+			{
+				'caption': 'Great progress!',
+				'url': 'img/IMG_20140901_162653.jpg'
+			},
+                        {
+                                'caption': 'Removing posts with rebar.',
+                                'url': 'img/IMG_20140901_132214234.jpg'
+			},
+			{
+				'caption': 'The yard is much bigger.',
+				'url': 'img/IMG_20140902_190044.jpg'
+			},
+			{
+				'caption': 'Lorraine pruning.',
+				'url': 'img/IMG_20140831_134907327.jpg'
+			},
+			{
+				'caption': 'Working on the sunflower.',
+				'url': 'img/IMG_20140901_170427639.jpg'
+			},
+			{
+				'caption': 'The finished sunflower.',
+				'url': 'img/download_20140904_205341.jpeg'
+			},
+			{
+				'caption': 'Napping cat.',
+				'url': 'img/IMG_20140901_165912040.jpg'
+			}
+		]
+	},
+	{
+		'title': 'The Yellow Room',
+		'date': 1411019818000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>The room wasn\'t always yellow.  It started out a boring tan with textured walls, bullnose corners, and drywall on the ceiling.  But it\'s fixed now!</p>' +
+			'<p>After <a href=\"index.html#?start=15&end=16\">removing the ceiling drywall</a>, we spent a few days resurfacing the walls.  They had knock-down texture on them which looked terrible, especially because the walls were painted with high-gloss paint.  You\'d have been able to see your reflection in those walls if it weren\'t for all the texture. Resurfacing the walls involves lots of drywall compound (mud).  Like 40 pounds of it!  The idea is to slowly build up the wall by adding thin layers of watered-down mud, and we ended up adding 3 full layers with a fourth in certain troublesome areas.  It\'s not <i>hard</i> work, but it sure does take a lot of time.  We figured we\'d smooth the walls, paint the room, and get trim up in a weekend.  Yea, right.  After about a week and a half, we finished smoothing the walls.  A lot of the work was done by Katie while I built our new <a href=\"index.html#?start=18&end=19\">fence gate</a>.</p>' +
+			'<p>Time to prime and paint!  After a lot of pondering and asking of second opinions, we decided to go with a nice yellow color for the room.  It\'s not a very sunny room, so the yellow made it feel much brighter.  The painting was the easy part&mdash;it went on easy, and looks great!</p>' +
+			'<p>The trim was harder.  After cutting what seemed like every piece either too short or at the wrong angle, I finished nailing a 5/8\" cove trim around the ceiling.  I kept getting the newly-painted walls all dirty when I installed the trim, so we would probably swap the order on our next room and really leave the painting for the very end.  Luckily, the paint we bought is scrubbable and I was able to clean it right up.  I wasn\'t too happy with the way the mitered corners turned out.  It was very difficult to deal with walls and corners that weren\'t square...I guess that\'s what caulk is for.</p>' +
+			'<p>The room looks great now!  Much brighter, and Katie and I are loving the smooth, crisp walls.  Up next: installing an overhead light and trimming the window.</p>',
+		'images' : [
+			{
+				'caption': 'That\'s gonna leave a mark.',
+				'url': 'img/IMG_20140823_123243.jpg'
+			},
+			{
+				'caption': 'Removing the (granite) window stool.',
+				'url': 'img/IMG_20140823_133020-MOTION.gif'
+			},
+			{
+				'caption': 'A new, sharp corner',
+				'url': 'img/IMG_20140823_183104.jpg'
+			},
+			{
+				'caption': 'The mud saga begins.',
+				'url': 'img/IMG_20140824_133148.jpg'
+			},
+			{
+				'caption': 'Nearly done after a ton of work by Katie.',
+				'url': 'img/IMG_20140905_075747.jpg'
+			},
+			{
+				'caption': 'That closet\'s airtight...or something.',
+				'url': 'img/IMG_20140827_193222.jpg'
+			},
+			{
+				'caption': 'Hmmm...I like the left one.',
+				'url': 'img/IMG_20140906_133729.jpg'
+			},
+			{
+				'caption': 'Yea, definitely the left one.',
+				'url': 'img/IMG_20140906_181921.jpg'
+			},
+			{
+				'caption': 'Katie making all the edges yellow.',
+				'url': 'img/IMG_20140906_185012.jpg'
+			},
+			{
+				'caption': 'It was pretty cramped sometimes.',
+				'url': 'img/IMG_20140906_192115.jpg'
+			},
+			{
+				'caption': 'Ceiling trim, painted and ready to go.',
+				'url': 'img/IMG_20140907_150804.jpg'
+			},
+			{
+				'caption': 'Ceiling trim is up!  A final layer of paint covers the nail holes.',
+				'url': 'img/IMG_20140909_080702.jpg'
+			}
+		]
 	}
 ];
