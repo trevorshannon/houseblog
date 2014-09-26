@@ -853,5 +853,104 @@ var posts = [
 				'url': 'img/IMG_20140909_080702.jpg'
 			}
 		]
+	},
+	{
+		'title': 'A Little Electrical Work',
+		'date': 1411363136000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>There was a ceiling fan (with lights) in the yellow room before we made it yellow.  Unfortunately, the wire for that fan was run directly along the main ceiling beam, hidden underneath all the drywall Katie and I removed.  So, we had to figure out a different way to get power to the center of the ceiling for our overhead light.</p>' +
+			'<p>After much hemming and hawing, I finally agreed that surface mounted indoor conduit doesn\'t really look that bad.  The plan was to run some conduit alongside main ceiling beam, pressed up against the tongue and groove slats.  In order to do that, I needed just a few more inches of wire.  The proper way to extend wire is to add a junction box somewhere and take new wire (as long as you need) from there.  I found out that junction boxes also have to be accessible, and someone suggested (most brilliantly) that if a junction box is needed somewhere, you might as well install an outlet to serve as the junction.  So I did!</p>' +
+			'<p>I added an outlet above the closet in our yellow room, which might actually come in handy if we ever convert the space above the closet to a reading nook.  It was my first time doing electrical work on our new house.  It was also my first time cutting holes in freshly-painted drywall... It took forever to actually find the wire in the wall, as there was some weird wall-on-top-of-wall stuff going on (previous renovations, don\'t ask) that put the wire in a very strange place.  I eventually found that devious wire, cut it short, and popped in an outlet box.  Then, I ran new wire back to the ceiling and through indoor conduit to the center of the room.  Looks great so far, it\'s just missing a light fixture.</p>',
+		'images' : [
+			{
+				'caption': 'I know!  The wire is here.',
+				'url': 'img/IMG_20140909_220122.jpg'
+			},
+			{
+				'caption': 'Uhh, wait.  I mean here.  No, here.',
+				'url': 'img/IMG_20140910_193332.jpg'
+			},
+			{
+				'caption': 'Finally installed the outlet box',
+				'url': 'img/IMG_20140910_213114.jpg'
+			},
+			{
+				'caption': 'I didn\'t invent this clever patching technique.',
+				'url': 'img/IMG_20140910_224611.jpg'
+			},
+			{
+				'caption': 'Patching the small hole.',
+				'url': 'img/IMG_20140910_224913.jpg'
+			},
+			{
+				'caption': 'More patching.',
+				'url': 'img/IMG_20140911_183056.jpg'
+			},
+			{
+				'caption': 'Hey! Where\'d the patches go?',
+				'url': 'img/IMG_20140913_111306.jpg'
+			},
+			{
+				'caption': 'That\'s me, installing conduit.',
+				'url': 'img/IMG_20140913_145738.jpg'
+			},
+			{
+				'caption': 'Finished run.',
+				'url': 'img/IMG_20140915_210913.jpg'
+			}
+		]
+	},
+	{
+		'title': 'New Window Trim',
+		'date': 1411703995000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Another post about the yellow room!  This time it\'s all about the room\'s window.  The window used to have a granite window stool and rounded corners all around. (I learned that the stool is the proper name for that thing I would have called the sill.  Turns out the sill is only on the outdoor side.)  We wanted a cleaner, crisper look, so we bypassed the fancy window trim at the store and picked up some plain ol\' wood to trim our window like shown here.</p>' +
+			'<p><a href=\"http://cottagelife.com/files/2012/01/Window-trim-illo-Jacques.jpg\"><img class=\"featuredImage\" alt=\"window trim diagram\" src=\"http://cottagelife.com/files/2012/01/Window-trim-illo-Jacques.jpg\"/></a><br>We got a wide 1x8 for the stool, 1x3\'s for the surrounding trim, a 1x4 for the top piece, and a 1x2 for a little accent strip.  We got poplar for the stool and apron (bottom two pieces of the trim) and softer pine for the more decorative parts of the trim.</p>' +
+			'<p>With all the supplies ready, I got to work!  The 1x8 turned out to be a little too wide for the stool, so I trimmed it down to a 1x6, and made a note to just buy a 1x6 when we do the next window.  I cut out clearance for the jamb using a hand saw, as I couldn\'t think of a good way to do it with power tools.  It actually wasn\'t too bad&mdash;the cuts came out pretty straight in the end.  I also used a router table to round the edges of the stool just a bit for durability and comfort.  All the other pieces were simpler than the stool, as I just had to cut them all to length.  I used 2\" finishing nails to install all the bits, and suddenly the window looked a thousand times better!  I also took the opportunity to fill some gaps around the window with insulating foam and replace all the vinyl edging around the window.</p>' +
+			'<p>Katie helped prime the trim and then I stayed up late to paint the whole thing the next night.  The window looks so much better than before; Katie and I love it!</p>',
+		'images' : [
+			{
+				'caption': 'Cutting the stool to length.',
+				'url': 'img/IMG_20140917_184643.jpg'
+			},
+			{
+				'caption': 'Notching the corners.',
+				'url': 'img/IMG_20140917_191445.jpg'
+			},
+			{
+				'caption': 'Corner: notched.',
+				'url': 'img/IMG_20140917_193650.jpg'
+			},
+			{
+				'caption': 'Better already!',
+				'url': 'img/IMG_20140917_193931.jpg'
+			},
+			{
+				'caption': 'Rounded edges and another piece in place.',
+				'url': 'img/IMG_20140918_182502.jpg'
+			},
+			{
+				'caption': 'It\'s like a whole new window.',
+				'url': 'img/IMG_20140918_201313.jpg'
+			},
+			{
+				'caption': 'This insulating foam is pretty fun.',
+				'url': 'img/IMG_20140918_223253.jpg'
+			},
+			{
+				'caption': 'Katie laying down the primer.',
+				'url': 'img/IMG_20140919_183608.jpg'
+			},
+			{
+				'caption': 'All done.',
+				'url': 'img/IMG_20140920_121839.jpg'
+			},
+			{
+				'caption': 'Works great!',
+				'url': 'img/IMG_20140920_160720.jpg'
+			}
+		]
 	}
 ];
