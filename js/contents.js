@@ -952,5 +952,201 @@ var posts = [
 				'url': 'img/IMG_20140920_160720.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Ceiling Light',
+		'date': 1413521352000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>The final step for the yellow room was to install an overhead light fixture.  Katie and I decided on a modern globe light because it matched the decor and was easy to mount on a narrow ceiling beam.  I had already prepared the electrical, so all we had to do was mount it.  Easier said than done!  The lighting store ordered a part in the wrong size, so that delayed the project a bit.  When I exchanged the part I also gave back the mounting instructions, because surely the replacement would come with its own set of instructions....right? Well, I eventually figured out how all the bits went together.</p>' +
+			'<p>I had to install the fixture without an electrical box.  That\'s not technically allowed, but what\'s one to do when mounting a light onto a solid wooden beam?  I also had to do a bit of customization to allow the surface-mounted wire to enter the light canopy.  Not too big of a job with the proper Dremel attachment.  All in all it was pretty easy to mount the light, and it sure brightens up the room.</p>',
+		'images' : [
+			{
+				'caption': 'Mounting hardware on the beam.',
+				'url': 'img/IMG_20141005_123928.jpg'
+			},
+			{
+				'caption': 'There\'s the light, waiting to be mounted.',
+				'url': 'img/IMG_20141005_123948.jpg'
+			},
+			{
+				'caption': 'Notched and painted canopy.',
+				'url': 'img/IMG_20141005_140230.jpg'
+			},
+			{
+				'caption': 'Affixing the fixture.',
+				'url': 'img/IMG_20141005_134520944.jpg'
+			},
+			{
+				'caption': 'Installed!',
+				'url': 'img/IMG_20141005_143111.jpg'
+			},
+			{
+				'caption': 'Surface-mounted wiring.',
+				'url': 'img/IMG_20141005_143122.jpg'
+			},
+			{
+				'caption': '\"Finished\" room.',
+				'url': 'img/PANO_20141005_172842.jpg'
+			}
+		]
+	},
+	{
+		'title': 'New Electricity',
+		'date': 1414123104000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Ok, so I guess the electricity itself is not new.  But access to it is!  I added three new outlets throughout the house.  Two in the living room where we were always struggling to find someplace to plug in, and one out in the backyard.  The house didn\'t come with any outdoor outlets, so even a single outlet on the back of the house is a big improvement.</p>' +
+			'<p>The actual work was pretty straightforward once I figured out the correct wire size, junction box volume, and conduit fittings.  I certainly learned a lot about residential electrical work, but boy are there a lot of rules.</p>' +
+			'<p>The hardest part of the process was pulling the new wire for the living room outlets.  The wall in question already had a single outlet in the middle, but I wanted to add one at each corner.  That involved removing the center outlet and pulling the wire through the wall with new wire attached.  Lots of grunting and tugging eventually got the wire in the right place.</p>',
+		'images' : [
+			{
+				'caption': 'Got some slack in the wire.',
+				'url': 'img/IMG_20141004_103831.jpg'
+			},
+			{
+			        'caption': 'Stripping the wires.',
+				'url': 'img/IMG_20141004_112248.jpg'
+			},
+			{
+				'caption': 'A new outlet!',
+				'url': 'img/IMG_20141004_113100.jpg'
+			},
+			{
+				'caption': 'Junction box attached to the outside of our house.',
+				'url': 'img/IMG_20141007_181951.jpg'
+			},
+			{
+				'caption': 'The conduit installation was simple.',
+				'url': 'img/IMG_20141007_181940.jpg'
+			},
+			{
+				'caption': 'Outlet and waterproof cover installed.',
+				'url': 'img/IMG_20141009_073328.jpg'
+			},
+			{
+				'caption': 'I added a new breaker and made the living room AFCI protected.',
+				'url': 'img/IMG_20141008_205931.jpg'
+			},
+			{
+				'caption': 'It works!',
+				'url': 'img/IMG_20141008_205848.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Warm kittens, cool house.',
+		'date': 1416104282000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Our house changes temperature by almost ten degrees Fahrenheit every day, so we decided to investigate where the heat was going. Trevor borrowed a Flir thermal imaging camera to see how well our house was insulated. Upon turning it on we discovered that the celulose insulation in the walls had fallen down between almost every stud, leaving us with almost no wall insulation. In addition, we saw the ceiling was very cool, and we know our thin roof has no insulation.<br>Trevor did a calculation to determine that about 60% of our heat is lost through the ceiling (as opposed to the walls), so roof insulation sounds like a good project to tackle soon! Armed with this knowledge we will be able to make informed decisions about where to invest in making our house energy-efficient.<br>We also used the Flir camera to see how warm and well insulated our kittens are! No wonder they are so nice to hold on a cool day.</p>',
+		'images' : [
+			{
+				'caption': 'The past week\'s temps of our house (blue) and outside (yellow).',
+				'url': 'img/Screen_Shot_2014-11-15_at_6.05.46_PM.png'
+			},
+			{
+				'caption': 'The insulation has fallen between the studs.',
+				'url': 'img/IR_0235.jpg'
+			},
+			{
+				'caption': 'The ceiling is not well insulated.',
+				'url': 'img/IR_0329.jpg'
+			},
+			{
+				'caption': 'These thermal images are like house x-rays.',
+				'url': 'img/IR_0269.jpg'
+			},
+			{
+				'caption': 'Warm little kitties.',
+				'url': 'img/IR_0229.jpg'
+			},
+			{
+				'caption': 'Radish has a chilly nose.',
+				'url': 'img/IR_0321.jpg'
+			}
+		]
+	},
+	{
+		'title': 'House Warming',
+		'date': 1416677038000,
+		'author': 'Katie',
+		'contents' :
+			'<p>We needed to replace our old gas heater, a 15-20 year old junker with a pilot light that needed to be lit by hand, blew out easily, a cover which almost fell off every time you tried to open the access door, and no thermostat.</p>' +
+			'<p>When we bought the house, the home inspector said the old heater was in \'poor\' condition -- and I wasn\'t comfortable having it running when we weren\'t home. But we absolutely needed a way to keep the kitties warm if we were gone for a few days during the California \"winter\"!</p>' +
+			'<p>Trevor did a lot of research about what type of heater we should get, researching the pros and cons of mini-splits (electric ductless heating systems) and gas heaters, and even bringing home a Flir camera (see previous post) to see where our house was losing the most heat. While the mini-split is hugely efficient and runs on electric power, we decided to go with another gas heater and invest in insulation instead of an expensive heating system. Our house is pretty small, so hopefully with better insulation and the not-so-cold winters we won\'t need to use very much natural gas at all.</p>' +
+			'<p>We decided to go with the current version of our same heater, assuming this would mean compatibility of the vent and space between the studs. Then we went out to Home Depot and picked one up!</p>' +
+			'<p>First we removed the old heater, and saw that we would need to make some modifications to the new heater\'s legs to avoid the gas pipe and an electrical cord. Then we tried to place the new heater -- it should have slipped right between the studs - but it was just a tad too wide! We bent the mounting fin of one of the legs (non-structural! don\'t worry!), and tried again, and again, and again, until we final bent the fin enough to get the heater to fit.</p>' +
+			'<p>Then we carefully hooked up the gas pipe - which thankfully just used the same fittings as the old heater. We tested the connection with soapy water and made sure there were absolutely no gas leaks.</p>' +
+			'<p>Then, after connecting the thermostat, it was time to test lighting the pilot light and turning it on! The flames in this heater are tidy and cool looking, and it produced a lot of heat.</p>' +
+			'<p><iframe width=\"640\" height=\"390\" src=\"//www.youtube.com/embed/-tHDOOYIemo\" frameborder=\"0\" allowfullscreen></iframe></p>' +
+			'<p>Finally, we put the cover on the heater and the cats gave it a thorough inspection! Finally, we can set the temperature we want in the house, and feel comfortable leaving the house with the heater on.</p>' +
+			'<p>And, to celebrate, everyone played in the big heater box.</p>' +
+			'<p><iframe width=\"640\" height=\"390\" src=\"//www.youtube.com/embed/E3Q6IISs5Ic\" frameborder=\"0\" allowfullscreen></iframe></p>',
+		'images' : [
+			{
+				'caption': 'Old heater removed, installing new header.',
+				'url': 'img/IMG_20141114_212938.jpg'
+			},
+			{
+				'caption': 'New heater installed!',
+				'url': 'img/IMG_20141115_094640.jpg'
+			},
+			{
+				'caption': 'Hooking up gas and the thermostat.',
+				'url': 'img/IMG_20141115_094651.jpg'
+			},
+			{
+				'caption': 'Installing the cover.',
+				'url': 'img/IMG_20141115_095706.jpg'
+			},
+			{
+				'caption': 'Cat inspection.',
+				'url': 'img/IMG_20141115_110018.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Concrete Smashing',
+		'date': 1416677577000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>I recently had no plans for the weekend and a desire to do some physical labor.  So, for lack of anything better to do, I swung a sledgehammer at our patio a lot.  The backyard was covered in concrete, and Katie and I both thought we could do a lot better than that.  I spent two days cracking the patio and sidewalk around the perimeter of our yard, then wheelbarrowing it over to our driveway.  My friend Matt came over to help as well, so the job wasn\'t too difficult.  Our neighbor (who pours concrete) also lent me some of his demolition tools for the job.  I found all sorts of things under (and embedded in) the concrete: pudding containers, wrappers, a dead squirrel&mdash;all sorts of stuff.  After lots of smashing and wheelbarrow-manuvering, we ended up with a huge pile of rubble sitting in our driveway.  I didn\'t have a plan for hauling it away, but I like to take things one step at a time anyway.</p>' +
+			'<p> In the end, our neighbor was able to haul the rubble over to our local dump, so everything worked out. It\'s funny, even with just bare earth around our backyard, it looks better than the concrete that was once there!</p>' +
+			'<p>We don\'t have a...concrete...plan yet for the new backyard landscaping, but we\'re sure it will involve less hardscaping.  Maybe a nice wooden deck and lots of drought-tolerant plants.  We did leave some of the patio unsmashed for somewhere to put our patio furniture for now.</p>',
+		'images' : [
+			{
+				'caption': 'Well concrete, it\'s been real.',
+				'url': 'img/IMG_20141019_132914.jpg'
+			},
+			{
+				'caption': 'The demolition front advances.',
+				'url': 'img/IMG_20141019_143159.jpg'
+			},
+			{
+				'caption': 'One patio square gone!',
+				'url': 'img/IMG_20141019_150954.jpg'
+			},
+			{
+				'caption': 'I found this mummified dude under the patio...',
+				'url': 'img/IMG_20141019_151029.jpg'
+			},
+			{
+				'caption': 'Matt came over to help.',
+				'url': 'img/IMG_20141019_175226.jpg'
+			},
+			{
+				'caption': 'Half the patio gone!',
+				'url': 'img/IMG_20141020_073533.jpg'
+			},
+			{
+				'caption': 'We also removed the perimeter sidewalk.',
+				'url': 'img/IMG_20141020_073551.jpg'
+			},
+			{
+				'caption': 'Ok, so the pile was a lot bigger than I expected.',
+				'url': 'img/IMG_20141023_184221.jpg'
+			}
+		]
 	}
 ];
