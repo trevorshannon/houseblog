@@ -1511,5 +1511,63 @@ var posts = [
 			}
 
 		]
+	},
+	{
+		'title': 'Shower Plumbing',
+		'date': 1425789485000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Katie already posted about the <a href=\"index.html#?start=33&end=34\">bathtub installation</a>, but before we actually got the tub in place, we did a lot of plumbing work.  We had to replace the shower rough-in valve and supply lines as well as move the drain a few inches towards the wall.</p>' +
+			'<p>Step one was moving the drain.  I had thought maybe we could get away with the drain in its existing location due to the fact that we bought an \"above floor rough\" tub.  That means it has extra space underneath the bottom of the tub for pipes.  Sadly, it was not enough space.</p>' +
+			'<p>That drain was embedded in the slab foundation, but it had to move.  I fitted my circular saw with a masonry blade and started cutting through the concrete around the drainage pipe.  I figured the slab would be 3-4\" thick; a few passes with the circular saw and some well-placed strikes with the ol\' sledgehammer would to get the job done.  Yea, that was a nice fantasy.  All said and done, it took me a week of hitting the same square foot of concrete for hours after work to even break through.  That was the hardest concrete I have ever met.  Also, in the area immediately around the drainage pipe, the slab was 8-9\" thick!  By the end, my arms were sore, my back was sore, my legs were sore, my thumb was smashed&mdash;I was a wreck.  But at least the drain pipe was free and I could install a new p-trap and drain.  I bought all the necessary fittings and did many test fits before finally gluing it all up and setting the drain assembly in place.</p>' +
+			'<p>The shower plumbing wasn\'t too hard.  Once we got the rough-in valve, I carefully mapped out all the fittings and adapters I needed and picked them up at the store.  Many of the joints were to be soldered, although those going directly into the valve would be threaded.  It was my first time doing plumbing soldering, which isn\'t all that different from electronics soldering&mdash;just more fire.  Since it was for potable water, I had to use lead-free solder.  I\'ve heard a lot about the difficulties using lead-free solder (and experienced them in electronics soldering), but I had no choice.  There definitely was a bit of a learning curve, but I really got the hang of it after a few joints.</p>' +
+			'<p>One of the threaded joints at the rough-in valve caused a bit of a headache.  When I turned the water back on after finishing the shower plumbing, there was the world\'s smallest leak coming from one of those threaded joints. It was suuuuper slow (maybe 2 drips per day) but definitely there.  Because of the way everything was soldered together, there was no way to tighten the fitting!  I tried to find some sealants that could go on after installation, but didn\'t find anything that I could trust.  Then, I read online that those threaded joints sometimes seal themselves. Ok...worth a shot.  I put a cup under the fitting to catch any drips and keep track of the leak.  Sure enough, the fitting stayed bone-dry after a few days!  I can\'t explain it, but I\'m sure glad everything worked out in the end.</p>' +
+			'<p>Once we had the tub in place, I flushed the system and test filled the tub.  The tub held just fine, and there were no leaks!</p>',
+		'images' : [
+			{
+				'caption': 'Gutted bathroom.',
+				'url': 'img/IMG_20150113_205131.jpg'
+			},
+			{
+				'caption': 'It got really dusty when cutting the concrete.',
+				'url': 'img/IMG_20150114_184343.jpg'
+			},
+			{
+				'caption': 'Working my way through the foundation.',
+				'url': 'img/IMG_20150116_190030-MOTION__1_.gif'
+			},
+			{
+				'caption': 'Drain in place for a test fit.',
+				'url': 'img/IMG_20150117_121201.jpg'
+			},
+			{
+				'caption': 'Filling in around the new drain.',
+				'url': 'img/IMG_20150117_223116.jpg'
+			},
+			{
+				'caption': 'Installing the bathtub drain.',
+				'url': 'img/IMG_20150117_225057865.jpg'
+			},
+			{
+				'caption': 'Planning out the shower plumbing.',
+				'url': 'img/IMG_20150119_201117498.jpg'
+			},
+			{
+				'caption': 'rough-in valve installed.',
+				'url': 'img/IMG_20150121_215219.jpg'
+			},
+			{
+				'caption': 'I\'m proud of this solder joint.',
+				'url': 'img/IMG_20150122_212515.jpg'
+			},
+			{
+				'caption': 'Test filling the tub with gross water.',
+				'url': 'img/IMG_20150125_212019.jpg'
+			},
+			{
+				'caption': 'Our current shower situation.',
+				'url': 'img/IMG_20150126_184438.jpg'
+			}
+		]
 	}
 ];
