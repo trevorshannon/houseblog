@@ -14,11 +14,11 @@
 	<div id="header"><div id="headerContents">
 		<h1><a href="index.html">House of Granite</a></h1>
 		<div class="menu">
-			<div class="nav">About</div>
+			<div class="nav"><a href="about.html">About</a></div>
 		</div>
-		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false">
-			<div class="nav"><a href="history.html">Posts</a></div>
-			<a class="menuItem" href="" ng-click="loadPosts(post.index, post.index + 1, true)" 
+		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
+			<div class="nav">Posts</div>
+			<a class="menuItem" href="" ng-click="loadPosts(post.index, post.index + 1, false)" 
 			   ng-repeat="post in posts | orderBy:'date':true | limitTo: 6" ng-show="showingMenu">
 				{{post.title}}
 			</a>
@@ -27,24 +27,17 @@
 	</div></div>
 	<div class="main">
 		<div class="post">
-			<h2>About</h2>
-			<img class="featuredImage" src="img/IMG_20140530_212237-MOTION.gif">
-			<p>We bought a house so that we would have more space to live, and to do projects,
-			have pets, make changes, and generally have more control over our living situation.</p>
-			<p>We decided to buy a house which needed a lot of cosmetic work so that we could
-			try new things and learn how to do home improvement. This blog shows the projects
-			we've been working on, and maybe some tips and tricks if you want to try this stuff
-			yourself.</p>
-			<h3>Technical Details</h3>
-			<p>The site was designed and written in <a href="https://angularjs.org/">AngularJS</a>,
-			a nifty framework which binds javascript and html variables together. The code
-			is available on <a href="https://github.com/trevorshannon/houseblog">github</a>. 
-			Please give us credit if you use it!</p>
-			<p>This blog is currently running off of a 
-			<a href="http://www.raspberrypi.org/">raspberry pi</a> sitting on the granite
-			floor of our living room.</p>
+			<h2>All Posts</h2>
+			<span ng-repeat="post in posts | orderBy:'date':true">
+				<div class="previewDate">{{getCompactDateString(post.date)}}</div>
+				<div class="preview">
+					<h3><a href="" ng-click="loadPosts(post.index, post.index + 1, false)">{{post.title}}</a></h3>
+					<p>
+					{{post.preview}}...
+					</p>
+				</div>
+			</span>
 			<br clear="all"/>
-			<div class="author"> - Katie and Trevor</div>
 		</div>
 	</div>
 	<div id="footer">Written in AngularJS by <a href="http://dektar.com">Katie</a>, designed by Katie and Annika, posts by Katie and <a href="http://www.trevorshp.com">Trevor</a>. 2014.</div>

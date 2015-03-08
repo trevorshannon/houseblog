@@ -16,12 +16,13 @@
 		<div class="menu">
 			<div class="nav"><a href="about.html">About</a></div>
 		</div>
-		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false" ng-click="showingMenu=!showingMenu">
-			<div class="nav" >Recent Posts</div>
+		<div class="menu" ng-mouseenter="showingMenu=true" ng-mouseleave="showingMenu=false">
+			<div class="nav"><a href="history.html">Posts</a></div>
 			<a class="menuItem" href="" ng-click="loadPosts(post.index, post.index + 1, true)" 
-			   ng-repeat="post in posts | orderBy:'date':true | limitTo: 9" ng-show="showingMenu">
+			   ng-repeat="post in posts | orderBy:'date':true | limitTo: 6" ng-show="showingMenu">
 				{{post.title}}
 			</a>
+			<b><a class="menuItem" href="history.html" ng-show="showingMenu">All Posts</a></b>
 		</div>
 	</div></div>
 	<div class="main">
