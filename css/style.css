@@ -36,10 +36,11 @@ a:visited {
 h1 {
   font-size: 32px;
   color: #FFF;
-  font-weight: 100;
   padding: 0px;
   margin: 0px;
   float: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
 }
 h1 a {
   text-decoration: none;
@@ -126,7 +127,6 @@ a.menuItem {
 .date {
   text-align: left;
   color: #666;
-  font-weight: 100;
   text-transform:uppercase;
 }
 .author {
@@ -186,8 +186,8 @@ a.menuItem {
 #footer {
   width: 100%;
   text-align: center;
-  font-weight: 100;
   margin-top: 50px;
+  color: #888;
 }
 
 .overlay {
