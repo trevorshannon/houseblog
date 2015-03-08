@@ -60,8 +60,9 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
    */
   function getBaseUrl() {
     var url = $location.absUrl();
-    var urlParts = url.split('#')[0].split('/')
-    return urlParts.slice(0, urlParts.length - 1).join('/');
+    var urlParts = url.split('#')[0].split('/');
+    var base = urlParts.slice(0, urlParts.length - 1).join('/');
+    return base;
   }
 
   /**
@@ -91,16 +92,15 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
   $scope.loadPosts = function(start, end, fromIndex) {	
     $location.search() == {};
     $location.search({'start': start, 'end': end});
-        window.location.href = getBaseUrl() + '/index.html#' + $location.url();
-        window.scrollTo(0, 0);
-  	if (fromIndex && url.search('index.html') != -1) {
-  	  window.location.reload(true);	  
-  	}
+    window.location.href = getBaseUrl() + '/index.html#' + $location.url();
+    window.scrollTo(0, 0);
+    if (fromIndex && $location.absUrl().search('index.html') != -1) {
+      window.location.reload(true);	  
+    }
   }
 
   $scope.goToMostRecentPosts = function() {    
-    window.location.href = getBaseUrl + '/index.html';
-    window.location.reload(true);
+    window.location.href = getBaseUrl() + '/index.html';
   }
   
   $scope.getDateString = function(date) {
