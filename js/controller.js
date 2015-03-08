@@ -49,6 +49,16 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
   }
   
   /**
+   * Gets the base URL, e.g. pi.dektar.com/house.
+   * @return {String} base URL 
+   */
+  function getBaseUrl() {
+    var url = $location.absUrl();
+    var urlParts = url.split('#')[0].split('/')
+    return urlParts.slice(0, urlParts.length - 1).join('/');
+  }
+
+  /**
    * Navigates to earlier posts.
    */
   $scope.showEarlierPosts = function() {
@@ -72,17 +82,19 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
    * @param {int} end The end index
    * @param {boolean} fromIndex true if the caller is the index page
    */
-  $scope.loadPosts = function(start, end, fromIndex) {
-  	var url = $location.absUrl();
-  	var urlParts = url.split('#')[0].split('/')
-  	var base = urlParts.slice(0, urlParts.length - 1).join('/');
-	$location.search() == {};
+  $scope.loadPosts = function(start, end, fromIndex) {	
+    $location.search() == {};
     $location.search({'start': start, 'end': end});
-  	window.location.href = base + '/index.html#' + $location.url();
+        window.location.href = getBaseUrl() + '/index.html#' + $location.url();
         window.scrollTo(0, 0);
   	if (fromIndex && url.search('index.html') != -1) {
   	  window.location.reload(true);	  
   	}
+  }
+
+  $scope.goToMostRecentPosts = function() {    
+    window.location.href = getBaseUrl + '/index.html';
+    window.location.reload(true);
   }
   
   $scope.getDateString = function(date) {
