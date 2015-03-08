@@ -17,11 +17,17 @@ var blogApp = angular.module('blogApp', ['ngSanitize', 'ngTouch']).config(functi
 
 /**
  * Gets the Mon, Day string from a timestamp
- * @param {Integer} Timestamp representing a date
- * @return {String} String representing the date
+ * @param {number} date Timestamp representing a date
+ * @param {boolean} compact Whether to return a compact date.
+ * @return {string} String representing the date
  */
-function getDateString(date) {
-  var options = {year: "numeric", month: "long", day: "numeric"};
+function getDateString(date, compact) {
+  var options = {};
+  if (compact) {
+    options = {year: "numeric", month: "short", day: "numeric"};
+  } else {
+    options = {year: "numeric", month: "long", day: "numeric"};
+  }
   var d = new Date(date);
   return d.toLocaleDateString("en-US", options);
 };
@@ -84,7 +90,11 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
   }
   
   $scope.getDateString = function(date) {
-    return getDateString(date);
+    return getDateString(date, false);
+  };
+  
+  $scope.getCompactDateString = function(date) {
+  	return getDateString(date, true);
   };
 
   /**
@@ -154,6 +164,7 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
   function formatPosts(posts) {
     for (var i = 0; i < posts.length; i++) {
       posts[i].index = i;
+      posts[i].preview = posts[i].contents.replace(/(<([^>]+)>)/ig, '').substr(0, 160);
       //TODO(katie): Figure out whitelisting for videos then remove this line.
       posts[i].contents = $sce.trustAsHtml(posts[i].contents)
       for (var j = 0; j < posts[i].images.length; j++) {
@@ -264,7 +275,7 @@ blogApp.controller('PostController', function($scope) {
      * Returns the current date as a human-readable string
      */
     $scope.getCurrentDateString = function() {
-	return getDateString(Date.now());
+	return getDateString(Date.now(), false);
     };
 
     /**

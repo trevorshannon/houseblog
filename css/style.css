@@ -53,6 +53,11 @@ h1 a:visited {
   text-decoration: none;
   color: #FFF;
 }
+h3 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
 
 .menu {
   float: left;
@@ -127,6 +132,20 @@ a.menuItem {
 .author {
   color: #77BBC1;
   text-align: right;
+}
+
+.preview {
+  padding-left: 50px;
+}
+.previewDate {
+  float: left;
+  width: 100px;
+  text-align: center;
+  color: #AAA;
+  font-weight: bold;
+  font-size: 14px;
+  height: 70px;
+  padding-top: 4px;
 }
 
 .thumbnailHolder {
