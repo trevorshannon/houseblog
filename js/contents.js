@@ -1471,7 +1471,7 @@ var posts = [
 			'<p>Lorraine also replaced all the white landscaping rocks against the front of the house with river rocks taken from the back yard. The result looks much cleaner!</p>' +
 			'<p>And I built a trellis for our beans out of the two ends from an old laundry rack, screwing it into the planter box bases with some shims to keep it from leaning into the neighbor\'s yard. The beans are still to small to reach the trellis, but I\'m optimistic that they will use the whole thing.</p>' +
 			'<p>Everything looks way better, and we\'ve even made some big-picture plans for what we want the back to look like eventually.</p>' +
-			'<p>We put the patio pavers and white landscaping rocks up on Craigslist and they were gone within a day. The granite tiles haven\'t had any takers yet, but we will keep reducing the price and hoping that someone else want\'s the title \"House of Granite\"...</p>',
+			'<p>We put the patio pavers and white landscaping rocks up on Craigslist and they were gone within a day. The granite tiles haven\'t had any takers yet, but we will keep reducing the price and hoping that someone else wants the title \"House of Granite\"...</p>',
 		'images' : [
 			{
 				'caption': 'Alissa removing pavers.',
