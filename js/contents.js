@@ -1148,5 +1148,368 @@ var posts = [
 				'url': 'img/IMG_20141023_184221.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Patio Door - Framing',
+		'date': 1417203561000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Originally, our house had no doors (or windows) in the back wall.  We couldn\'t see our backyard, much less get to our backyard from inside the house.  This is the story of how that all changed.</p>' +
+			'<p>I spent a long time researching types of patio doors and comparing brands.  We eventually settled on a sliding glass door because it lets a ton of light in and doesn\'t take up space in the room when it\'s open.  After that, I started the planning process.  I used a stud finder to map out the back wall of the sewing room and drew it up on my computer.  There was a possible problem in that the hose bib at the back of the house comes out near where we were planning to install the door.  Through a mixture of voodoo and logical thinking, I convinced myself that there was in fact no water pipe in the portion of the wall that would eventually become a door.  Great!  However, the location of the hose bib did set an upper limit on how wide the door could be: 5 feet.  I was used to 6 foot patio doors, but a bit of research turned up plenty of 5-footers to choose from.</p>' +
+			'<p>After talking with someone at Home Depot and a little more internet research, I settled on a nice Simonton brand vinyl sliding door.  The quality was said to be high, and you can\'t beat vinyl for ease-of-maintenance.  I placed the order at Home Depot and then waited (patiently) for the door to arrive.  I certainly didn\'t want to cut a hole in the wall before having the door in hand.  That waiting period was perfect for me to learn all about patio door installation and proper flashing.</p>' +
+			'<p>Finally, the door arrived!  It was just as I expected (phew!) and I immediately got to work cutting a huge hole in our house.  I started by just removing the drywall from the interior side of the wall.  That exposed the studs&mdash;just where I thought they would be&mdash;and the cellulose insulation, which I carefully bagged up to use later.  It turned out that our house doesn\'t have sheathing (large sheets of plywood) around it, so I could see the building paper/stucco directly on the other side of the studs.</p>' +
+			'<p>Getting a good look inside the wall revealed two things.  First, our house <b>is</b> in fact bolted to the foundation (I can\'t imagine why some houses are not!) for earthquake protection.  Second, a portion of the sill plate (the 2x4 that lays on top of the slab foundation for the wall studs to sit on) was partially rotted out.  I interrupted the project to buy a pressure-treated 2x4 to replace the rotted sill plate and a new reciprocating saw to cut the old sill plate out.  The new saw was a fun toy and made short work of the sill plate replacement.  Once that was sorted out, I could focus on the main task at hand: framing the new doorway.</p>' +
+			'<p>I basically had to move one stud 1/2\" to the right, remove three other studs, and add a header across the opening.  I spent a long time figuring out which size header to use.  I eventually settled on two 2x8 beams, which is one size up from what code mandates for a load-bearing wall.  However, as I worked through this project, it became more and more apparent that the wall I was installing the door in was in fact not load-bearing and didn\'t need a large header at all.  Oh well, I guess we\'ve got an over-built doorway that could support a whole second story if it needs to...better safe than sorry-with-a-collapsed-house.  The actual framing was pretty easy, although a few of the nails were hard to put in with the tight working spaces.  I first moved that one stud 1/2\" over, then added the jack studs (the doubled-up stud that supports the header) and finally the header.  As I mentioned, the header is made up of two 2x8 beams which, when stacked together do not actually make a 4x8 due to strange lumber math.  Standard practice is to put a 1/2\" piece of plywood between the two 2x8\'s, so I went ahead and did that.</p>' +
+			'<p>Remember the lack of sheathing around our house?  Yea that actually caused a bit of a problem.  Because there was no plywood behind the wet stucco when the house was built, it kind of sagged and bowed into the stud cavities and then dried that way.  That meant the header could not sit flush with its neighboring studs, as the uneven stucco surface behind it refused to cooperate.  I had no choice but to cut out that portion of the stucco in order to situate the header correctly.</p>' +
+		       '<iframe width=\"640\" height=\"390\" src=\"//www.youtube.com/embed/nw2iT-NJPTo\" frameborder=\"0\" allowfullscreen></iframe>' +
+		       '<p>Whatever, I was going to be cutting an even bigger hole in the stucco later.  After the header came itsy-bitsy cripple studs above the header.  Those were a pain to put in due to their small stature, and I had to use screws because there was no way I could hammer nails in such a small space.  With the framing done, it was time to knock a hole in the stucco.  But that\'s for another post.</p>',
+		'images' : [
+			{
+				'caption': 'Before.',
+				'url': 'img/PANO_20140604_213847.jpg'
+			},
+			{
+				'caption': 'Drywall removal complete.',
+				'url': 'img/IMG_20141108_141301.jpg'
+			},
+			{
+				'caption': 'We took out all the insulation.',
+				'url': 'img/IMG_20141108_143951.jpg'
+			},
+			{
+				'caption': 'Removing the rotted sill plate.',
+				'url': 'img/IMG_20141108_192033.jpg'
+			},
+			{
+				'caption': 'New sill plate installed!',
+				'url': 'img/IMG_20141108_194951.jpg'
+			},
+			{
+				'caption': 'Header constructed from two 2x8\'s.',
+				'url': 'img/IMG_20141109_085549.jpg'
+			},
+			{
+				'caption': 'A new stud, which is moved 1/2\" from the old position.',
+				'url': 'img/PANO_20141109_073034.jpg'
+			},
+			{
+				'caption': 'Cutting the stucco to make room for the header.',
+				'url': 'img/IMG_20141109_102323.jpg'
+			},
+		        {
+				'caption': 'Me, nailing the header in place.',
+				'url': 'img/IMG_20141109_105651048_HDR.jpg'
+			},
+			{
+				'caption': 'Here\'s where we had to remove the stucco for the header.',
+				'url': 'img/IMG_20141109_103105870_HDR.jpg'
+			},
+			{
+				'caption': 'The final framed doorway.',
+				'url': 'img/IMG_20141109_151434.jpg'
+			}
+		        
+		]
+	}
+		,
+	{
+		'title': 'Patio Door - Installation',
+		'date': 1418592195000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>With the patio door opening <a href=\"index.html#?start=28&end=29\">framed</a>, it was time to cut a giant hole in the side of our house!  Katie was a bit nervous about this part, but I had everything lined up so that we\'d only have a gaping hole for a few hours until the new door was actually fixed in place.</p>' +
+			'<p>From the inside of the house, I drilled a hole through the stucco at each of the door frame\'s four corners.  That allowed me to locate the new framing from the outside of the house.  I put framing nails through each of the four holes and used a chalk line on the exterior of the house to mark out the soon-to-be doorway.  Then, it was to the point of no return: cutting the stucco.</p>' +
+			'<p>I bought a dry masonry blade for my power circular saw to do the majority of the cutting.  The masonry blade really did the trick.  It cut through the tough stucco like butter, although it produced a TON of dust and was really loud.</p>' +
+			'<p><iframe width=\"640\" height=\"360\" src=\"//www.youtube.com/embed/JEEoL__lle0\" frameborder=\"0\" allowfullscreen></iframe></p>' +
+			'<p>Eventually, we got to the point where most of the opening was cut, and the slab of stucco was just hanging on by a thread (well, technically it was hanging by the metal lath embedded in the stucco).  A quick snip with a pair of wire cutters sent the piece of our wall crashing to the ground.  Katie was inside at the time to ensure the wall fell <i>outward</i> instead of back into the house.</p>' +
+			'<p><iframe width=\"640\" height=\"360\" src=\"//www.youtube.com/embed/nTHMvNEhGXQ\" frameborder=\"0\" allowfullscreen></iframe></p>' +
+			'<p>Now, with the main opening cut, I started preparing the surrounding area for the door.  I removed some more stucco to reveal the studs beneath, as the door had a nailing flange around the perimeter.  Katie and I then applied peel-n-stick flashing all around the opening to keep water out.  Finally, it was time to put the door in!  There was only one problem...the door weighed about 200 pounds!</p>' +
+			'<p>Well after calling some friends over to help and removing one of the glass panels, we got the door in place.  I put silicone caulk all around the perimeter and on the bottom sill plate to make the installation water-tight.  Then we all lifted the door and gently set it into the opening.  Like a glove!  It fit perfectly into the hole and I got to work squaring it up with shims and nailing the flange all around.  By now it was pretty dark outside, but we were determined to have a working (and locking) door for the night, so we kept on truckin\'.  We put the glass panel we had removed back in place and Katie installed the handle and strike plate.  It was looking great so far, and operated nicely.  It was time to call it a day.</p>' +
+			'<p>Later, I filled the space around the door with expanding foam from the interor side and started preparing for the stucco patch work on the exterior.  After lots of research on stucco techniques, I felt pretty good about tackling the patch ourselves.</p>' +
+			'<p>I actually ended up chipping away more of the stucco around the door to make a more irregular edge with some of the metal lath (chicken wire) exposed.  That would help the patch bond to the existing stucco and help to prevent cracks down the road.  I installed new lath around the door as well as a J-channel to create a 3/8\" expansion joint around the new door.  After that, it was time to stucco.  Katie and I each worked on one side of the door and after a pretty steep learning curve, we were applying stucco like pros!  It turned out the breakthrough technology was a wet sponge.  It smoothed out the new stucco and blended it pretty seamlessly into the old stucco\'s texture.  We worked slowly, mixing about 1/3 of a 50 lb bag of stucco mix at a time.  The methodical work and attention to detail really paid off though.  The new stucco blends very well into the old, and with a new coat of paint should be completely invisible.</p>' +
+			'<p>So that\'s it!  The saga of the patio door.  Katie and I are extremely pleased with the door.  It really brightens up the room and gives us easy access to our backyard.</p>',
+		'images' : [
+			{
+				'caption': 'Why hello there!',
+				'url': 'img/IMG_20141109_152132.jpg'
+			},
+			{
+				'caption': 'Flashing all around the opening is critical.',
+				'url': 'img/IMG_20141109_164904_nopm_.jpg'
+			},
+			{
+				'caption': 'Our new door!',
+				'url': 'img/IMG_20141110_211210.jpg'
+			},
+			{
+				'caption': 'New stucco lath for the patch around the door.',
+				'url': 'img/IMG_20141112_195452.jpg'
+			},
+			{
+				'caption': 'Lath and J-channel installed around the door.',
+				'url': 'img/IMG_20141113_212107.jpg'
+			},
+			{
+				'caption': 'All ready for stucco patching.',
+				'url': 'img/IMG_20141115_114336_nopm_.jpg'
+			},
+			{
+				'caption': 'Katie mixing some stucco...mix.',
+				'url': 'img/IMG_20141115_153945.jpg'
+			},
+			{
+				'caption': 'Wet stucco.',
+				'url': 'img/IMG_20141115_142418.jpg'
+			},
+			{
+				'caption': 'The patch is done, but still wet.',
+				'url': 'img/IMG_20141115_171525.jpg'
+			},
+			{
+				'caption': 'Filling the expansion gap.',
+				'url': 'img/IMG_20141116_103822.jpg'
+			},
+			{
+				'caption': 'The patch is dry and looks great!',
+				'url': 'img/IMG_20141116_114201.jpg'
+			},
+			{
+				'caption': 'Luckily, the door got Cat Approval.',
+				'url': 'img/IMG_20141123_110129.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Bye Bye Bathroom Granite',
+		'date': 1419341036000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Our bathroom has, no <i>had</i>, granite halfway up the bathroom walls and almost all the way up the shower walls.  Katie and I have a lot of plans for our bathroom, but before we could get to work, we had to remove those slabs of granite glued to the walls.</p>' +
+			'<p>There wasn\'t much to it&mdash;just a crowbar and some elbow grease.  Upon starting, Katie reminded me that granite is really heavy.  \"Yea, yea,\" I said.  \"I\'ll figure it out,\" I said.  Well.  I worked the crowbar into the crack between the granite and the wall, always working directly in front of a stud so I didn\'t punch the crowbar through the underlying drywall.  I slowly worked the slab back and forth until eventually I felt the bond give way and the slab pull free from the wall.  Hooray!  My elation did not last long as I caught the granite and felt the weight of it.  All of it.  I learned that granite is really heavy that day.</p>' +
+			'<p>After a lot of hemming and hawing, I grabbed a dinky rolling base for an indoor plant.  It was the only dolly-like thing we owned, and so I put it to work.  Katie helped me maneuver the slab through the house and over some small bumps before putting it outside to await it\'s final Craigslist destiny.  The \"dolly\" made it through the ordeal, but just barely.</p>' +
+			'<p>The first slab didn\'t have any obstructions, but the next two wouldn\'t come out with the toilet and sink still in place.  Those came out easily and the remaining slabs were not too bad after my lessons learned from the first one.   Now our bathroom is a construction zone, but at least we\'re one step further to a better bathroom!</p>',
+		'images' : [
+			{
+				'caption': 'Just getting started.',
+				'url': 'img/IMG_20141213_115852669_HDR.jpg'
+			},
+			{
+				'caption': 'Making some headway.',
+				'url': 'img/IMG_20141213_121926-MOTION.gif'
+			},
+			{
+				'caption': 'I stepped on the crowbar.',
+				'url': 'img/IMG_20141213_125125644_HDR.jpg'
+			},
+			{
+				'caption': 'Cruising through the hallways with my slab.',
+				'url': 'img/IMG_20141213_183213547.jpg'
+			},
+			{
+				'caption': 'This really helps the feng shui.',
+				'url': 'img/IMG_20141213_173729.jpg'
+			},
+			{
+				'caption': 'I envisioned myself stepping in the drainpipe.',
+				'url': 'img/IMG_20141213_173714.jpg'
+			},
+			{
+				'caption': 'Another piece off!',
+				'url': 'img/IMG_20141213_195046.jpg'
+			},
+			{
+				'caption': 'Granite chillin outside.',
+				'url': 'img/IMG_20141213_204418.jpg'
+			},
+			{
+				'caption': '\"I like what you\'ve done with the place.\"',
+				'url': 'img/IMG_20141213_205236.jpg'
+			}
+		]
+	},
+	{
+		'title': 'The Bathroom Demolition Continues',
+		'date': 1421388315000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Originally, I was planning to have rewired the house by now.  However, Katie helpfully pointed out that many of the new circuits will be running in the wall behind our shower.  The other side of that wall is stucco, so we\'d have to access it from the inside to run wires.  That meant we would have to remove the shower to rewire the house.  Well, we weren\'t too keen on ripping out the shower with no plan in sight to replace it, so the rewiring got put on hold and we have been working on our bathroom plan.</p>' +
+			'<p>The first step of that plan was to gut the current bathroom, and that\'s just what we did!  In addition to the granite that lined the bathroom walls, the entire shower alcove was granite.  It all had to go.</p>' +
+			'<p>First, Katie and I took out the shower doors&mdash;that was easy.  Next, we had to pull out the shower curb (also granite).  That was a bit harder, but with a lot of sledge hammer and pry bar work, we got it out.  On to the bigger and better things: the walls.  Each of the shower\'s side walls was a large, continuous slab of very heavy granite.  Luckily, the slab had a piece of decorative trim that made it look thicker than it actually was.  I started at the top of the piece and slowly pried the slab from the wall.  Katie cut away the caulk and removed that decorative trim piece.  Eventually we discovered that there was a thick slab of (also pretty heavy) lath and mortar behind the granite.  Well, after lots of careful prying we got the granite separated (mostly) from the mortar and the mortar separated from the wall.  We wrestled the granite into submission on a moving dolly and brought that sucker out of the house!  The other shower wall went about the same, except that the granite got a bit jammed on the shower head pipe.  We ended up cracking that one into a few pieces to get it off the wall.</p>' +
+			'<p>The back wall had an even larger piece of granite, and that one pretty quickly cracked in half as I pried it.  It actually helped us out quite a bit, as it was much easier to remove two halves of a huge granite wall than it would have been to remove the whole thing at once.  That\'s not to say there weren\'t some scary moments as the 200 pound slab hung 4 feet off the ground, supported only by a corner...</p>' +
+			'<p>The final step was to remove the shower floor.  This was interesting.  The shower had a slate (or something like that) floor.  We removed that and under it?  Granite!  That\'s right, there was even hidden granite in this house.  So we removed that granite and underneath that was a 2 inch thick slab of lath and mortar.  We removed that and underneath was another layer of mortar. We chipped that off to finally reveal the slab foundation.  It sure was nice to see the bare concrete staring back at us.</p>' +
+			'<p>I also came back a few days later to take up the granite bathroom floor.  It was a fairly easy job and after Katie and I brought it outside, we celebrated the final piece of granite removed from our small bathroom.  That bathroom has to be at least 1 ton lighter than it was.</p>',
+		'images' : [
+			{
+				'caption': 'So it begins.',
+				'url': 'img/IMG_20150110_093639570.jpg'
+			},
+			{
+				'caption': 'Pulling out the shower curb.',
+				'url': 'img/IMG_20150110_100041110.jpg'
+			},
+			{
+				'caption': 'There\'s stone under the stone!',
+				'url': 'img/IMG_20150110_114401.jpg'
+			},
+			{
+				'caption': 'Starting to remove the first wall.',
+				'url': 'img/IMG_20150110_132026-MOTION.gif'
+			},
+			{
+				'caption': 'Getting ready to tackle the next wall.',
+				'url': 'img/IMG_20150110_154522.jpg'
+			},
+			{
+				'caption': 'Katie showing the mortar who\'s boss.',
+				'url': 'img/IMG_20150110_171448-MOTION.gif'
+			},
+			{
+				'caption': 'We thought the shower plumbing was cool.',
+				'url': 'img/IMG_20150110_180048.jpg'
+			},
+			{
+				'caption': 'But it, too, had to go.',
+				'url': 'img/IMG_20150111_125714.jpg'
+			},
+			{
+				'caption': 'Back wall done.  Strange framing going on.',
+				'url': 'img/IMG_20150113_200053704.jpg'
+			},
+			{
+				'caption': 'One of the most laborious parts.',
+				'url': 'img/IMG_20150111_164704-MOTION.gif'
+			},
+			{
+				'caption': 'The lone toilet.',
+				'url': 'img/IMG_20150113_213619.jpg'
+			},
+			{
+				'caption': 'Hard workers.',
+				'url': 'img/IMG_20150111_163856456.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Kitchen Plumbing',
+		'date': 1421722620000,
+		'author': 'Katie',
+		'contents' :
+			'<p>We knew the kitchen plumbing needed to be redone when we moved into the house. The inspections showed the sink drain assembly was installed incorrectly: the \"drain connection to double sink has [a] reverse slope and fittings are install backwards\" (Plumbing inspection report). The kitchen drain outlet through the cabinet was too high to allow a disposal to be installed. In addition the dishwasher drain line was not installed correctly.</p>' +
+			'<p>As we were deconstructing the bathroom we realized we should take the opportunity to fix the kitchen plumbing. All the pipes were accessible through the bathroom wall, which we were going to need to patch and fix anyway.</p>' +
+			'<p>Trevor stayed up late one night to cut a new, lower hole for the drain in the back of the cabinet. When I got up in the morning I found a note on the sink saying there was only a bucket instead of a drain and to be careful with how much water I used! But by the evening, Trevor had already finished assembling the new drain -- this time with a correct slope, good P-trap and an inlet for the dishwasher drain. And we made it tall enough to take a disposal later, which will be a great upgrade.</p>' +
+			'<p>We did the dishwasher drain after the sink, running a hose at a slight downward slant from a new air gap through two cabinets and to the back of the dishwasher. This involved drilling some holes in the cabinets at awkward angles, and sitting fully inside a cabinet to cut the old drain pipe and support the new drain hose.</p>' +
+			'<p><iframe width=\"640\" height=\"360\" src=\"//www.youtube.com/embed/SxLme58-Irg\" frameborder=\"0\" allowfullscreen></iframe></p>' +
+			'<p>The whole project was pretty quick and straightforward, and given we had a plumbing quote for $397 for the same work, we were quite happy to have done it for about $30!</p>',
+		'images' : [
+			{
+				'caption': 'Images from an inspection report.',
+				'url': 'img/Screen_Shot_2015-01-19_at_6.25.38_PM.png'
+			},
+			{
+				'caption': 'Looking through the bathroom wall into the kitchen cabinet.',
+				'url': 'img/IMG_20150111_224216.jpg'
+			},
+			{
+				'caption': 'Old drain removed.',
+				'url': 'img/IMG_20150111_232252.jpg'
+			},
+			{
+				'caption': 'New drain installed!',
+				'url': 'img/IMG_20150112_185253.jpg'
+			},
+			{
+				'caption': 'Drilling a hole for the dishwasher drain hose.',
+				'url': 'img/IMG_20150112_205622381.jpg'
+			},
+			{
+				'caption': 'New dishwasher drain hose running through the cabinet.',
+				'url': 'img/IMG_20150112_215218.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Tub Installation',
+		'date': 1423447903000,
+		'author': 'Katie',
+		'contents' :
+			'<p>We have taken a lot of stuff out of the house (granite, ceiling drywall, granite, stucco & studs from the back door, granite) but put very little back in. The tub was the second major thing to be installed after the heater.</p>' +
+			'<p>Before we began removing the granite shower we had to purchase a bathtub to replace it. We didn\'t want to be without a way to shower for too long! We decided to go with a shower over a tub instead of another walk-in shower because we felt it added some value to our small, one-bathroom house. After an arduous Pinterest session, we decided we wanted a modern bathroom with a white, clean-lined tub, white subway tiles behind the shower, large grey tiles on the floor, and colorful walls (although paint colors are still far in our future). We found two tub contenters - the acrylic <a href=\"http://www.maax.com/en/products/bathtubs/new/rubix\">Maax Rubix</a> and a cast-iron tub that looked very similar.</p>' +
+			'<p><center><a href=\"https://cantileverdesign.wordpress.com/2010/01/25/mid-century-makeover/\"><img src=\"https://cantileverdesign.files.wordpress.com/2010/01/img_07071.jpg?w=640\" width=\"200px\"></a><br><br/><a href=\"https://cantileverdesign.wordpress.com/2010/01/25/mid-century-makeover/\">This bathroom</a> is the most similar to what we want to create, with white subway tiles, glass tub door, floating wood vanity, large mirrored medicine cabinet, and modern fixtures.<br></center></p>' +
+			'<p>We were able to see both tubs at a kitchen and bath supply store nearby. Although we love the feel of cast-iron, the sales associate helpfully pointed out that the 600lb cast-iron tub was unlikely to be easy to install, especially if we were going to do it ourselves. She also pointed out that the acrylic tub is actually pretty easy to fix if it gets scratched - you just polish it again!</p>' +
+			'<p>We went with the Maax Rubix, and got a taller version which gave us a few more inches to work with when adjusting the plumbing. But the plumbing, which Trevor did, deserves its own post later.</p>' +
+			'<p>To install the tub, we actually put it in place three times. Luckily it was really light! The first time, we made sure we could put it in and that it would fit. The second time, we tested that the drain pipes were in the right place, and measured the height of the tiling flange so that we could install a wood strip to level it. The third time, Trevor mixed up some mortar to go under the tub and support the bottom, carefully piled it in the appropriate places, and then we gently laid the tub in place.</p>' +
+			'<p>We then screwed the tiling flange into the studs and waited three days for the mortar to dry before testing it out. Then Trevor set up plumbing to the the Hansgrohe Thermostatic Trim Control and Diverter (the thingy that mixes the hot and cold water and controls pressure). Then we hung plastic over the studs to act like the shower walls, and along a string to act like a curtain, and we had a working shower!</p>',
+		'images' : [
+			{
+				'caption': 'Getting ready to test-fit the tub.',
+				'url': 'img/IMG_20150117_141922495.jpg'
+			},
+			{
+				'caption': 'Mixing up mortar for the tub.',
+				'url': 'img/IMG_20150117_221056873.jpg'
+			},
+			{
+				'caption': 'Testing the tub.',
+				'url': 'img/IMG_20150120_190151039.jpg'
+			},
+			{
+				'caption': 'Plastic lining the back walls.',
+				'url': 'img/IMG_20150126_190012.jpg'
+			},
+			{
+				'caption': 'Ready for use!',
+				'url': 'img/IMG_20150126_205321.jpg'
+			}
+		]
+	},
+	{
+		'title': 'More Landscaping',
+		'date': 1425787839000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Trevor\'s mom and sister came out for a weekend, and after some relaxing vacationing we spent an entire day working on the landscaping.  Both Lorraine and Alissa have a ton of energy and a lot of good landscaping ideas! We made great progress with removing the old patio pavers along the house in the back yard and some more concrete, as well as getting all the rest of the granite tiles out of the shed. We moved about 150 pavers and 60 granite tiles to the side of the house, joining another 100 granite tiles removed early on from the garage.</p>' +
+			'<p>Lorraine also replaced all the white landscaping rocks against the front of the house with river rocks taken from the back yard. The result looks much cleaner!</p>' +
+			'<p>And I built a trellis for our beans out of the two ends from an old laundry rack, screwing it into the planter box bases with some shims to keep it from leaning into the neighbor\'s yard. The beans are still to small to reach the trellis, but I\'m optimistic that they will use the whole thing.</p>' +
+			'<p>Everything looks way better, and we\'ve even made some big-picture plans for what we want the back to look like eventually.</p>' +
+			'<p>We put the patio pavers and white landscaping rocks up on Craigslist and they were gone within a day. The granite tiles haven\'t had any takers yet, but we will keep reducing the price and hoping that someone else want\'s the title \"House of Granite\"...</p>',
+		'images' : [
+			{
+				'caption': 'Alissa removing pavers.',
+				'url': 'img/IMG_0078.jpg'
+			},
+			{
+				'caption': 'Installing the upcycled trellis.',
+				'url': 'img/IMG_0079.jpg'
+			},
+			{
+				'caption': 'All the pavers ready for Craigslist.',
+				'url': 'img/IMG_20150223_112122601_HDR.jpg'
+			},
+			{
+				'caption': 'Alissa breaking up concrete.',
+				'url': 'img/IMG_20150223_113507455_HDR.jpg'
+			},
+			{
+				'caption': 'Shed contents everywhere.',
+				'url': 'img/IMG_20150223_121327216.jpg'
+			},
+			{
+				'caption': 'Lorraine removing granite.',
+				'url': 'img/IMG_20150223_121320715.jpg'
+			},
+			{
+				'caption': 'Removing white rocks.',
+				'url': 'img/IMG_0080.jpg'
+			},
+			{
+				'caption': 'River rocks in place.',
+				'url': 'img/IMG_0114.jpg'
+			},
+			{
+				'caption': 'Relaxing after a long day.',
+				'url': 'img/IMG_20150223_172950029.jpg'
+			}
+
+		]
 	}
 ];

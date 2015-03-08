@@ -43,7 +43,7 @@ function upload_and_resize_images() {
     "UPLOAD_ERR_CANT_WRITE", "UPLOAD_ERR_EXTENSION");
   $upload_path = "../";
   $upload_dir = "img/";
-  $ok_ext = array("gif", "jpeg", "jpg", "png", "bmp");
+  $ok_ext = array("gif", "jpeg", "jpg", "png", "bmp", "JPG", "PNG", "BMP", "GIF", "JPEG");
   
   if (!array_key_exists("ufile", $_FILES)) {
     return true;
