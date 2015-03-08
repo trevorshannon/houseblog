@@ -70,6 +70,7 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
    * Updates the URL to load a set of posts
    * @param {int} start The start index
    * @param {int} end The end index
+   * @param {boolean} fromIndex true if the caller is the index page
    */
   $scope.loadPosts = function(start, end, fromIndex) {
   	var url = $location.absUrl();
@@ -78,8 +79,9 @@ blogApp.controller('BlogController', function($scope, $sce, $location) {
 	$location.search() == {};
     $location.search({'start': start, 'end': end});
   	window.location.href = base + '/index.html#' + $location.url();
+        window.scrollTo(0, 0);
   	if (fromIndex && url.search('index.html') != -1) {
-  	  window.location.reload(true);
+  	  window.location.reload(true);	  
   	}
   }
   
