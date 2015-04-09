@@ -152,6 +152,7 @@ a.menuItem {
   float: right;
   padding: 10px;
   width: 300px;
+  height: 262px;
   text-align: center;
 }
 .thumbnailHolder:nth-child(2n) {

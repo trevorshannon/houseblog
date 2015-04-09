@@ -1553,7 +1553,7 @@ var posts = [
 				'url': 'img/IMG_20150119_201117498.jpg'
 			},
 			{
-				'caption': 'rough-in valve installed.',
+				'caption': 'Rough-in valve installed.',
 				'url': 'img/IMG_20150121_215219.jpg'
 			},
 			{
@@ -1567,6 +1567,144 @@ var posts = [
 			{
 				'caption': 'Our current shower situation.',
 				'url': 'img/IMG_20150126_184438.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Small Outdoor Improvements',
+		'date': 1426481845000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Katie and I have been wanting to replace our house numbers for a while, so we got some numbers online and installed them this weekend.  The installation was pretty simple&mdash;just a few holes and some caulk to hold the numbers in place.  The numbers are brushed nickel in a plain, simple font.  They look great, and we can\'t wait for the rest of the house to look as good.</p>' +
+			'<p>We also (on a whim) bought the fixin\'s for a doorbell at the hardware store this weekend.  As it turned out, we actually already had a chime laying around from some trip to a thrift store a long time ago, so we only needed to buy the switch that goes next to the door and a small transformer that steps down the main 120V power to 16V for the chime.  It was a fun little project this morning to install all the pieces and have a working doorbell after a few hours.  We can\'t wait for someone to come visit and test out our improvement.</p>',
+		'images' : [
+			{
+				'caption': 'Had to cut some of the studs shorter.',
+				'url': 'img/IMG_20150314_190432.jpg'
+			},
+			{
+				'caption': 'Letting the caulk set.',
+				'url': 'img/IMG_20150314_191448.jpg'
+			},
+			{
+				'caption': 'New numbers!',
+				'url': 'img/IMG_20150315_081709.jpg'
+			},
+			{
+				'caption': 'Our house in the morning.',
+				'url': 'img/IMG_20150315_081646.jpg'
+			},
+			{
+				'caption': 'Installation of the doorbell transformer.',
+				'url': 'img/IMG_20150315_093819.jpg'
+			},
+			{
+				'caption': 'New hole for the doorbell switch',
+				'url': 'img/IMG_20150315_102327.jpg'
+			},
+			{
+				'caption': 'New doorbell switch!',
+				'url': 'img/IMG_20150315_103833.jpg'
+			},
+			{
+				'caption': 'Wiring run.  The chime goes up high.',
+				'url': 'img/IMG_20150315_110800.jpg'
+			},
+			{
+				'caption': 'Fancy light-up doorbell.',
+				'url': 'img/IMG_20150315_194200.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Wired.',
+		'date': 1428556569000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Upon moving in, our house was equipped with a grand total of three circuits.  I\'d turn on power tools in the garage and our hallway light would dim.  There was a power strip permanently plugged in to a kitchen counter outlet so that the microwave and stove had power.  Our hallway light had no light switch.  Literally none.  We had to unscrew the bulb to turn it off.  Outlets were the 3-prong variety without the having the third prong actually connected to anything, which can be unsafe.  We only had a few outlets in each room.  I think you get the idea.</p>' +
+			'<p>Katie and I knew we wanted to redo the electrical pretty much from day one.  I spent a really long time pondering the best way to run new wires in a house with no attic and no crawlspace.  I thought maybe you could pull new wires through the walls where the old wires already were (that was woefully naive of me).  I learned that often new wires are run on top of the roof and then down into the walls, but I didn\'t like the idea of conduit criss-crossing the roof or the exterior walls.  That left me with tearing down drywall and pulling new wires through the walls on the inside of the house.  I didn\'t remove all the drywall, just enough to gain access to the parts of the walls where new wires would be.</p>' +
+			'<p>The drywall removal and wall prep was really a project of its own, but frankly not all that exciting for you folks to read about so it\'s lumped in with this post.  I mapped out where all the wires would be and then marked out swaths of drywall for removal.  I had a great plan to use a Dremel rotary tool with a drywall cutter to make quick and precise work of the demolition.  As usual, that plan did not work in the slightest.  The Dremel continually jammed on the ancient (and dense) drywall and I ended up cutting all the drywall out with a very manual hand saw.</p>' +
+			'<p>In order to know where to cut, I had made a wiring plan.  That plan was months in the making, as we had to decide exactly where we wanted new outlets and I had to spend hours with the electrical code deciding which circuits were necessary, what the proper wiring techniques are, and so forth.  It felt really good to finally take that plan over to our city development office and get a big ol\' stamp of approval to begin work.  The plan came in real handy throughout the entire rewiring project.</p>' +
+			'<p>After removing the drywall (and insulation on exterior walls), I drilled a ton of new holes in the studs and started pulling wires through.  After a lot of pulling, grunting, and cursing I got all the wires pulled through the walls.  Pulling the wires through wall corners was especially challenging and there were a lot of corners.  I also had to reconstruct a small partition wall between two bedrooms in the process because it was not built to accommodate electrical wiring.  Then I had to re-reconstruct it because I screwed up and the wall was out of whack.</p>' +
+			'<p>Once the wiring was run, I installed wall boxes that house the junctions and outlets.  Then I prepped each of those boxes by cutting the protruding wire to length and stripping the ends.  The final step before my first inspection was to wire the neutral wires at the main breaker panel.  Once the rough inspection passed, I wired up all the outlets and switches at each of the wall boxes and connected the hot wires to the breakers to make all the circuits in the house live.  It felt great to plug stuff in to our new electrical system!</p>' +
+			'<p>In all, I added 11 new circuits for a total of 14 circuits in the house.  Three of those are for electric appliances (hot water heater, dryer, and range) that are currently gas.  We don\'t know if we\'ll switch to electric appliances, but seeing as fossil fuels are on the way out and the house walls were open anyways, we opted to run the wiring just in case.  We added a 3-way light switch for our hallway light, put more outlets in the garage, bedrooms, kitchen, and bathroom, and balanced our house\'s electrical load across circuits in a much better way than the initial three circuits allowed.</p>' +
+			'<p>I think the length of this post reflects the size of our rewiring project.  The first project I started thinking about after moving was the electrical rewire.  After 7 months I finally started on the actual work, and it was another 2 months of work to get all the wires and outlets installed.  Parts of it were very frustrating, but it was also incredibly rewarding to turn on all those circuits for the first time and test each new outlet.  I can safely say that having rewired one house, I will never do it again.</p>',
+		'images' : [
+    		        {
+			        'caption': 'Wiring plan.',
+			        'url': 'img/wiring_plan.png'
+			},
+			{
+				'caption': 'Largest Lowe\'s purchase I\'ve made.',
+				'url': 'img/IMG_20150124_095912950.jpg'
+			},
+			{
+				'caption': 'Rebuilding a small partition wall.',
+				'url': 'img/IMG_20150129_201842.jpg'
+			},
+			{
+				'caption': 'One of the many \"shortcuts\" I discovered.',
+				'url': 'img/IMG_20150104_154557.jpg'
+			},
+			{
+				'caption': 'Backsplash removal.',
+				'url': 'img/IMG_20150131_110411624.jpg'
+			},
+			{
+				'caption': 'Running wires through the hallway.',
+				'url': 'img/IMG_20150214_140501.jpg'
+			},
+			{
+				'caption': 'New wires in the kitchen.',
+				'url': 'img/IMG_20150208_172606984.jpg'
+			},
+			{
+				'caption': 'Katie running wires in the garage.',
+				'url': 'img/IMG_20150213_190320.jpg'
+			},
+			{
+				'caption': 'An electrified wall.',
+				'url': 'img/IMG_20150310_202342.jpg'
+			},
+			{
+				'caption': 'Our bedroom.',
+				'url': 'img/IMG_20150308_170125.jpg'
+			},
+			{
+				'caption': 'All the wires going out to the breaker box.',
+				'url': 'img/IMG_20150308_170151.jpg'
+			},
+			{
+				'caption': 'That\'s why we removed the shower first.',
+				'url': 'img/IMG_20150402_200359.jpg'
+			},
+			{
+				'caption': 'The most complicated wall box.',
+				'url': 'img/IMG_20150216_182956.jpg'
+			},
+			{
+				'caption': 'Electric dryer outlet wiring.',
+				'url': 'img/IMG_20150307_080758.jpg'
+			},
+			{
+				'caption': 'Before.',
+				'url': 'img/IMG_20150306_185808.jpg'
+			},
+			{
+				'caption': 'After.',
+				'url': 'img/IMG_20150306_190714.jpg'
+			},
+			{
+				'caption': 'The nexus of all wires!',
+				'url': 'img/IMG_20150226_083821.jpg'
+			},
+			{
+				'caption': 'Working on the breaker panel.',
+				'url': 'img/IMG_20150307_171849014.jpg'
+			},
+			{
+				'caption': 'Breaker panel wired up.',
+				'url': 'img/IMG_20150307_181202_nopm_.jpg'
 			}
 		]
 	}
