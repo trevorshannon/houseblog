@@ -151,6 +151,10 @@ if ($_POST["content"] || $_POST["title"] || array_key_exists("ufile", $_FILES)) 
 
     fwrite($file, $post_js);
     fclose($file);
+    $mail_command = "python ../script/testmail.py \"" . $_POST["title"] . "\"";
+    $mail_result = shell_exec($mail_command);
+    echo "<br><br>Notifying subscribers via email by executing <b>" . $mail_command . "</b><br>";
+    echo "email result: " . $mail_result . "<br>";
   }
   echo "<br><br><br>";
   echo "<a target=\"_blank\" href=\"../index.html\">Go to your post >></a></div>";
