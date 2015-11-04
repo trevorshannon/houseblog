@@ -1707,5 +1707,808 @@ var posts = [
 				'url': 'img/IMG_20150307_181202_nopm_.jpg'
 			}
 		]
+	},
+	{
+		'title': 'Wall Patching',
+		'date': 1428731500000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>After the extensive electrical work, Katie and I were left with a ton of holes in our walls.  You could see between rooms and the bathroom was no longer entirely private.  I set to work patching all the holes I had cut in our drywall.  The process is not too complicated.  The basic idea is to cut a piece of drywall the same shape and size as the hole and screw it to the wall.  It was pretty time-consuming but not much manual labor.  That was nice after all the difficulties I had pulling wires through our walls!</p>' +
+			'<p>Drywall sheets come as 4 ft x 8 ft sheets, which is too large to fit in a normal car (much less the bicycle I usually ride to the home improvement stores).  Without a friend\'s pickup truck to borrow, I opted to rent a truck from Home Depot.  We only needed 10 sheets of drywall. You would usually need something like that for just a single room if you were putting up drywall in a new house, but we were just patching select areas.  Even for only a few sheets, the truck was worth it!</p>' +
+			'<p>I worked on one room at a time, although I didn\'t patch the garage&mdash;the drywall was done terribly in there by the previous owners, so we may just redo it all at some point.  It sure felt good to patch up those holes, and it\'ll look even better once the patches are seamlessly blended into the wall surface and painted over.</p>' +
+			'<p>We installed the drywall over studs with no insulation between them.  Our house has cellulose insulation, which is actually still a pretty good choice.  Katie and I decided to get all the drywall done and then blow in insulation later through small access holes (or maybe hire someone to do it...).  Many other areas of the house are not insulated adequately anyways, so we figured we might as well do the insulation for the entire house at once.  There were a few small areas where it made more sense to just pack leftover insulation by hand, but for the most part we will blow it in later.  I did take the opportunity to seal up a bunch of gaps between the ceiling and the walls with expanding foam before patching the drywall.</p>',
+		'images' : [
+			{
+				'caption': 'Rental pickup truck.',
+				'url': 'img/IMG_20150307_122019.jpg'
+			},
+			{
+				'caption': 'Room divider before drywall.',
+				'url': 'img/IMG_20150328_092037.jpg'
+			},
+			{
+				'caption': 'Room divider after drywall.',
+				'url': 'img/IMG_20150328_114945.jpg'
+			},
+			{
+				'caption': 'Katie patching up a hole in our bedroom.',
+				'url': 'img/IMG_20150308_175632.jpg'
+			},
+			{
+				'caption': 'Took the opportunity to remove some water damaged drywall.',
+				'url': 'img/IMG_20150328_134721.jpg'
+			},
+			{
+				'caption': 'This room needed lots of drywall.',
+				'url': 'img/IMG_20150315_173947.jpg'
+			},
+			{
+				'caption': 'Looks much better after patching.',
+				'url': 'img/IMG_20150410_221750.jpg'
+			},
+			{
+				'caption': 'I reused insulation in some of the smaller cavities.',
+				'url': 'img/IMG_20150314_112320.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Shower Tile Prep',
+		'date': 1429489112000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>The electrical work is finally out of the way (and signed off by the inspector!), so we can start to put our bathroom back together again.  The first course of action is to tile around the tub and get our shower in working order.  Before we could lay tiles, we had to prepare the walls with tar paper and cement board.</p>' +
+			'<p>I stapled a few sheets of tar paper to the studs surrounding the tub.  Tar paper is (as you may have guessed) impregnated with tar, making it quite waterproof.  It creates a waterproof barrier between the shower and the inner walls.  Without it, water would eventually seep through the tile grout and sit against the studs.  That\'s bad, as it leads to moldy walls and rotting wood.  So up the tar paper went!  It was pretty easy, though I did have to tear it down and start over after making a poor measurement.</p>' +
+			'<p>After the tar paper came cement board.  These are 1/2 inch thick \"boards\" of cement&mdash;cement poured between two layers of fiberglass mesh.  The cement gives structure while the fiberglass keeps the brittle cement from cracking.  Cement board is not waterproof, but it can get wet without losing strength or growing mold.  Cement board is fairly heavy, so Katie gave me a hand holding it in place while I screwed it in.  The full boards went up fast, but I spent a while on a shower niche for shampoo bottles and such things.  It was a lot of measuring and cutting, but I had the whole niche covered in cement board before too long.  Since the cement board sheets are only 3 ft x 5 ft, there were seams between discrete sheets on the wall.  I taped those up with some fiberglass mesh and filled the gap with tile mortar.</p>' +
+			'<p>The last step was to waterproof the niche.  Because there was no way to ensure an unbroken tar paper barrier throughout the niche, it had to be waterproofed from the outside.  For this, I used some cool paint-on waterproof membrane called RedGard.  It is like a thick paint that goes on bright pink and dries into a rubbery red membrane.  Two coats of that, and there\'s never going to be any water leaking through that niche!</p>' +
+			'<p>We are looking forward to tiling the shower and eventually turning our bathroom into a nice space again.</p>',
+		'images' : [
+			{
+				'caption': 'One way to plan out a shower shelf.',
+				'url': 'img/IMG_20150329_170355.jpg'
+			},
+			{
+				'caption': 'Putting in framing for a shampoo niche.',
+				'url': 'img/IMG_20150402_195127.jpg'
+			},
+			{
+				'caption': 'First layer of tar paper up.',
+				'url': 'img/IMG_20150403_182107.jpg'
+			},
+			{
+				'caption': 'Tar paper all done.',
+				'url': 'img/IMG_20150404_105917.jpg'
+			},
+			{
+				'caption': 'First cement board screwed in place.',
+				'url': 'img/IMG_20150404_143640.jpg'
+			},
+			{
+				'caption': 'Moving right along!',
+				'url': 'img/IMG_20150404_181319.jpg'
+			},
+			{
+				'caption': 'Thin strips for the niche walls.',
+				'url': 'img/IMG_20150404_183717.jpg'
+			},
+			{
+				'caption': 'Taping up all the cement board seams.',
+				'url': 'img/IMG_20150404_225312.jpg'
+			},
+			{
+				'caption': 'Cement board seams filled with mortar.',
+				'url': 'img/IMG_20150406_215050.jpg'
+			},
+			{
+				'caption': 'Waterproofing the niche.  It sure is pink!',
+				'url': 'img/IMG_20150408_201005.jpg'
+			}
+		]
+	},
+	{
+		'title': 'In case of earthquake...',
+		'date': 1431206609000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Our house is built on a slab foundation. That means that instead of a crawlspace or basement, we only have cement below our floor. All of our pipes are embedded in the cement slab making them really hard to access and even harder to move around.</p>' +
+			'<p>This isn\'t a big deal, except if we want to do drastic remodeling or if one of the pipes breaks. And in a big enough earthquake it is possible that the gas pipes could break even inside the slab -- which would mean gas could leak into the house! To keep that from happening, we had an earthquake shut-off valve installed on our gas meter.</p>' +
+			'<p>This doodad has a mechanical trigger that shuts off the gas when it feels large enough vibrations. If we bump it too hard, it may shut off, and we\'d need to relight our hot-water heater pilot light. But now if there\'s an earthquake in the night or when we aren\'t home, our house will not be at risk of filling with gas and burning up!</p>',
+		'images' : [
+			{
+				'caption': 'Our gas meter.',
+				'url': 'img/IMG_20150422_150920070.jpg'
+			},
+			{
+				'caption': 'Close-up of the shut-off valve.',
+				'url': 'img/IMG_20150422_150927865.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Things that Grow',
+		'date': 1431217650000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Trevor\'s parents were in town last weekend, and, as usual, we got a whole lot of stuff done while they were here, including lots of gardening! Lorraine is great at visualizing landscaping and our yard benefited from her expertise!</p>' +
+			'<p>Where there had been a cement sidewalk in the back yard, we sculpted the straight border of the grass to give it a more interesting shape. We then went on a shopping spree and got some low-water flowering plants: petite Lily of the Nile, Cape Honeysuckle, Rock Rose and Sweet Broom. We planted these in the back with plenty of space for growth -- the Cape Honeysuckle could get up to 20ft tall (with support) and the Rock Rose could be over 4ft in diameter! And these plants are not just beautiful for our enjoyment, but they will also attract bees and hummingbirds, who are always on the lookout for more flowers in the drought.</p>' +
+			'<p>We also got some big, beautiful pots that Trevor\'s parents kindly got us as a (super early) birthday present. We planted in these a Gardenia, a purple Calla Lily, and our old mint which was ready for a bigger pot. These beautiful pots and plants make our house look more interesting and pleasant from the street! We also re-purposed some of our other pots (after transplanting their occupants) for a pink Begonia, a hanging Fuchsia and some pretty relative of a Daisy.</p>' +
+			'<p>In the front shady garden bed, we\'ve got some sort of large-leaved potential lily which has been growing without any of our help. Lorraine had put river rocks around this plant last time she was here, and this time we added some succulents from a yard sale! These should grow well in that shady corner of the house; we mixed a lot of sand and dirt into the soil that was there, and they are supposed to be hardy plants.</p>' +
+			'<p>In addition to all the decorative landscaping, we also worked on the raised vegetable beds. The plants in there hadn\'t really been thriving -- in fact many seemed to be slowly dying perhaps due to a lack of nutrients. We amended the soil with potting soil, bat guano and composted steer manure, and replanted many of the plants with the hope that this time will go better. We also transplanted an old rosemary into the garden bed, finding as we did so that it had totally outgrown it\'s old pot -- the root ball was huge!</p>' +
+			'<p></p>' +
+			'<p>And since we are on the topic of plants, a quick update on our fruit trees!<br>The fruit trees around the house are really getting into the spirit of spring. The avocado may never have mature fruit but it sure has a lot of thumbnail sized ones. The peach tree has quite a few green fuzzy peaches, although there are more on the ground with squirrel chew marks on them. The nectarine looks healthy this year. The lemons are doing great, as usual. And both apple trees have a lot of itty bitty apples and lots of sun to make them big and sweet.</p>',
+		'images' : [
+			{
+				'caption': 'Cape Honeysuckle and Lily of the Nile',
+				'url': 'img/IMG_20150509_163333625_HDR.jpg'
+			},
+			{
+				'caption': 'Rock Rose and Sweet Broom',
+				'url': 'img/IMG_20150509_163357767_HDR.jpg'
+			},
+			{
+				'caption': 'Begonia on the patio.',
+				'url': 'img/IMG_20150509_163221376.jpg'
+			},
+			{
+				'caption': 'Hanging Fuchsia with violets.',
+				'url': 'img/IMG_20150509_163301199.jpg'
+			},
+			{
+				'caption': 'Gardenia, Calla Lily and Mint.',
+				'url': 'img/IMG_20150509_162943681.jpg'
+			},
+			{
+				'caption': 'Succulents in river rocks.',
+				'url': 'img/IMG_20150509_162956996.jpg'
+			},
+			{
+				'caption': 'The house, with new plants.',
+				'url': 'img/IMG_20150509_162925488_HDR.jpg'
+			},
+			{
+				'caption': 'Peppers, strawberries, basil and peas in the planter.',
+				'url': 'img/IMG_20150509_163021372.jpg'
+			},
+			{
+				'caption': 'Baby lemons.',
+				'url': 'img/IMG_20150509_163957.jpg'
+			},
+			{
+				'caption': 'Baby nectarine.',
+				'url': 'img/IMG_20150509_164124.jpg'
+			},
+			{
+				'caption': 'Baby peach.',
+				'url': 'img/IMG_20150509_163432674.jpg'
+			},
+			{
+				'caption': 'Baby apple.',
+				'url': 'img/IMG_20150509_163505598.jpg'
+			},
+			{
+				'caption': 'Baby avocados.',
+				'url': 'img/IMG_20150509_163801752.jpg'
+			}
+		]
+	},
+	{
+		'title': 'You\'ve Got Mailslot',
+		'date': 1432008572000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Katie and I found a nice brushed metal mail slot to replace the outdated and rusty mailbox, so my dad and I spent the day installing that.  It was a bit of a custom installation, because the mail slot was intended to be installed in a door.  We wanted to install it in the garage wall, which is quite a bit thicker than a standard door.  The tricky bit was fabricating some sort of chute that would allow the mail to pass through the wall without opening up the inside of the wall to the elements.</p>' +
+			'<p>We figured we\'d somehow make a chute out of wood and metal flashing, but put all that logical planning aside for a moment as we power sawed a hole through our garage wall.  I used my circular saw and masonry blade to very carefully cut out a rectangular hole we had traced onto the wall from the mail slot cover piece.  After the main cuts were made, I chiseled out the sharp corners to complete the mail slot hole.</p>' +
+			'<p>With the hole there, it was much easier to visualize how a chute might work, especially because we could actually hold the mail slot hardware where it would eventually be mounted.  We settled on a simple box that would fit between existing studs and provide a place for the mail slot hardware to screw on to.  After extensive internet research, we also decided to slope the bottom of the chute at an angle of 25 degrees for optimum mail sliding. It was a little tricky working with the sloped bottom, but we got the chute put together after an hour or so.</p>' +
+			'<p>The next step was to design and create a metal piece that would both seal the chute from the elements and provide a nice smooth surface for the letters and magazines.  We bought some aluminum flashing (essentially just sheet metal) from the hardware store and then proceeded to spend a lot of time hemming and hawing our way through a fairly complicated folded metal liner.  In the end it came out just fine, and we glued it in place without issue.</p>' +
+			'<p>Finally, Katie helped attach the actual mail slot hardware to the wall and we sealed around that with silicone caulk for waterproofing.  It was a really fun project, especially thinking though and building the custom mail chute.  Plus, the outside of our house looks much better than it used to!</p>',
+		'images' : [
+			{
+				'caption': 'The old one.  Also, our previous mailbox.',
+				'url': 'img/IMG_20150502_113355.jpg'
+			},
+			{
+				'caption': 'Traced out the hole-to-be.',
+				'url': 'img/IMG_20150502_151457.jpg'
+			},
+			{
+				'caption': 'Try to cut on the lines.',
+				'url': 'img/IMG_2205.JPG'
+			},
+			{
+				'caption': 'Ok, no turning back now!',
+				'url': 'img/IMG_20150502_152954.jpg'
+			},
+			{
+				'caption': 'The mail chute will eventually come through here.',
+				'url': 'img/IMG_20150502_113339.jpg'
+			},
+			{
+				'caption': 'Cutting pieces for the wood chute.',
+				'url': 'img/IMG_20150502_163659.jpg'
+			},
+			{
+				'caption': 'Chute installed.',
+				'url': 'img/IMG_20150502_173017.jpg'
+			},
+			{
+				'caption': 'Flashing installed.',
+				'url': 'img/IMG_20150504_163642.jpg'
+			},
+			{
+				'caption': 'Our nice new mail receptacle.',
+				'url': 'img/IMG_20150502_174529.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Our Biggest Fan',
+		'date': 1432011095000,
+		'author': 'Katie',
+		'contents' :
+			'<p>Our biggest fan is our bathroom ceiling fan, which unfortunately had gotten pretty old and wasn\'t running well. You\'d turn it on and it would make some sad squeeking noises as it tried (and failed) to get up to speed. I took it down and tried cleaning and oiling it, but the issue seemed to be the bearings in the motor; the whole thing needed replacing.</p>' +
+			'<p>We were able to find the exact same fan motor on the Broan website and ordered a replacement. This afternoon I took out the old one and installed the new one, and now we can once again vent the bathroom! Just in time, as the shower is almost ready to be used (more on that from Trevor soon).</p>',
+		'images' : [
+			{
+				'caption': 'New fan motor installed!',
+				'url': 'img/IMG_20150518_171618466.jpg'
+			},
+			{
+				'caption': 'Hooray for a working fan.',
+				'url': 'img/IMG_20150518_171612036.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Tiling the Shower',
+		'date': 1432595467000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>After many weeks showering at work (even on the weekends...) we finally have a working shower again!  Katie and I finished the shower tile a few days ago, and it\'s looking great.  Here is our epic tale.</p>' +
+			'<p>It took a long time to find the tiles we wanted, but we got them in the end.  The tiles are 4\" x 8\" matte white subway tiles.  We thought the slightly larger subway tile would match the somewhat contemporary style of the house, and the matte white would keep the tiles different enough from the bathtub that the non-matching whites wouldn\'t be an issue.  I wrote a little <a href=\"https:www.github.com/trevorshannon/tiler\">program</a> to figure out how the tiles would be laid, that that helped us determine exactly how many tiles to buy.  It was especially helpful for determining the number of edge bullnose tiles.  We bought all those tiles and then got started!</p>' +
+			'<p>Starting at the back wall, I carefully screwed a nice, straight piece of wood to the shower wall at the right height for the second row of tiles to rest on.  This ensured a level starting surface, as bathtubs are often not flat and level (ours was no exception).  The bottom-most row of tiles is actually put in all the way at the end, after removing that wood piece.  Next, I temporarily put on a row of tiles just to see how everything lined up.  I had to adjust my starting position a few times until I was happy with the tile positions.  When laying tile, the position of the first tile entirely defines the rest of the tile positions.  If we weren\'t careful about exactly where that first tile went, we could have ended up with tiny slivers of tile in the corners or strange misalignments at the shampoo niche.  I took this opportunity to mark the wall with lots of horizontal and vertical guidelines according to the tile pattern.  Lots of triple-checking later, I was off and tiling.</p>' +
+			'<p>The process was pretty straightforward and actually a lot of fun.  I mixed up a small batch of mortar and applied that to the wall such that it filled two full rows.  Then, I placed a tile so that it lined up with one of my vertical guidelines.  After that, I placed the other row\'s tiles, spacing the tiles apart from each other with small plastic spacers.  After completing two rows, I threw away any leftover mortar and mixed a fresh batch for the next two rows and repeated all the way up the wall.  The back wall went really quickly, and felt kind of like putting together building blocks.  The hardest part was making sure the tiles all sat in the same plane&mdash;that is to say none of the tiles sat closer to the wall than others.  Luckily, there\'s a cool notched trowel you use to apply the mortar that ensures the mortar is always at a uniform thickness. However, there\'s still a bit of play depending on how hard you push the tile into the wall, so I just had to keep my eye on it.</p>' +
+			'<p>Katie came in to help out with the two side walls.  I did all the tile cutting using a borrowed wet saw and she did all the mortar and tile placement.  The wall with the shampoo niche was a bit of a pain, because I had to cut a lot of the tiles.  The other wall had pipes sticking out of the wall, so that made it a bit tricky as well.  In order to cut around the pipes, I used a manual rod saw and a little bit of guesswork.  Katie startled me with this stealth video showing the manual cutting process:</p>' +
+			'<p><iframe width=\"640\" height=\"480\" src=\"https://www.youtube.com/embed/PeZ6yVMnjJw\" frameborder=\"0\" allowfullscreen></iframe></p>' +
+			'<p>A week or two later and all three tub surround walls had tiles on them! I saved the actual shampoo niche for the end, mostly because we needed to order custom glass shelves for inside the niche.  Since those shelves get embedded between the tiles, I didn\'t want to place the niche tiles until we had the glass in hand.  Once that was the case, I got to work on the niche.  It involved lots of cutting, and some of the cuts were pretty intricate.  It was certainly slow-going, but totally worth it in the end, as the niche looks awesome.</p>' +
+			'<p>By this point, there was light at the end of the tunnel.  All the tiles were in place, and only the grout remained.  Well unfortunately for us, nobody local carried the epoxy grout we wanted to use, and so we had to order it online.  I very anxiously waited around until the grout came in and then got to work grouting for the first time ever.  Epoxy grout is a little different from standard cement-based grout, but it\'s way more stain resistant, never needs to be sealed, and is less porous.  Rather than mixing some powder with water, epoxy grout comes as a resin, a hardener, and a colored filler that all get mixed together.  After an hour or so, the grout starts to harden until it\'s rock-solid after about two days.  I worked with small batches, carefully measuring out the proper ratios of resin, hardener, and filler.  I definitely didn\'t want to be in the middle of grouting when it started setting up!  After mixing the grout, I pushed it into all the tile spaces and wiped away the excess.  Following the directions very carefully, I did an initial wash about 20 minutes later to remove extra grout from the tile surface and smooth out the grout lines.  About an hour after that came the final wash to remove any traces of epoxy from the tiles.  It took four batches to do the whole shower over about 3 days.</p>' +
+			'<p>After grouting, Katie installed the tub filler, control valve, and shower head.  Adding those bits of chrome really dressed up the shower!  Last came the part where I eagerly anticipated the 48 hour grout drying period to expire.  When the time finally came, I had what was probably the nicest shower I\'d had in quite a while.</p>',
+		'images' : [
+			{
+				'caption': 'Mortar and tiles.',
+				'url': 'img/IMG_20150419_125935.jpg'
+			},
+			{
+				'caption': 'Tiling up the back wall.',
+				'url': 'img/IMG_20150416_204134-ANIMATION.gif'
+			},
+			{
+				'caption': 'Hooray!  It lines up perfectly with the niche.',
+				'url': 'img/IMG_20150418_143424.jpg'
+			},
+			{
+				'caption': 'Back wall tiled.',
+				'url': 'img/IMG_20150421_201235.jpg'
+			},
+			{
+				'caption': 'Working on the side wall.',
+				'url': 'img/IMG_20150422_195716.jpg'
+			},
+			{
+				'caption': 'Katie cleaning out the grout lines.',
+				'url': 'img/IMG_20150425_135553.jpg'
+			},
+			{
+				'caption': 'Side wall (except niche) tiled.',
+				'url': 'img/IMG_20150425_102238.jpg'
+			},
+			{
+				'caption': 'Working on the shampoo niche.',
+				'url': 'img/IMG_20150513_191050.jpg'
+			},
+			{
+				'caption': 'Glass shelves installed and niche tiled.',
+				'url': 'img/IMG_20150517_111951.jpg'
+			},
+			{
+				'caption': 'Waterproofing around the shower control box.',
+				'url': 'img/IMG_20150425_104129.jpg'
+			},
+			{
+				'caption': 'Working on the plumbing wall.',
+				'url': 'img/IMG_20150425_111409641_HDR.jpg'
+			},
+			{
+				'caption': 'Most of the plumbing wall done.',
+				'url': 'img/IMG_20150427_184222.jpg'
+			},
+			{
+				'caption': 'Finishing up the plumbing wall.',
+				'url': 'img/IMG_20150429_201939422.jpg'
+			},
+			{
+				'caption': 'Nearly done!',
+				'url': 'img/IMG_20150506_193338.jpg'
+			},
+			{
+				'caption': 'Adding the last row around the tub.',
+				'url': 'img/IMG_20150507_204730879.jpg'
+			},
+			{
+				'caption': 'Pushing grout in between the tiles.',
+				'url': 'img/IMG_20150517_141810658.jpg'
+			},
+			{
+				'caption': 'The difference between grouted and ungrouted.',
+				'url': 'img/IMG_20150517_161654679.jpg'
+			},
+			{
+				'caption': 'Katie installing fixtures.',
+				'url': 'img/IMG_20150519_201055.jpg'
+			},
+			{
+				'caption': 'Done!',
+				'url': 'img/IMG_20150520_194242.jpg'
+			},
+			{
+				'caption': 'Done!',
+				'url': 'img/IMG_20150520_195405.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Sink Disposal',
+		'date': 1432997586000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>This project technically started a long time ago.  The drainpipe leaving the under-the-sink cabinet was not positioned low enough to accommodate a sink disposal.  So, when we removed the bathroom wall granite and started the electrical work, I seized the opportunity to adjust that drainpipe location since the drywall was already open.  Fast forward a few months, and I finally installed a disposal.</p>' +
+			'<p>Since the drainpipe was now low enough for the disposal, installation was a breeze.  After carefully choosing my plumbing fittings at the hardware store, discovering I had purchased the wrong piece halfway through, and extra-carefully choosing a replacement at the hardware store, I managed to get the disposal installed.  The process involved removing the existing drain, installing the drain that comes with the disposal, and then locking the actual disposal motor on to that drain.  Then I hooked up all the plumbing, and (since I had already installed a switched outlet under the sink in the rewire) simply plugged in the disposal.</p>' +
+			'<p>The disposal only took an hour or so to install, and we\'re really satisfied with it.  We got a disposal that was supposed to be a bit quieter than normal, and I was pleasantly surprised at how quiet is actually is.</p>',
+		'images' : [
+			{
+				'caption': 'How our sink used to look.',
+				'url': 'img/IMG_20150509_133323.jpg'
+			},
+			{
+				'caption': 'The old drain.',
+				'url': 'img/IMG_20150509_134909.jpg'
+			},
+			{
+				'caption': 'New drain installed.',
+				'url': 'img/IMG_20150509_140044.jpg'
+			},
+			{
+				'caption': 'Disposal in place.',
+				'url': 'img/IMG_20150509_143109.jpg'
+			},
+			{
+				'caption': 'All plumbing complete.',
+				'url': 'img/IMG_20150509_165053.jpg'
+			},
+			{
+				'caption': 'Cat approval.',
+				'url': 'img/IMG_20150530_073519.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Warm Floors',
+		'date': 1435202816000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>We\'re slowly working through all the projects to finally finish the bathroom.  The latest project was tiling the floor.  Katie and I picked out our tiles months ago, but we only just now got to the actual installation.  We also decided we might as well install an electric heating element under the tiles, because it\'s a rare opportunity with all the floor coverings removed.</p>' +
+			'<p>Before any tiling began, we had to install that heating element.  After lots of research, I decided to first lay down a thin sheet of cork on the slab before adding the heating wire.  The cork acts as an insulator to prevent the concrete slab foundation from sucking out all the heat.  With the cork, we expect a more efficient heating system that has a faster heat-up time.  The cork goes down on top of a really thin layer of thinset mortar and has to dry for about 24 hours without being disturbed.  Unfortunately, that meant Katie and I were the proud owners of a totally useless bathroom for 24 hours, and so we ended up staying with a friend (who had a working toilet).  The heating wire installation was up next.</p>' +
+			'<p>It is no good to have a heating wire that\'s too long or too short, as you can\'t cut or extend the wire.  I did a scale drawing on my computer and spent a lot of time getting the dimensions right before ordering the roll of wire.  They also sell the wires embedded in a mesh to make a sort of heating pad, but I couldn\'t find a stock size that would work for our bathroom.  Manually laying the bare wire is more time-consuming, but it didn\'t really matter since the bathroom is small.  Katie and I both worked on installing the wire, and everything went according to the plan.  We had just enough wire, and it went down without a hitch.</p>' +
+			'<p>The next layer in our floor sandwich was self leveling cement.  This is a pretty thin and watery cement that you can use to fill in any low spots in the floor.  We used it to fully cover the heating wires and provide a nice smooth surface to mark the tile guidelines and make tile installation easier.  The self leveler is pretty goopy stuff, so we did have to push it around with a little homemade squeegee to fully cover the floor.  After another 24 hours of cure time (and 24 hours of no bathroom...) we had a pretty darn level floor with (working!) electric heating embedded.  Once the wires are embedded in the cement, there is no getting them out.  I must have checked the wires 10 times before finally pouring the cement!</p>' +
+			'<p>After all this, it was finally time to tile.  Using my shower tiling experience as a reference, I figured it wouldn\'t take that long to do the tiling since we were using large format tiles (12\" x 24\") over a pretty small area.  Well, it turns out laying little tiny subway tiles around the tub is pretty different from huge tiles on the floor.  Space was cramped, and each tile took much longer to set and level due to its size.  I had to be really careful about keeping each tile on the level so that we didn\'t end up with toe-stubbing tile corners rising up from our bathroom floor.  I tiled only a small portion at a time so that we could still walk (or hop, really) around our bathroom while carefully avoiding the newly-laid tiles.  After a few days, the tile was complete and looking really good!  The final step is to grout between the tiles, and our grout just came in the mail so I am looking forward to fully completing the floor.  We still have not fired up the floor heat due to high ambient temperatures and the fact that we haven\'t yet installed the floor\'s thermostat.  Hopefully we\'ll try it out soon!</p>',
+		'images' : [
+			{
+				'caption': 'Bare floor (before cleaning).',
+				'url': 'img/IMG_20150528_074221.jpg'
+			},
+			{
+				'caption': 'Starting to lay down the cork.',
+				'url': 'img/IMG_20150528_090652.jpg'
+			},
+			{
+				'caption': 'Cork insulation installed.',
+				'url': 'img/IMG_20150528_095114.jpg'
+			},
+			{
+				'caption': 'Katie running the heating wire.',
+				'url': 'img/IMG_20150530_105936.jpg'
+			},
+			{
+				'caption': 'Pouring self leveling cement over the wires.',
+				'url': 'img/IMG_20150530_130420315-ANIMATION.gif'
+			},
+			{
+				'caption': 'We had to make little dams for the self leveler.',
+				'url': 'img/IMG_20150530_122817275.jpg'
+			},
+			{
+				'caption': 'Smoothing out the self leveler.',
+				'url': 'img/IMG_20150530_130757355.jpg'
+			},
+			{
+				'caption': 'Couldn\'t install the door on the inside, so it was like this temporarily.',
+				'url': 'img/IMG_20150530_133148652.jpg'
+			},
+			{
+				'caption': 'After the self leveling cement cured.',
+				'url': 'img/IMG_20150531_170134.jpg'
+			},
+			{
+				'caption': 'On to the tile!',
+				'url': 'img/IMG_20150531_185821870_HDR.jpg'
+			},
+			{
+				'caption': 'About halfway through tiling.',
+				'url': 'img/IMG_20150602_193757692.jpg'
+			},
+			{
+				'caption': 'Starting to come together.',
+				'url': 'img/IMG_20150602_202659.jpg'
+			},
+			{
+				'caption': 'The floor was now too high for the real door.',
+				'url': 'img/IMG_20150601_073912723.jpg'
+			},
+			{
+				'caption': 'All done! (With the real door cut to size)',
+				'url': 'img/IMG_20150607_181340.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Summer Greens',
+		'date': 1436648037000,
+		'author': 'Katie',
+		'contents' :
+			'<p>It\'s the height of summer, and many things are green -- the backyard and its new low-water landscaping, the planter boxes and potted plants in the front, the pea-soup colored house. Not the lawn, which we aren\'t watering due to the drought, but we hope to replace that this fall anyway.</p>' +
+			'<p>We are also picking out paint colors for the bathroom! Green looks like a winner, but which shade?</p>' +
+			'<p>Trevor will have more house updates soon about his work in the bathroom: the beautiful vanity cabinet and sink, and finishing the floor.</p>',
+		'images' : [
+			{
+				'caption': 'Potted plants and a \"brown is the new green\" lawn.',
+				'url': 'img/IMG_20150711_133850889_HDR.jpg'
+			},
+			{
+				'caption': 'Baby pumpkin in the planter box!',
+				'url': 'img/IMG_20150711_133957019.jpg'
+			},
+			{
+				'caption': 'The backyard\'s landscaping is flourishing',
+				'url': 'img/IMG_20150711_133811802_HDR.jpg'
+			},
+			{
+				'caption': 'Paint color ideas for the bathroom.',
+				'url': 'img/IMG_20150709_202415550.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Bathroom Vanity Cabinet',
+		'date': 1436754516000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>We bought a sink basin ages ago from Ikea, but I only recently got around to building a cabinet for it.  After some research and browsing lots of images on Pinterest, we decided on walnut for the vanity material.  I found a supplier of pre-finished walnut plywood locally, so I borrowed a big van and picked up a full 4 ft x 8 ft sheet of it.  It was nice to used pre-finished wood, because it would have been hard to get a professional-quality clear coat without professional-quality tools.</p>' +
+			'<p>I was a bit scared to get started&mdash;I was afraid I would scratch the beautiful finished wood!  I eventually got up the courage to make some cuts, but not before cleaning the workshop really well and covering the table saw with clean paper.  The last thing I wanted was a piece of grit to get stuck under the wood while I pushed it through the table saw.</p>' +
+			'<p>I designed the cabinet to be pretty simple with <a href=\"https://en.wikipedia.org/wiki/Pocket-hole_joinery\">pocket screws</a> holding everything together.  That meant there weren\'t too many complex cuts or joints, just simple passes through the table saw.  I was careful to cut the sides and cabinet doors from the same length of wood.  That way, when the doors are closed, the grain lines up perfectly around the whole cabinet.</p>' +
+			'<p>After all the cutting was done, I drilled holes for the pipes, shelf supports, and the pocket screws.  I also had to apply edgebanding to any cut plywood edge that would have shown.  The edgebanding is a thin strip of matching wood used to cover the plywood \"sandwich\" that\'s revealed when you look at the wood edge-on.  I assembled everything with no glue, as it wouldn\'t stick to the wood\'s clear coat anyways.  By this time the cabinet was really taking shape, and I was really happy with how it looked.</p>' +
+			'<p>Mounting the cabinet to the wall was a bit tricky, but the task was made easier with some photos of the underlying wall framing that I took during our electrical rewire project.  I drilled carefully placed holes through our brand new tile into the wall studs for the lag bolts that would hold the entire cabinet to the wall.  After transferring the hole pattern onto the cabinet with a paper stencil, I drilled holes in the back face of the cabinet and set it up on the wall.  Katie helped screw in all the bolts (6 in total) and put the sink basin in place.  The final step was to install the faucet and drain, which Katie took care of.</p>' +
+			'<p>We haven\'t had a sink in the bathroom since December, so we\'re in the lap of luxury now!</p>',
+		'images' : [
+			{
+				'caption': 'All the pieces laid out.',
+				'url': 'img/IMG_20150613_135302.jpg'
+			},
+			{
+				'caption': 'First cuts!',
+				'url': 'img/IMG_20150613_193207.jpg'
+			},
+			{
+				'caption': 'Edgebanding to cover the exposed plies.',
+				'url': 'img/IMG_20150614_142144.jpg'
+			},
+			{
+				'caption': 'Back panel with plumbing holes.',
+				'url': 'img/IMG_20150614_170126.jpg'
+			},
+			{
+				'caption': 'Starting to come together.',
+				'url': 'img/IMG_20150614_181849.jpg'
+			},
+			{
+				'caption': 'Installing hinges on the doors.',
+				'url': 'img/IMG_20150614_194208.jpg'
+			},
+			{
+				'caption': 'Shelf cut to go around plumbing.',
+				'url': 'img/IMG_20150622_222910.jpg'
+			},
+			{
+				'caption': 'Mounting holes on the wall.',
+				'url': 'img/IMG_20150620_112051.jpg'
+			},
+			{
+				'caption': 'Lag bolts going in.',
+				'url': 'img/IMG_20150620_124417.jpg'
+			},
+			{
+				'caption': 'Adjusting the doors.',
+				'url': 'img/IMG_20150620_122602528_HDR.jpg'
+			},
+			{
+				'caption': 'Mounted!',
+				'url': 'img/IMG_20150620_131907579.jpg'
+			},
+			{
+				'caption': 'Silicone caulk holds the sink basin down.',
+				'url': 'img/IMG_20150620_132233395.jpg'
+			},
+			{
+				'caption': 'Something\'s wrong with this drain...',
+				'url': 'img/IMG_20150620_164405.jpg'
+			},
+			{
+				'caption': 'Plumber Katie at work.',
+				'url': 'img/IMG_20150620_134311.jpg'
+			},
+			{
+				'caption': 'First test!',
+				'url': 'img/IMG_20150620_173120.jpg'
+			},
+			{
+				'caption': 'Our new vanity cabinet.',
+				'url': 'img/IMG_20150712_181601.jpg'
+			},
+			{
+				'caption': 'Front view.',
+				'url': 'img/IMG_20150712_181617.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Finished Bathroom Floor',
+		'date': 1436934822000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>I finally got around to grouting the bathroom floor!  We also got a new toilet that has less of a Roman column theme and fits better with our new bathroom fixtures.</p>' +
+			'<p>Not much more to say; here are some pictures!</p>',
+		'images' : [
+			{
+				'caption': 'Before grout.',
+				'url': 'img/IMG_20150711_111956.jpg'
+			},
+			{
+				'caption': 'After grout (but before clean-up).',
+				'url': 'img/IMG_20150711_120248.jpg'
+			},
+			{
+				'caption': 'Finished floor and new toilet.',
+				'url': 'img/IMG_20150712_180649.jpg'
+			},
+			{
+				'caption': 'A nice view of the whole bathroom so far.',
+				'url': 'img/PANO_20150712_180830.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Little Free Library',
+		'date': 1440648370000,
+		'author': 'Katie',
+		'contents' :
+			'<p>While biking around town, I\'ve occasionally seen these artsy, hand-crafted little lending libraries outside of people\'s homes. Now that we\'ve got a home of our own, I decided to make one!</p>' +
+			'<p>A Little Free Library is a “take a book, return a book” free book exchange. It is part of a larger network of over 30,000 Little Free Libraries world-wide! Ours is meant to be used by anyone walking by, and we hope that the neighborhood adopts it! More information about the Little Free Library organization can be found at <a href=\"http://littlefreelibrary.org\">littlefreelibrary.org</a>.</p>' +
+			'<p>After browsing Pinterest for ideas, I decided to make the library a mini version of our house. I modeled the whole library, piece by piece, <a href=\"https://cad.onshape.com/documents/d12f771e25444d04a52ec025/w/7aaaf3fa903a4029b410b86f/e/bbb60a13665d436b9620e201\">in OnShape</a>, an online CAD system. This helped me figure out exactly what size wood I would need to use, and how I wanted it to look. For example, I exaggerated some of our house\'s features, like the slope of the roof and the size of the facia, to make it look good.</p>' +
+			'<p>Then, with Trevor\'s support, I found wood in our garage to make the whole library. Most of it is plywood so that it can handle the humidity of being outdoors, but the facia and door are solid wood. I\'m really proud of the door -- it is made of four pieces of wood, with a groove routed along the edge of each 45deg corner for another piece of wood to wedge in and form a solid joint. The back of the door is routed down so that the plexiglass window sits exactly in it, leading to a really tidy and solid finished door!</p>' +
+			'<p>After cutting, screwing, glueing, and sanding, I primed and painted the whole library in three colors: grey for the body, cream for the roof, facia, door and interior, and purple for the knob and underside of the roof. I attached the door using a piano hinge, and added a magnetic latch (like in a cabinet) to hold the door firmly closed. I wanted to put it out right away, so Trevor made a mounting post after dark and we put it outside with some starter books!</p>' +
+			'<p>I\'m excited to see if it gets adopted by the neighborhood, and to watch the books come and go.</p>',
+		'images' : [
+			{
+				'caption': 'Cutting!',
+				'url': 'img/IMG_20150725_163009-ANIMATION.gif'
+			},
+			{
+				'caption': 'Nailing the roof on!',
+				'url': 'img/IMG_20150725_164644.jpg'
+			},
+			{
+				'caption': 'Painting!',
+				'url': 'img/IMG_20150725_174557.jpg'
+			},
+			{
+				'caption': 'Upside down for more painting.',
+				'url': 'img/IMG_20150823_103109.jpg'
+			},
+			{
+				'caption': 'The corner joint of the door.',
+				'url': 'img/IMG_20150822_105153978.jpg'
+			},
+			{
+				'caption': 'Trevor installing the platform at night.',
+				'url': 'img/IMG_20150825_211017981.jpg'
+			},
+			{
+				'caption': 'We finished around 9:30 pm.',
+				'url': 'img/IMG_20150825_204032.jpg'
+			},
+			{
+				'caption': 'Assembled and loaded with books!',
+				'url': 'img/IMG_20150826_070305150_HDR.jpg'
+			},
+			{
+				'caption': 'It complements the structure of the big house.',
+				'url': 'img/IMG_20150826_071120.jpg'
+			}
+		]
+	},
+	{
+		'title': 'A (New) Roof Over Our Heads',
+		'date': 1441861207000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>From day one, we knew our house\'s roof needed replacing.  At the time, we knew this because the roof was over 20 years old.  As time went on, the house really made sure we understood the poor condition of the roof by leaking water into our bathroom every time it rained.  Luckily, it leaked right into the bathtub, so we couldn\'t have asked for a more well-behaved leak.  Still, a leaking roof is a busted roof, so we got a quote for re-roofing many months ago.  Other projects came up, the wet season started, and we delayed the re-roofing.</p>' +
+			'<p>Now, finally, we are the proud owners of a new roof!  While that might not seem exciting, the big change is that our roof is now insulated and our house way more comfortable during hot days.  We have no attic in our house, and the ceiling is made of tongue-and-groove boards on exposed rafter beams.  The (black) roofing material was laid directly on top of the boards, and it gets to be like hot lava in the sun.  That means that the only thing separating our living space from the hot roofing material was 1.5 inches of wood.  And wood doesn\'t insulate very well.  So we now have 4 inches of insulating foam between us and the outside world.  Insulation effectiveness is measured by the R-value, and we went from a ceiling R-value of 1 to 26.  Even without knowing what the R-value means, it\'s clear that a 26-fold improvement is pretty good.  Add that to the fact that our roof is now white and decidedly less lava-like on a hot day, and you can see why the interior is so much more comfortable!</p>' +
+			'<p>We didn\'t tackle this project ourselves, but there was a lot of prep work to do before the pros arrived for the actual re-roofing.  The fascia trim boards were rotted in some areas and warped in others.  Katie and I decided to just replace all the boards, which was quite a chore.  As it turns out, a 16 foot long 2x10 board weighs a lot!  Katie and I installed about 15 fascia boards in all, which involved removing as many existing fascia boards from the house.  We eventually got the hang of holding those huge boards in place while I nailed them to the house.  It was fairly labor-intensive and involved a lot of really hot work, but I\'m glad we did it.</p>' +
+			'<p>Another prep task was to raise our three skylights so that the 4 inches of foam wouldn\'t leave them buried beneath the final roof height.  That was a pretty simple job, although it did involve cutting a hole in our roof.  Well, not exactly cutting a hole but enlarging an existing hole.  At some point in our house\'s long history, new skylights were installed in place of old, smaller skylights.  The holes were not changed for the new skylight form factor, and that made for a funky look on the inside of the house.  I was glad to get the skylight holes to be the right shape and size.  After the holes were done, I built some 4-sided boxes (sort of like rectangular tubes) for the skylights to sit on.</p>' +
+			'<p>After that, the roofers came to get rid of the old roof, apply foam, add the white cap sheet material on top, and seal everything.  They did a great job in only a few days, and it was fun to see how they did everything.</p>' +
+			'<p>That was one of the bigger projects we had planned, so it is great to have that crossed of our list.</p>',
+		'images' : [
+			{
+				'caption': 'Priming fascia boards before installation.',
+				'url': 'img/IMG_20150802_163847.jpg'
+			},
+			{
+				'caption': 'Some of the fascia removed.',
+				'url': 'img/IMG_20150813_182459.jpg'
+			},
+			{
+				'caption': 'First board going up.',
+				'url': 'img/IMG_20150813_192857592.jpg'
+			},
+			{
+				'caption': 'Spent lots of time in the sun on the roof.',
+				'url': 'img/IMG_20150813_194046127.jpg'
+			},
+			{
+				'caption': 'One of the rotted areas.',
+				'url': 'img/IMG_20150818_193935.jpg'
+			},
+			{
+				'caption': 'New wood is painted white.',
+				'url': 'img/IMG_20150822_094525.jpg'
+			},
+			{
+				'caption': 'More working on the roof.',
+				'url': 'img/IMG_20150817_184849553_HDR.jpg'
+			},
+			{
+				'caption': 'Nearly done!',
+				'url': 'img/IMG_20150822_195624716_HDR.jpg'
+			},
+			{
+				'caption': 'Done with the fascia boards.',
+				'url': 'img/IMG_20150823_162343.jpg'
+			},
+			{
+				'caption': 'Starting on the skylights.',
+				'url': 'img/IMG_20150823_130057497.jpg'
+			},
+			{
+				'caption': 'I had to cut the skylight hole wider.',
+				'url': 'img/IMG_20150823_145651.jpg'
+			},
+			{
+				'caption': 'Skylight box installed.',
+				'url': 'img/IMG_20150823_161255.jpg'
+			},
+			{
+				'caption': 'All three skylight boxes done.',
+				'url': 'img/IMG_20150823_162330.jpg'
+			},
+			{
+				'caption': 'The pros at work, with the foam partially in place.',
+				'url': 'img/IMG_20150824_143649-PANO.jpg'
+			},
+			{
+				'caption': 'Finished roof surface.',
+				'url': 'img/IMG_20150826_070629515_HDR.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Bathroom Medicine Cabinet',
+		'date': 1442722752000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>We\'re slowly wrapping up the bathroom after...uh, lots of months of working on it.  A new medicine cabinet brings us one step closer!  We\'ve got a super thick wall behind the bathroom sink, because it contains all of the plumbing for the kitchen and bath.  Most prefabricated medicine cabinets are meant for a standard wall thickness and are about 3 inches deep.  We definitely wanted to take advantage of the extra space in our wall cavity and the only prefab cabinet we could find was over $1000.  Yikes.</p>' +
+			'<p>So, I ended up buying a replacement Kohler medicine cabinet door and building my own cabinet box for it.  It\'s a mighty 7.5 inches deep with a built-in outlet for toothbrush charging.  I made a <a href=\"https://cad.onshape.com/documents/6234ec1d2e6d49a59d51a581/w/7c20d64bfb444c53879fd39e/e/305a68844ab2418fad7f3cd0\">3D model</a> of the whole thing beforehand to make sure I got all the measurements right.  The actual construction was pretty simple and fun.  Overall, it only cost us about $270&mdash;very good compared to the store-bought option!</p>',
+		'images' : [
+			{
+				'caption': 'Somehow every project starts with cutting a hole in our wall.',
+				'url': 'img/IMG_20150905_103824.jpg'
+			},
+			{
+				'caption': 'Cutting a slot for the back panel.',
+				'url': 'img/IMG_20150830_122633.jpg'
+			},
+			{
+				'caption': 'Cabinet sides.',
+				'url': 'img/IMG_20150831_211355.jpg'
+			},
+			{
+				'caption': 'Front (face) frame.',
+				'url': 'img/IMG_20150901_192624.jpg'
+			},
+			{
+				'caption': 'Attaching the face frame.',
+				'url': 'img/IMG_20150901_213715.jpg'
+			},
+			{
+				'caption': 'Getting excited!',
+				'url': 'img/IMG_20150901_211237.jpg'
+			},
+			{
+				'caption': 'Fits great!  Just needs some paint.',
+				'url': 'img/IMG_20150905_092557.jpg'
+			},
+			{
+				'caption': 'Finished product.',
+				'url': 'img/IMG_20150919_201009.jpg'
+			},
+			{
+				'caption': 'Shelf detail.',
+				'url': 'img/IMG_20150919_200958.jpg'
+			},
+			{
+				'caption': 'All closed up.',
+				'url': 'img/IMG_20150912_215157.jpg'
+			}
+		]
+	},
+	{
+		'title': 'Improved Exterior Lighting',
+		'date': 1445915630000,
+		'author': 'Trevor',
+		'contents' :
+			'<p>Just a small project this time.  I replaced our front door light and added two more on either side of the garage.  Katie and I took forever to pick the lights we wanted, but once they came in, I wasted no time installing them!  The project was fun and easy.</p>' +
+			'<p>I measured out where the lights would go, and then I punched appropriately-sized holes through the exterior stucco into the garage.  Well, ok I didn\'t punch the holes (that would be amazing) I used a flat head screwdriver to chip away the stucco in a round area.  One round electrical box went in each hole (from the interior) and I sealed around the perimeter with caulk.</p>' +
+			'<p>Time to run wires!  Our garage walls still have a ton of holes in them from my rewiring project, so I had no problem with removing more drywall to run new wires for the garage door lights. Wiring was pretty straightforward after all the practice I had rewiring the whole house.  One tricky bit was figuring out where the light switch would go.  Long story short, older switch boxes are much shallower than new ones.  I couldn\'t think of how I could replace the single-sized switch box that was currently in the kitchen with a new one that accommodates two switches without having it stick out of the wall.  Turns out, the switch box already there <em>was</em> a double switch box, it just had a single switch installed!  That made everything a lot easier, and our house was looking pretty with its new lights by evening.</p>',
+		'images' : [
+			{
+				'caption': 'Before.',
+				'url': 'img/IMG_20150826_071120.jpg'
+			},
+			{
+				'caption': 'After.',
+				'url': 'img/IMG_20151006_185154.jpg'
+			},
+			{
+				'caption': 'Another exterior shot.',
+				'url': 'img/IMG_20151006_185110.jpg'
+			},
+			{
+				'caption': 'Holes for the electrical boxes.',
+				'url': 'img/IMG_20151004_110609.jpg'
+			},
+			{
+				'caption': 'Electrical boxes in!',
+				'url': 'img/IMG_20151004_121337.jpg'
+			},
+			{
+				'caption': 'I removed lots of drywall to avoid having to cut holes.',
+				'url': 'img/IMG_20151004_094151.jpg'
+			},
+			{
+				'caption': 'Wiring the lighting boxes.',
+				'url': 'img/IMG_20151004_115649.jpg'
+			},
+			{
+				'caption': 'One of the lights I installed.',
+				'url': 'img/IMG_20151004_144948.jpg'
+			}
+		]
 	}
 ];
